@@ -3,7 +3,7 @@
 /* blue background */
 @brand-primary: #6d98be;
 /* background of panels */
-@panel-bg: #f3f3f3;
+@panel-bg: #fff;
 /* frame color of panels */
 @panel-inner-border: #e7e7e7;
 /* remove rounding in blocks */
@@ -11,9 +11,9 @@
 /* primary buttons have blue background */
 @btn-primary-bg: @brand-primary;
 /* if the screen width is more then 992px, then the container width is 960px */
-@container-md: 960px;
+//@container-md: 960px;
 /* if the screen width is more 1200px, then the container width is 960px again */
-@container-lg: @container-md;
+//@container-lg: @container-md;
 /* main font is Tahoma */
 @font-family-base: Tahoma, sans-serif;
 /* base font size */
@@ -28,3 +28,13 @@
 @input-color: #b2b2b2;
 
 @brand-font: 'Oswald',sans-serif;
+
+@navbar-default-bg: #fff;
+// Navbar links
+@navbar-default-link-color:                @text-color;
+@navbar-default-link-hover-color:          lighten(@text-color, 15%);
+@navbar-default-link-hover-bg:             transparent;
+@navbar-default-link-active-color:         @brand-primary;
+@navbar-default-link-active-bg:            darken(@navbar-default-bg, 6.5%);
+@navbar-default-link-disabled-color:       #ccc;
+@navbar-default-link-disabled-bg:          transparent;

@@ -1,3 +1,2 @@
 .idea/
-lib/bootstrap/
-lib/jquery/
+bower_components
