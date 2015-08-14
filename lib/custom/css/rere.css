@@ -6791,10 +6791,24 @@ p {
   width: 50px;
   height: 50px;
 }
+header {
+  background-color: #6d98be;
+  text-align: center;
+}
 .navbar {
   border-bottom-color: #003399;
   border-bottom-width: 3px;
   border-top: none;
   border-left: none;
   border-right: none;
+}
+@media (min-width: 768px) {
+  .navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+  }
+  .navbar .navbar-collapse {
+    text-align: center;
+  }
 }
