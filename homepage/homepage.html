@@ -3,7 +3,12 @@
 <head>
     <title>Regarding Real Estate</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="../bower_components/pgwslideshow/pgwslideshow.css" rel="stylesheet">
+    <link href="../bower_components/pgwslideshow/pgwslideshow_light.css" rel="stylesheet">
+
     <link href="../lib/custom/css/rere.css" rel="stylesheet">
+
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
@@ -35,7 +40,7 @@
                     <li class="menu-item menu-item-type-taxonomy menu-item-object-category current-menu-ancestor menu-item-has-children menu-item-1294 dropdown" id="menu-item-1294"><a aria-haspopup="true" class="dropdown-toggle" data-toggle="dropdown" href="#" title="WHAT'S NEW" aria-expanded="false">WHAT'S NEW<span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
                             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-571" id="menu-item-571"><a href="http://rere.local/letter-from-the-editor/" title="Letter From The Editor">Letter From The Editor</a></li>
-                            <li class="menu-item menu-item-type-post_type menu-item-object-page active page_item page-item-137 current_page_item menu-item-573 active" id="menu-item-573"><a href="http://rere.local/op-and-editorials/" title="Op &amp; Editorials">Op &amp; Editorials</a></li>
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page page_item page-item-137 current_page_item menu-item-573" id="menu-item-573"><a href="http://rere.local/op-and-editorials/" title="Op &amp; Editorials">Op &amp; Editorials</a></li>
                             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-574" id="menu-item-574"><a href="http://rere.local/recommended-reading/" title="Recommended Reading">Recommended Reading</a></li>
                             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-579" id="menu-item-579"><a href="http://rere.local/urbane-development-2/" title="Urbane Development">Urbane Development</a></li>
                             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-595" id="menu-item-595"><a href="http://rere.local/mortgage-mire/" title="Mortgage Mire">Mortgage Mire</a></li>
@@ -64,7 +69,16 @@
             </div>
         </div>
     </nav>
-    <div class="container">
+    <div class="container container-fluid">
+        <div class="row">
+            <ul class="pgwSlideshow">
+                <li><img src="../img/gallery/Central-Park-West-6.jpg" alt=""></li>
+                <li><img src="../img/gallery/Central-Park-West-7.jpg" alt=""></li>
+                <li><img src="../img/gallery/Central-Park-West-from-across-the-Jacqueline-Kennedy-Onassis-Reservoir.jpg" alt=""></li>
+                <li><img src="../img/gallery/Downtown-East-3.jpg" alt=""></li>
+                <li><img src="../img/gallery/Downtown-East.jpg" alt=""></li>
+            </ul>
+        </div>
         <div class="row">
             <div class="col-md-6">
                 <p>
@@ -112,14 +126,24 @@
 <!--</div>-->
 <footer>
     <div class="footer">
-        <a href="#"><span class="label label-primary">SOME LINK 1</span></a>
-        <a href="#">SOME LINK 2</a>
-        <a href="#">SOME LINK 3</a>
-        <a href="#">SOME LINK 4</a>
-        <a href="#">SOME LINK 5</a>
+        <h3>
+        <a href="#"><span class="label label-primary">PERSONNAL PLANNER</span></a>
+        <a href="#"><span class="label label-primary">FIND ME A MATCH</span></a>
+        <a href="#"><span class="label label-primary">POST A PROPERTY</span></a>
+        <a href="#"><span class="label label-primary">ABOUT</span></a>
+        <a href="#"><span class="label label-primary">QUESTIONS</span></a>
+        <a href="#"><span class="label label-primary">CONTACT</span></a>
+        </h3>
     </div>
 </footer>
 <script src="../bower_components/jquery/dist/jquery.min.js"></script>
 <script src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
+<script src="../bower_components/pgwslideshow/pgwslideshow.min.js"></script>
+<script>
+    $(document).ready(function() {
+        var pgwSlideshow = $('.pgwSlideshow').pgwSlideshow();
+        pgwSlideshow.startSlide();
+    });
+</script>
 </body>
 </html>

@@ -37,6 +37,9 @@ header {
   border-top: none;
   border-left: none;
   border-right: none;
+  .dropdown-menu > li > a {
+    color: @dropdown-link-hover-color;
+  }
 }
 @media (min-width: 768px) {
   .navbar .navbar-nav {
@@ -50,16 +53,30 @@ header {
   }
 }
 
+.pgwSlideshow {
+  background: transparent;
+  .ps-list {
+    border-top: none;
+    box-shadow: none;
+    background: transparent;
+  }
+}
+
+
 footer{
-  background-color: @brand-primary;
+  background: @brand-primary;
   text-align: center;
   height: 60px;
     .footer {
       height: 100%;
       display: inline-block;
       vertical-align: middle;
-      a {
-        vertical-align: middle;
+      h3 {
+        margin-top: 12px;
+        margin-bottom: 0;
+        a {
+          vertical-align: middle;
+        }
       }
     }
 }

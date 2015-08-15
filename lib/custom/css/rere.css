@@ -3596,7 +3596,7 @@ tbody.collapse.in {
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus {
   text-decoration: none;
-  color: #262626;
+  color: red;
   background-color: #f5f5f5;
 }
 .dropdown-menu > .active > a,
@@ -4539,7 +4539,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #004de5;
+  color: #4c88ff;
   background-color: transparent;
 }
 .navbar-default .navbar-nav > .active > a,
@@ -4580,7 +4580,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #004de5;
+    color: #4c88ff;
     background-color: transparent;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
@@ -4600,14 +4600,14 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   color: #003399;
 }
 .navbar-default .navbar-link:hover {
-  color: #004de5;
+  color: #4c88ff;
 }
 .navbar-default .btn-link {
   color: #003399;
 }
 .navbar-default .btn-link:hover,
 .navbar-default .btn-link:focus {
-  color: #004de5;
+  color: #4c88ff;
 }
 .navbar-default .btn-link[disabled]:hover,
 fieldset[disabled] .navbar-default .btn-link:hover,
@@ -6811,6 +6811,9 @@ header .header a {
   border-left: none;
   border-right: none;
 }
+.navbar .dropdown-menu > li > a {
+  color: red;
+}
 @media (min-width: 768px) {
   .navbar .navbar-nav {
     display: inline-block;
@@ -6821,8 +6824,16 @@ header .header a {
     text-align: center;
   }
 }
+.pgwSlideshow {
+  background: transparent;
+}
+.pgwSlideshow .ps-list {
+  border-top: none;
+  box-shadow: none;
+  background: transparent;
+}
 footer {
-  background-color: #6d98be;
+  background: #6d98be;
   text-align: center;
   height: 60px;
 }
@@ -6831,6 +6842,10 @@ footer .footer {
   display: inline-block;
   vertical-align: middle;
 }
-footer .footer a {
+footer .footer h3 {
+  margin-top: 12px;
+  margin-bottom: 0;
+}
+footer .footer h3 a {
   vertical-align: middle;
 }
