@@ -6805,7 +6805,7 @@ header .header a {
   vertical-align: middle;
 }
 .navbar {
-  border-bottom-color: #003399;
+  border-bottom-color: #6d98be;
   border-bottom-width: 3px;
   border-top: none;
   border-left: none;
@@ -6832,23 +6832,8 @@ header .header a {
   box-shadow: none;
   background: transparent;
 }
-footer {
-  background: #6d98be;
-  text-align: center;
-  min-height: 60px;
-  height: auto;
-}
-footer .footer {
-  height: 100%;
-  display: inline-block;
-  vertical-align: middle;
-}
-footer .footer h3 {
-  margin-top: 12px;
-  margin-bottom: 0;
-}
-footer .footer h3 a {
-  vertical-align: middle;
+.rere-content p {
+  text-align: justify;
 }
 .rere-button {
   background-color: transparent !important;
@@ -6860,4 +6845,65 @@ footer .footer h3 a {
 }
 .rere-button:hover {
   color: #0055ff !important;
+}
+.footer-basic-centered {
+  background-color: #6d98be;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  font: 18px sans-serif;
+  text-align: center;
+  width: 100%;
+}
+.footer-basic-centered .footer-company-motto {
+  color: #8d9093;
+  font-size: 24px;
+  margin: 0;
+}
+.footer-basic-centered .footer-company-name {
+  color: #8f9296;
+  font-size: 14px;
+  margin: 0;
+}
+.footer-basic-centered .footer-links {
+  color: #ffffff;
+  font-weight: bold;
+  list-style: outside none none;
+  margin: 0;
+  padding: 20px 0 10px;
+}
+.footer-basic-centered .footer-links a {
+  color: inherit;
+  display: inline-block;
+  text-decoration: none;
+}
+@media (max-width: 600px) {
+  .footer-basic-centered {
+    padding: 35px;
+  }
+  .footer-basic-centered .footer-company-motto {
+    font-size: 18px;
+  }
+  .footer-basic-centered .footer-company-name {
+    font-size: 12px;
+  }
+  .footer-basic-centered .footer-links {
+    font-size: 14px;
+    padding: 25px 0 20px;
+  }
+  .footer-basic-centered .footer-links a {
+    line-height: 1.8;
+  }
+}
+footer .social a {
+  background-color: #45729a;
+  border-radius: 2px;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 20px;
+  height: 35px;
+  line-height: 35px;
+  margin-left: 3px;
+  text-align: center;
+  width: 35px;
+  margin-bottom: 0 !important;
 }
