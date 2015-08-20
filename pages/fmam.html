@@ -82,70 +82,76 @@
         <div class="rere-content">
             <div class="row">
                 <form>
-                    <div class="form-group">
-                        <label for="budgetRange">Your budget range</label>
-                        <input type="range" class="form-control" id="budgetRange" name="budgetRange" placeholder="Email">
-                    </div>
-                    <div class="form-group">
-                        <label for="partTown">Your preferred Part(s) of Town</label>
-                        <input type="text" class="form-control" id="partTown" name="partTown" placeholder="Password">
-                    </div>
-                    <div class="form-group">
-                        <label for="roomCount">Your desired room count</label>
-                        <input type="range" class="form-control" id="roomCount" name="roomCount" placeholder="Email">
-                    </div>
-                    <div class="form-group">
-                        <label for="bedroomCount">With at least bedroom(s)</label>
-                        <input type="number" class="form-control" id="bedroomCount" name="bedroomCount" placeholder="Email">
-                    </div>
-                    <div class="form-group">
-                        <label for="bathroomCount">The necessary bathroom(s)</label>
-                        <input type="number" class="form-control" id="bathroomCount" name="bathroomCount" placeholder="Email">
-                    </div>
-                    <div class="form-group">
-                        <label for="highPriorities">List your two high priorities (see Buyer Personal Planner)</label>
-                        <input type="range" class="form-control" id="highPriorities" name="highPriorities" placeholder="Email">
-                        <input type="range" class="form-control" id="highPriorities2" name="highPriorities2" placeholder="Email">
-                    </div>
-                    <div class="form-group">
-                        <label for="amenitiesAppurtenances">Name the amenities and appurtenances (see Buyer Personal Planner) you expect</label>
-                        <textarea class="form-control" id="amenitiesAppurtenances" name="amenitiesAppurtenances"></textarea>
-                    </div>
-                    <div class="form-group">
-                        <label for="petDesc">Household pet description (Bred and weight recommended when applicable)</label>
-                        <textarea class="form-control" id="petDesc" name="petDesc"></textarea>
-                    </div>
-                    <div class="form-group">
-                        <label>Washer-Dryer Hook-Up is a must</label>
-                        <div class="radio">
-                            <label><input type="radio" name="washerDryer[]">Yes</label>
-                            <label><input type="radio" name="washerDryer[]">No</label>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="budgetRange">Your budget range</label>
+                                <input type="range" class="form-control" id="budgetRange" name="budgetRange" placeholder="Email">
+                            </div>
+                            <div class="form-group">
+                                <label for="partTown">Your preferred Part(s) of Town</label>
+                                <input type="text" class="form-control" id="partTown" name="partTown" placeholder="Password">
+                            </div>
+                            <div class="form-group">
+                                <label for="roomCount">Your desired room count</label>
+                                <input type="range" class="form-control" min="0" max="10" id="roomCount" name="roomCount" placeholder="Email">
+                            </div>
+                            <div class="form-group">
+                                <label for="bedroomCount">With at least bedroom(s)</label>
+                                <input type="number" class="form-control" id="bedroomCount" name="bedroomCount" placeholder="Email">
+                            </div>
+                            <div class="form-group">
+                                <label for="bathroomCount">The necessary bathroom(s)</label>
+                                <input type="number" class="form-control" id="bathroomCount" name="bathroomCount" placeholder="Email">
+                            </div>
+                            <div class="form-group">
+                                <label for="highPriorities">List your two high priorities (see Buyer Personal Planner)</label>
+                                <input type="text" class="form-control" id="highPriorities" name="highPriorities" placeholder="Email">
+                                <input type="text" class="form-control" id="highPriorities2" name="highPriorities2" placeholder="Email">
+                            </div>
+                            <div class="form-group">
+                                <label for="amenitiesAppurtenances">Name the amenities and appurtenances (see Buyer Personal Planner) you expect</label>
+                                <textarea class="form-control" id="amenitiesAppurtenances" name="amenitiesAppurtenances"></textarea>
+                            </div>
+
                         </div>
-                        <!--<input type="range" class="form-control" id="budgetRange" name="budgetRange" placeholder="Email">-->
-                    </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="petDesc">Household pet description (Bred and weight recommended when applicable)</label>
+                                <textarea class="form-control" id="petDesc" name="petDesc"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label>Washer-Dryer Hook-Up is a must</label>
+                                <div class="radio">
+                                    <label><input type="radio" name="washerDryer[]">Yes</label>
+                                    <label><input type="radio" name="washerDryer[]">No</label>
+                                </div>
+                            </div>
+                            <h4>Unpublished preliminary financial picture items for co-operative properties only:</h4>
 
-                    <h4>Unpublished preliminary financial picture items for co-operative properties only:</h4>
-
-                    <div class="form-group">
-                        <label for="preMortgageAmount">Pre-qualifying mortgage amount</label>
-                        <input type="number" class="form-control" id="preMortgageAmount" name="preMortgageAmount" placeholder="Email">
-                    </div>
-                    <div class="form-group">
-                        <label for="cashDownAmount">Estimated cash down amount</label>
-                        <input type="number" class="form-control" id="cashDownAmount" name="cashDownAmount" placeholder="Email">
-                    </div>
-                    <h4>To Make a Post to Find Me a Match</h4>
-                    <div class="form-group">
-                        <label for="email">Enter Valid E-mail Address   :</label>
-                        <input type="email" class="form-control" id="email" name="email" placeholder="Email">
-                    </div>
-                    <div class="form-group">
-                        <div class="col-xs-offset-2 col-xs-10">
-                            <div class="radio">
-                                <label><input type="radio">Opt in</label>
+                            <div class="form-group">
+                                <label for="preMortgageAmount">Pre-qualifying mortgage amount</label>
+                                <input type="number" class="form-control" id="preMortgageAmount" name="preMortgageAmount" placeholder="Email">
+                            </div>
+                            <div class="form-group">
+                                <label for="cashDownAmount">Estimated cash down amount</label>
+                                <input type="number" class="form-control" id="cashDownAmount" name="cashDownAmount" placeholder="Email">
+                            </div>
+                            <h4>To Make a Post to Find Me a Match</h4>
+                            <div class="form-group">
+                                <label for="email">Enter Valid E-mail Address   :</label>
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Email">
+                            </div>
+                            <div class="form-group">
+                                <!--<div class="col-xs-offset-2 col-xs-10">-->
+                                    <div class="radio">
+                                        <label><input type="radio">Opt in</label>
+                                    </div>
+                                <!--</div>-->
                             </div>
                         </div>
                     </div>
+                    <div class="row">
                     <button type="submit" class="btn btn-primary">Submit</button>
                     <p>
                         *Our Communication Compartments operates for opt-in users only to ensure security.
@@ -153,13 +159,14 @@
                         An automated confirmation is sent to the valid e-mail address entered. A submission may require one day to process.
                         So keep an eye out for our subsequent reply.
                     </p>
+                    </div>
                 </form>
-
+            </div>
                 <form>
 
                 </form>
 
-            </div>
+
         </div>
     </div>
 <!--</div>-->
