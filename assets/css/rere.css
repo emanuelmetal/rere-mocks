@@ -6824,6 +6824,9 @@ header .header a {
     text-align: center;
   }
 }
+ul.nav li.dropdown:hover ul.dropdown-menu {
+  display: block;
+}
 .pgwSlideshow {
   background: transparent;
 }
@@ -6845,6 +6848,9 @@ header .header a {
 }
 .rere-button:hover {
   color: #0055ff !important;
+}
+#sidebar {
+  display: none;
 }
 .footer-basic-centered {
   background-color: #6d98be;
