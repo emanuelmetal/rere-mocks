@@ -6778,9 +6778,6 @@ button.close {
 /* gray background of text fields */
 /* gray frame of text fields */
 /* gray color of the text in the fields */
-p {
-  margin: 20px 0;
-}
 .form-control {
   box-shadow: none;
 }
@@ -6838,13 +6835,20 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 .rere-content p {
   text-align: justify;
 }
+.statue {
+  background-image: url('../img/Statue.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+  text-align: center;
+}
 .rere-button {
   background-color: transparent !important;
   border-radius: 0 !important;
   border-color: #6d98be !important;
   color: #003399;
   border-width: 2px ;
-  width: 200px;
+  width: 180px;
 }
 .rere-button:hover {
   color: #0055ff !important;
