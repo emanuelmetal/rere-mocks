@@ -36,7 +36,7 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div id="navbar" class="navbar-collapse collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav" id="menu-main-menu">
-                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-099" id="menu-item-099"><a href="/" title="HOME">HOME</a></li>
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-099" id="menu-item-099"><a href="/" title="HOME"><i class="fa fa-home fa-1-5"></i></a></li>
                     <li class="menu-item menu-item-type-taxonomy menu-item-object-category current-menu-ancestor menu-item-has-children menu-item-1294 dropdown" id="menu-item-1294"><a aria-haspopup="true" class="dropdown-toggle" data-toggle="dropdown" href="#" title="WHAT'S NEW" aria-expanded="false">WHAT'S NEW<span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
                             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-571" id="menu-item-571"><a href="http://rere.local/letter-from-the-editor/" title="Letter From The Editor">Letter From The Editor</a></li>
@@ -86,11 +86,34 @@
                     <li><img src="../assets/img/gallery/Central-Park-West-7.jpg" alt=""></li>
                     <li><img src="../assets/img/gallery/Central-Park-West-from-across-the-Jacqueline-Kennedy-Onassis-Reservoir.jpg" alt=""></li>
                     <li><img src="../assets/img/gallery/Downtown-East-3.jpg" alt=""></li>
+                    <li><img src="../assets/img/gallery/Downtown-East-5.jpg" alt=""></li>
                     <li><img src="../assets/img/gallery/Downtown-East.jpg" alt=""></li>
+                    <li><img src="../assets/img/gallery/Downtown-West-16.jpg" alt=""></li>
+                    <li><img src="../assets/img/gallery/Downtown-West-6.jpg" alt=""></li>
+                    <li><img src="../assets/img/gallery/Lower-Manhattan-2.jpg" alt=""></li>
+                    <li><img src="../assets/img/gallery/Lower-Manhattan-5.jpg" alt=""></li>
+                    <li><img src="../assets/img/gallery/Manhattan-Valley.jpg" alt=""></li>
+                    <li><img src="../assets/img/gallery/Midtown-4.jpg" alt=""></li>
+                    <li><img src="../assets/img/gallery/Midtown-West-4.jpg" alt=""></li>
+                    <li><img src="../assets/img/gallery/Midtown-West.jpg" alt=""></li>
+                    <li><img src="../assets/img/gallery/Morningside-Heights.jpg" alt=""></li>
+                    <li><img src="../assets/img/gallery/Morris-Jumel-District-3.jpg" alt=""></li>
+                    <li><img src="../assets/img/gallery/Row-Houses-East-Village.jpg" alt=""></li>
+                    <li><img src="../assets/img/gallery/Shopping-Arcade-Fifth-Avenue-gucci.jpg" alt=""></li>
+                    <li><img src="../assets/img/gallery/Shopping-Arcade-Fifth-Avenue-Museum-of-Modern-Artm-garden.jpg" alt=""></li>
+                    <li><img src="../assets/img/gallery/Shopping-Arcade-Fifth-Avenue-peninsula-hotel.jpg" alt=""></li>
+                    <li><img src="../assets/img/gallery/Shopping-Arcade-Fifth-Avenue-Saks-Fifth-Avenue-facade.jpg" alt=""></li>
+                    <li><img src="../assets/img/gallery/Shopping-Arcade-Fifth-Avenue-vuitton.jpg" alt=""></li>
+                    <li><img src="../assets/img/gallery/Times-Square.jpg" alt=""></li>
+                    <li><img src="../assets/img/gallery/Upper-East-Side-12.jpg" alt=""></li>
+                    <li><img src="../assets/img/gallery/Upper-East-Side-31.jpg" alt=""></li>
+                    <li><img src="../assets/img/gallery/Upper-East-Side-6.jpg" alt=""></li>
+                    <li><img src="../assets/img/gallery/Upper-East-Side-7.jpg" alt=""></li>
+                    <li><img src="../assets/img/gallery/Upper-West-Side-the-Red-House-Apartments-off-Riverside-Drive.jpg" alt=""></li>
                 </ul>
             </div>
             <div class="row">
-                <div class="col-md-offset-2 col-md-5 col-sm-12"
+                <div class="col-md-offset-2 col-md-5 col-sm-12">
                         <br>
                         <br>
                     <p>
@@ -108,7 +131,7 @@
                     </p>
                 </div>
                 <div class="statue col-md-3 col-sm-12">
-                    <div class="first-hp-button row">
+                    <div class="row">
                         <br>
                         <button class="rere-button btn btn-lg btn-primary" type="button">ABOUT NEW YORK</button>
                         <br>
@@ -180,7 +203,12 @@
 <script src="../bower_components/pgwslideshow/pgwslideshow.min.js"></script>
 <script>
     $(document).ready(function() {
-        var pgwSlideshow = $('.pgwSlideshow').pgwSlideshow();
+        var pgwSlideshow = $('.pgwSlideshow').pgwSlideshow(
+                {
+                    intervalDuration: 10000,
+                    transitionDuration: 1000
+                }
+        );
         pgwSlideshow.startSlide();
     });
 </script>

@@ -13,7 +13,9 @@
   width: 83px;
   height: 83px;
 }
-
+.fa-1-5{
+  font-size: 1.5em;
+}
 header {
   background-color: @brand-primary;
   text-align: center;
@@ -71,6 +73,13 @@ ul.nav {
     text-align: justify;
     //  margin: 20px 0;
   }
+  p, a {
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
 }
 .statue{
   background-image: url('../img/Statue.png');
@@ -89,10 +98,21 @@ ul.nav {
 //  padding-left: 60px;
 //}
 
+.row.fixed {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
+
+.rere-panel{
+  height: 95%;
+}
+
 .rere-button {
   background-color: transparent !important;
   border-radius: 0 !important;
-  border-color: @brand-primary !important;
+  border-color: transparent !important; //@brand-primary !important;
   color: @text-color;
   border-width: 2px ;
   width: 180px;
