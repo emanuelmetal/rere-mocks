@@ -6851,11 +6851,13 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
   background-color: transparent;
   text-align: center;
 }
-.row.fixed {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+@media (min-width: 992px) {
+  .row.fixed {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 .rere-panel {
   height: 95%;
