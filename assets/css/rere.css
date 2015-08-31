@@ -6881,6 +6881,11 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 .rere-button:hover {
   color: #0055ff !important;
 }
+.panel-heading .panel-title > a.collapsed::after {
+  font-family: "FontAwesome";
+  content: "\f067";
+  float: right;
+}
 #sidebar {
   display: none;
 }
