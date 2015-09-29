@@ -81,80 +81,93 @@
 
         <div class="rere-content">
             <div class="row">
-                Buyers can sort/filter for their parameters, as follows:
-
-                <div class="thirds-left">
-                    <div><label id="lpart_of_town">Part of Town</label> <select id="part_of_town" type="text" name="part_of_town" maxlength="255" />
-                        <option value="lowermanhattan">Lower Manhattan</option>
-                        <option value="downtowneast">Downtown East</option>
-                        <option value="downtownwest">Downtown West</option>
-                        <option value="midtowneast">Midtown East</option>
-                        <option value="midtownwest">Midtown West</option>
-                        <option value="uppereastside">Upper East Side</option>
-                        <option value="upperwestside">Upper West Side</option>
-                        <option value="uptown">Uptown</option>
-                        <option value="uppermanhattan">Upper Manhattan</option>
+                <h4>Buyers can sort/filter for their parameters, as follows:</h4>
+                <div class="col-lg-6">
+                    <div class="form-group">
+                        <label for="part_of_town">Part of Town</label>
+                        <select id="part_of_town" class="form-control" type="text" name="part_of_town" maxlength="255" />
+                            <option value="lowermanhattan">Lower Manhattan</option>
+                            <option value="downtowneast">Downtown East</option>
+                            <option value="downtownwest">Downtown West</option>
+                            <option value="midtowneast">Midtown East</option>
+                            <option value="midtownwest">Midtown West</option>
+                            <option value="uppereastside">Upper East Side</option>
+                            <option value="upperwestside">Upper West Side</option>
+                            <option value="uptown">Uptown</option>
+                            <option value="uppermanhattan">Upper Manhattan</option>
                         </select>
                     </div>
-
-                    <div><label id="lneighborhood">Neighborhood</label> <select id="neighborhood" type="text" name="neighborhood" />
-                        <option value="Alphabet City">Alphabet City</option><br/>
-                        <option value="Ansonia Station">Ansonia Station</option><br/>
-                        <option value="Battery Park City">Battery Park City</option><br/>
-                        <option value="Beekman Place">Beekman Place</option><br/>
-                        <option value="Carnegie Hill">Carnegie Hill</option><br/>
-                        <option value="Central Park West corridor">Central Park West corridor</option><br/>
-                        <option value="Chelsea">Chelsea</option><br/>
-                        <option value="Chinatown">Chinatown</option><br/>
-                        <option value="Clinton">Clinton</option><br/>
-                        <option value="East Village">East Village</option><br/>
-                        <option value="Financial District">Financial District</option><br/>
-                        <option value="Flatiron">Flatiron</option><br/>
-                        <option value="Fort George">Fort George</option><br/>
-                        <option value="Gramercy Park">Gramercy Park</option><br/>
-                        <option value="Greenwich Village">Greenwich Village</option><br/>
-                        <option value="Hamilton heights">Hamilton heights</option><br/>
-                        <option value="Hells Kitchen">Hells Kitchen</option><br/>
-                        <option value="Hudson Heights">Hudson Heights</option><br/>
-                        <option value="Inwood">Inwood</option><br/>
-                        <option value="Jumel-Morris District">Jumel-Morris District</option><br/>
-                        <option value="Kips and Rose Bays">Kips and Rose Bays</option><br/>
-                        <option value="Lenox Hill">Lenox Hill</option><br/>
-                        <option value="Lincoln Square">Lincoln Square</option><br/>
-                        <option value="Lower East Side">Lower East Side</option><br/>
-                        <option value="Manhattan Valley">Manhattan Valley</option><br/>
-                        <option value="Manhattanville">Manhattanville</option><br/>
-                        <option value="Meat-packing District">Meat-packing District</option><br/>
-                        <option value="Metropolitan Museum District">Metropolitan Museum District</option><br/>
-                        <option value="Morningside Heights">Morningside Heights</option><br/>
-                        <option value="Murray Hill">Murray Hill</option><br/>
-                        <option value="New York City Hall Park">New York City Hall Park</option><br/>
-                        <option value="NoHo">NoHo</option><br/>
-                        <option value="Nolita">Nolita</option><br/>
-                        <option value="North Chelsea">North Chelsea</option><br/>
-                        <option value="Riverside Drive-West End Avenue">Riverside Drive-West End Avenue</option><br/>
-                        <option value="Sociable Sixties">Sociable Sixties</option><br/>
-                        <option value="SoHo">SoHo</option><br/>
-                        <option value="South Harlem">South Harlem</option><br/>
-                        <option value="South Street Seaport">South Street Seaport</option><br/>
-                        <option value="Spanish Harlem">Spanish Harlem</option><br/>
-                        <option value="Stuyvesant Square">Stuyvesant Square</option><br/>
-                        <option value="Sugar Hill">Sugar Hill</option><br/>
-                        <option value="Sutton Place">Sutton Place</option><br/>
-                        <option value="The Village">The Village</option><br/>
-                        <option value="Tribeca">Tribeca</option><br/>
-                        <option value="Tudor City">Tudor City</option><br/>
-                        <option value="Turtle Bay">Turtle Bay</option><br/>
-                        <option value="Union Square">Union Square</option><br/>
-                        <option value="United Nations Plaza">United Nations Plaza</option><br/>
-                        <option value="Washington Heights">Washington Heights</option><br/>
-                        <option value="West 50s">West 50s</option><br/>
-                        <option value="West Village">West Village</option><br/>
-                        <option value="Yorkville">Yorkville</option><br/>
+                    <div class="form-group">
+                        <label for="neighborhood">Neighborhood</label>
+                        <select id="neighborhood" type="text" class="form-control" name="neighborhood" />
+                            <option value="Alphabet City">Alphabet City</option>
+                            <option value="Ansonia Station">Ansonia Station</option>
+                            <option value="Battery Park City">Battery Park City</option>
+                            <option value="Beekman Place">Beekman Place</option>
+                            <option value="Carnegie Hill">Carnegie Hill</option>
+                            <option value="Central Park West corridor">Central Park West corridor</option>
+                            <option value="Chelsea">Chelsea</option>
+                            <option value="Chinatown">Chinatown</option>
+                            <option value="Clinton">Clinton</option>
+                            <option value="East Village">East Village</option>
+                            <option value="Financial District">Financial District</option>
+                            <option value="Flatiron">Flatiron</option>
+                            <option value="Fort George">Fort George</option>
+                            <option value="Gramercy Park">Gramercy Park</option>
+                            <option value="Greenwich Village">Greenwich Village</option>
+                            <option value="Hamilton heights">Hamilton heights</option>
+                            <option value="Hells Kitchen">Hells Kitchen</option>
+                            <option value="Hudson Heights">Hudson Heights</option>
+                            <option value="Inwood">Inwood</option>
+                            <option value="Jumel-Morris District">Jumel-Morris District</option>
+                            <option value="Kips and Rose Bays">Kips and Rose Bays</option>
+                            <option value="Lenox Hill">Lenox Hill</option>
+                            <option value="Lincoln Square">Lincoln Square</option>
+                            <option value="Lower East Side">Lower East Side</option>
+                            <option value="Manhattan Valley">Manhattan Valley</option>
+                            <option value="Manhattanville">Manhattanville</option>
+                            <option value="Meat-packing District">Meat-packing District</option>
+                            <option value="Metropolitan Museum District">Metropolitan Museum District</option>
+                            <option value="Morningside Heights">Morningside Heights</option>
+                            <option value="Murray Hill">Murray Hill</option>
+                            <option value="New York City Hall Park">New York City Hall Park</option>
+                            <option value="NoHo">NoHo</option>
+                            <option value="Nolita">Nolita</option>
+                            <option value="North Chelsea">North Chelsea</option>
+                            <option value="Riverside Drive-West End Avenue">Riverside Drive-West End Avenue</option>
+                            <option value="Sociable Sixties">Sociable Sixties</option>
+                            <option value="SoHo">SoHo</option>
+                            <option value="South Harlem">South Harlem</option>
+                            <option value="South Street Seaport">South Street Seaport</option>
+                            <option value="Spanish Harlem">Spanish Harlem</option>
+                            <option value="Stuyvesant Square">Stuyvesant Square</option>
+                            <option value="Sugar Hill">Sugar Hill</option>
+                            <option value="Sutton Place">Sutton Place</option>
+                            <option value="The Village">The Village</option>
+                            <option value="Tribeca">Tribeca</option>
+                            <option value="Tudor City">Tudor City</option>
+                            <option value="Turtle Bay">Turtle Bay</option>
+                            <option value="Union Square">Union Square</option>
+                            <option value="United Nations Plaza">United Nations Plaza</option>
+                            <option value="Washington Heights">Washington Heights</option>
+                            <option value="West 50s">West 50s</option>
+                            <option value="West Village">West Village</option>
+                            <option value="Yorkville">Yorkville</option>
                         </select>
-                    </div><br/>
-                    <div id="dprice"><label id="lprice">Asking Price</label> <input id="price" type="text" name="price" maxlength="255" /></div>
-                    <div id="drent"><label id="lrent">Monthly Rent Amount</label> <input id="rent" type="text" name="rent" maxlength="255" /></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="price">Asking Price</label>
+                        <input id="price" type="text" name="price" maxlength="255" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label for="rent">Monthly Rent Amount</label>
+                        <input id="rent" type="text" name="rent" maxlength="255" class="form-control" />
+                    </div>
+                </div>
+                <div class="col-lg-6"></div>
+                <div class="thirds-left">
+                    <div id="dprice"> </div>
+                    <div id="drent"></div>
 
                     
 
@@ -605,541 +618,6 @@
                         </div>
                         <div id="collapseTwo" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingTwo">
                             <div class="panel-body">
-                                <form>
-                                    <div class="row">
-                                        <div class="col-lg-6">
-                                            <h4>ListingType</h4>
-                                            <div class="form-group">
-                                                <div class="btn-group" data-toggle="buttons">
-                                                    <label class="btn btn-primary active">
-                                                        <input type="radio" id="rlistingtype-forsale" name="rlistingtype" value="sale"  autocomplete="off" checked> For Sale
-                                                    </label>
-                                                    <label class="btn btn-primary">
-                                                        <input type="radio" id="rlistingtype-forrent" name="rlistingtype" value="rent" autocomplete="off" checked> For Rent
-                                                    </label>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div id="for-sale">
-                                                <h4>Budget For Sale</h4>
-                                                <div class="form-group">
-                                                    <label for="price-l">Low</label>
-                                                    <select id="price-l" class="form-control" name="price-l">
-                                                        <option value="0">0</option>
-                                                        <option value="250000">$250,000</option>
-                                                        <option value="500000">$500,000</option>
-                                                        <option value="750000">$750,000</option>
-                                                        <option value="1000000">$1,000,000</option>
-                                                        <option value="1250000">$1,250,000</option>
-                                                        <option value="1500000">$1,500,000</option>
-                                                        <option value="1750000">$1,750,000</option>
-                                                        <option value="2000000">$2,000,000</option>
-                                                        <option value="2500000">$2,500,000</option>
-                                                        <option value="3000000">$3,000,000</option>
-                                                        <option value="3500000">$3,500,000</option>
-                                                        <option value="4000000">$4,000,000</option>
-                                                        <option value="4500000">$4,500,000</option>
-                                                        <option value="5000000">$5,000,000</option>
-                                                    </select>
-                                                </div>
-                                                <div class="form-group">
-                                                    <label for="price-h">High</label>
-                                                    <select id="price-h" class="form-control" name="price-h">
-                                                        <option value="500000">$500,000</option>
-                                                        <option value="750000">$750,000</option>
-                                                        <option value="1000000">$1,000,000</option>
-                                                        <option value="1250000">$1,250,000</option>
-                                                        <option value="1500000">$1,500,000</option>
-                                                        <option value="1750000">$1,750,000</option>
-                                                        <option value="2000000">$2,000,000</option>
-                                                        <option value="2500000">$2,500,000</option>
-                                                        <option value="3000000">$3,000,000</option>
-                                                        <option value="3500000">$3,500,000</option>
-                                                        <option value="4000000">$4,000,000</option>
-                                                        <option value="4500000">$4,500,000</option>
-                                                        <option value="5000000">$5,000,000</option>
-                                                        <option value="6000000">$6,000,000</option>
-                                                        <option value="7000000">$7,000,000</option>
-                                                        <option value="8000000">$8,000,000</option>
-                                                        <option value="9000000">$9,000,000</option>
-                                                        <option value="10000000">$10,000,000</option>
-                                                        <option value="15000000">$15,000,000</option>
-                                                        <option value="20000000">$20,000,000</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                            <div id="for-rent" class="hidden">
-                                                <div class="row">
-                                                    <div class="col-lg-12 col-xs-12">
-                                                        <label>Budget For Rent</label>
-                                                    </div>
-                                                </div>
-                                                <div class="form-group">
-                                                    <label for="rprice-l">Low</label>
-                                                    <select id="rprice-l" class="form-control" name="rprice-l">
-                                                        <option value="0">0</option>
-                                                        <option value="1000">$1,000</option>
-                                                        <option value="2000">$2,000</option>
-                                                        <option value="3000">$3,000</option>
-                                                        <option value="4000">$4,000</option>
-                                                        <option value="5000">$5,000</option>
-                                                        <option value="6000">$6,000</option>
-                                                        <option value="7000">$7,000</option>
-                                                        <option value="8000">$8,000</option>
-                                                        <option value="9000">$9,000</option>
-                                                        <option value="10000">$10,000</option>
-                                                        <option value="15000">$15,000</option>
-                                                        <option value="20000">$20,000</option>
-                                                        <option value="30000">$30,000</option>
-                                                    </select>
-                                                </div>
-                                                <div class="form-group">
-                                                    <label for="rprice-h">High</label>
-                                                    <select id="rprice-h" class="form-control" name="rprice-h">
-                                                        <option value="1000">$1,000</option>
-                                                        <option value="2000">$2,000</option>
-                                                        <option value="3000">$3,000</option>
-                                                        <option value="4000">$4,000</option>
-                                                        <option value="5000">$5,000</option>
-                                                        <option value="6000">$6,000</option>
-                                                        <option value="7000">$7,000</option>
-                                                        <option value="8000">$8,000</option>
-                                                        <option value="9000">$9,000</option>
-                                                        <option value="10000">$10,000</option>
-                                                        <option value="15000">$15,000</option>
-                                                        <option value="20000">$20,000</option>
-                                                        <option value="30000">$30,000</option>
-                                                        <option value="5000000">more</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-lg-4">
-                                            <h4>Dwelling Type</h4>
-                                            <div class="form-group">
-                                                <div class="checkbox">
-                                                    <label>
-                                                        <input type="checkbox" autocomplete="off" name="private_houses_main" id="private_houses_main" value="y">Private House
-                                                    </label>
-                                                </div>
-                                                <div class="checkbox">
-                                                    <label>
-                                                        <input type="checkbox" name="apartment_houses_main" id="apartment_houses_main" value="y" autocomplete="off">Apartment House
-                                                    </label>
-                                                </div>
-                                                <div class="checkbox">
-                                                    <label>
-                                                        <input type="checkbox" name="lofts" id="lofts" value="y" autocomplete="off">Loft
-                                                    </label>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-4">
-                                            <h4>Ownership</h4>
-                                            <div class="form-group">
-                                                <div class="checkbox">
-                                                    <label>
-                                                        <input type="checkbox" >
-                                                        <input type="checkbox" name="ownership-co-op" id="ownership-co-op"  value="y" autocomplete="off">Co-op
-                                                    </label>
-                                                </div>
-                                                <div class="checkbox">
-                                                    <label>
-                                                        <input type="checkbox" name="ownership-condo" id="ownership-condo" class="ownership" value="condo" autocomplete="off">Condo
-                                                    </label>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-4">
-                                            <h4>Location</h4>
-                                            <div class="form-group">
-                                                <label for="partoftown">Part of Town</label>
-                                                <select id="partoftown" class="form-control" name="partoftown">
-                                                    <option value="Any">Any</option>
-                                                    <option value="Upper West Side">Upper West Side</option>
-                                                    <option value="Upper East Side">Upper East Side</option>
-                                                    <option value="Midtown East">Midtown East</option>
-                                                    <option value="Downtown East">Downtown East</option>
-                                                    <option value="Downtown West">Downtown West</option>
-                                                    <option value="Midtown West">Midtown West</option>
-                                                    <option value="Lower Manhattan">Lower Manhattan</option>
-                                                    <option value="Uptown">Uptown</option>
-                                                    <option value="Upper Manhattan">Upper Manhattan</option>
-                                                </select>
-                                            </div>
-                                            <div class="form-group">
-                                                <label for="neighborhood">Neighborhood</label>
-                                                <select id="neighborhood" name="neighborhood" class="form-control">
-                                                    <option value="Any">Any</option>
-                                                    <option value="Alphabet City">Alphabet City</option>
-                                                    <option value="Audubon Park">Audubon Park</option>
-                                                    <option value="Battery Park City">Battery Park City</option>
-                                                    <option value="Beekman Place">Beekman Place</option>
-                                                    <option value="Carnegie Hill">Carnegie Hill</option>
-                                                    <option value="Central Harlem">Central Harlem</option>
-                                                    <option value="Central Park West Corridor">Central Park West Corridor</option>
-                                                    <option value="Chelsea">Chelsea</option>
-                                                    <option value="Chinatown">Chinatown</option>
-                                                    <option value="Clinton">Clinton</option>
-                                                    <option value="East Fifties">East Fifties</option>
-                                                    <option value="East Harlem">East Harlem</option>
-                                                    <option value="East Village">East Village</option>
-                                                    <option value="Financial District">Financial District</option>
-                                                    <option value="Flatiron">Flatiron</option>
-                                                    <option value="Fort George">Fort George</option>
-                                                    <option value="Gramercy Park">Gramercy Park</option>
-                                                    <option value="Greenwich Village">Greenwich Village</option>
-                                                    <option value="Hamilton heights">Hamilton heights</option>
-                                                    <option value="Hell's Kitchen">Hell's Kitchen</option>
-                                                    <option value="Hudson Heights">Hudson Heights</option>
-                                                    <option value="Inwood">Inwood</option>
-                                                    <option value="Kips Bay">Kips Bay</option>
-                                                    <option value="Lenox Hill">Lenox Hill</option>
-                                                    <option value="Lincoln Square">Lincoln Square</option>
-                                                    <option value="Little Italy">Little Italy</option>
-                                                    <option value="Lower East Side">Lower East Side</option>
-                                                    <option value="Manhattan Valley">Manhattan Valley</option>
-                                                    <option value="Manhattanville">Manhattanville</option>
-                                                    <option value="Meat-Packing District">Meat-Packing District</option>
-                                                    <option value="Metropolitan Museum District">Metropolitan Museum District</option>
-                                                    <option value="Morningside Heights">Morningside Heights</option>
-                                                    <option value="Morris-Jumel District">Morris-Jumel District</option>
-                                                    <option value="Murray Hill">Murray Hill</option>
-                                                    <option value="No-Tribe">No-Tribe</option>
-                                                    <option value="NoHo">NoHo</option>
-                                                    <option value="NoLita">NoLita</option>
-                                                    <option value="NoMad">NoMad</option>
-                                                    <option value="NoHo">NoHo</option>
-                                                    <option value="Nolita">Nolita</option>
-                                                    <option value="North Chelsea">North Chelsea</option>
-                                                    <option value="Riverside Drive-West End Avenue">Riverside Drive-West End Avenue</option>
-                                                    <option value="Sociable Sixties">Sociable Sixties</option>
-                                                    <option value="SoHo">SoHo</option>
-                                                    <option value="South Harlem">South Harlem</option>
-                                                    <option value="Stuyvesant Square">Stuyvesant Square</option>
-                                                    <option value="Sugar Hill">Sugar Hill</option>
-                                                    <option value="Sutton Place">Sutton Place</option>
-                                                    <option value="The Village">The Village</option>
-                                                    <option value="Tribeca">Tribeca</option>
-                                                    <option value="Turtle Bay">Turtle Bay</option>
-                                                    <option value="Union Square">Union Square</option>
-                                                    <option value="Washington Heights">Washington Heights</option>
-                                                    <option value="West Fifties">West Fifties</option>
-                                                    <option value="West Village">West Village</option>
-                                                    <option value="Yorkville">Yorkville</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-lg-4">
-                                            <h4>Rooms</h4>
-                                            <div class="form-group">
-                                                <label for="rooms">Room Count</label>
-                                                <select id="rooms" name="rooms" class="form-control">
-                                                    <option value="Any">Any</option>
-                                                    <option value="1">Studio</option>
-                                                    <option value="2">2</option>
-                                                    <option value="2.5">2.5</option>
-                                                    <option value="3">3</option>
-                                                    <option value="3.5">3.5</option>
-                                                    <option value="4">4</option>
-                                                    <option value="4.5">4.5</option>
-                                                    <option value="5">5</option>
-                                                    <option value="6">6</option>
-                                                    <option value="7">7</option>
-                                                    <option value="8">8</option>
-                                                    <option value="9999">more</option>
-                                                </select>
-                                            </div>
-                                            <div class="form-group">
-                                                <label for="bedrooms">Bedrooms</label>
-                                                <select id="bedrooms" name="bedrooms" class="form-control">
-                                                    <option value="Any">Any</option>
-                                                    <option value="1">1</option>
-                                                    <option value="2">2</option>
-                                                    <option value="3">3</option>
-                                                    <option value="4">4</option>
-                                                    <option value="9999">more</option>
-                                                </select>
-                                            </div>
-                                            <div class="form-group">
-                                                <label for="bathrooms">Bathrooms</label>
-                                                <select id="bathrooms" name="bathrooms" class="form-control">
-                                                    <option value="Any">Any</option>
-                                                    <option value="1">1</option>
-                                                    <option value="1.5">1.5</option>
-                                                    <option value="2">2</option>
-                                                    <option value="3">3</option>
-                                                    <option value="4">4</option>
-                                                    <option value="9999">more</option>
-                                                </select>
-                                            </div>
-                                            <div class="form-group">
-                                                <label for="kitchen">Kitchen</label>
-                                                <select id="kitchen" name="kitchen" class="form-control">
-                                                    <option value="">Any</option>
-                                                    <option value="windowed">Windowed</option>
-                                                    <option value="eatin">Eat-In</option>
-                                                    <option value="regular">Regular</option>
-                                                    <option value="open">Open</option>
-                                                    <option value="galley">Galley</option>
-                                                    <option value="wineatin">Windowed Eat-In</option>
-                                                    <option value="pullman">Pullman</option>
-                                                </select>
-                                            </div>
-                                            <div class="form-group">
-                                                <label for="dining">Dining</label>
-                                                <select id="dining" name="dining" class="form-control">
-                                                    <option value="Any">Any</option>
-                                                    <option value="areainlr">Area in Living Room</option>
-                                                    <option value="diningroom">Dining Room</option>
-                                                    <option value="diningl">Dining &#8220;L&#8221;</option>
-                                                    <option value="diningalcove">Dining Alcove</option>
-                                                    <option value="diningfoyer">Dining Foyer</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-4">
-                                            <h4>Condition</h4>
-                                            <div class="form-group">
-                                                <label for="condition">Overall</label>
-                                                <select id="condition" name="condition" class="form-control">
-                                                    <option value="Poor">Any</option>
-                                                    <option value="Mint">Mint</option>
-                                                    <option value="Excellent">Excellent</option>
-                                                    <option value="Good">Good</option>
-                                                    <option value="Fair">Fair</option>
-                                                </select>
-                                            </div>
-                                            <div class="form-group">
-                                                <label for="bath_condition">Overall</label>
-                                                <select id="bath_condition" name="bath_condition" class="form-control">
-                                                    <option value="Poor">Any</option>
-                                                    <option value="Mint">Mint</option>
-                                                    <option value="Excellent">Excellent</option>
-                                                    <option value="Good">Good</option>
-                                                    <option value="Fair">Fair</option>
-                                                </select>
-                                            </div>
-                                            <div class="form-group">
-                                                <label for="kitchen_condition">Overall</label>
-                                                <select id="kitchen_condition" name="kitchen_condition" class="form-control">
-                                                    <option value="Poor">Any</option>
-                                                    <option value="Mint">Mint</option>
-                                                    <option value="Excellent">Excellent</option>
-                                                    <option value="Good">Good</option>
-                                                    <option value="Fair">Fair</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-4">
-                                            <h4>View</h4>
-                                            <div class="form-group">
-                                                <div class="checkbox">
-                                                    <label>
-                                                        <input type="checkbox" autocomplete="off" value="y" id="park-full" name="park-full">Park
-                                                    </label>
-                                                </div>
-                                                <div class="checkbox">
-                                                    <label>
-                                                        <input type="checkbox" value="y" id="river-full" name="river-full" autocomplete="off">River
-                                                    </label>
-                                                </div>
-                                                <div class="checkbox">
-                                                    <label>
-                                                        <input type="checkbox" value="y" id="skyline-full" name="skyline-full" autocomplete="off">Skyline
-                                                    </label>
-                                                </div>
-                                                <div class="checkbox">
-                                                    <label>
-                                                        <input type="checkbox" value="y" id="city-full" name="city-full" autocomplete="off">City
-                                                    </label>
-                                                </div>
-                                                <div class="checkbox">
-                                                    <label>
-                                                        <input type="checkbox" value="y" id="garden-full" name="garden-full" autocomplete="off">Garden
-                                                    </label>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-lg-3">
-                                            <h4>Outdoor Space</h4>
-                                            <div class="form-group">
-                                                <div class="checkbox">
-                                                    <label>
-                                                        <input type="checkbox" value="y" id="terrace" name="terrace" autocomplete="off">Terrace
-                                                    </label>
-                                                </div>
-                                                <div class="checkbox">
-                                                    <label>
-                                                        <input type="checkbox" value="y" id="balcony" name="balcony" autocomplete="off">Balcony
-                                                    </label>
-                                                </div>
-                                                <div class="checkbox">
-                                                    <label>
-                                                        <input type="checkbox" value="y" id="garden" name="garden" autocomplete="off">Garden
-                                                    </label>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-3">
-                                            <h4>Exposure</h4>
-                                            <div class="form-group">
-                                                <div class="checkbox">
-                                                    <label>
-                                                        <input type="checkbox" value="y" id="north" name="north">North
-                                                    </label>
-                                                </div>
-                                                <div class="checkbox">
-                                                    <label>
-                                                        <input type="checkbox" value="y" id="east" name="east">East
-                                                    </label>
-                                                </div>
-                                                <div class="checkbox">
-                                                    <label>
-                                                        <input type="checkbox" value="y" id="west" name="west">West
-                                                    </label>
-                                                </div>
-                                                <div class="checkbox">
-                                                    <label>
-                                                        <input type="checkbox" value="y" id="south" name="south">South
-                                                    </label>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div class="row">
-                                                <div class="col-lg-12">
-                                                    <h4>Features</h4>
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-lg-6">
-                                                    <div class="form-group">
-                                                        <div class="checkbox">
-                                                            <label>
-                                                                <input type="checkbox" value="y" id="pets" name="pets">Pets Allowed
-                                                            </label>
-                                                        </div>
-                                                        <div class="checkbox">
-                                                            <label>
-                                                                <input type="checkbox" value="y" id="washer" name="washer">Washer/Dryer Allowed
-                                                            </label>
-                                                        </div>
-                                                        <div class="checkbox">
-                                                            <label>
-                                                                <input type="checkbox" value="y" id="concierge" name="concierge">Concierge
-                                                            </label>
-                                                        </div>
-                                                        <div class="checkbox">
-                                                            <label>
-                                                                <input type="checkbox" value="y" id="elevator" name="elevator">Attended Elevators
-                                                            </label>
-                                                        </div>
-                                                        <div class="checkbox">
-                                                            <label>
-                                                                <input type="checkbox" value="y" id="fireplace" name="fireplace">Fireplace
-                                                            </label>
-                                                        </div>
-                                                        <div class="checkbox">
-                                                            <label>
-                                                                <input type="checkbox" value="y" id="central_air" name="central_air">Central Air
-                                                            </label>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-6">
-                                                    <div class="form-group">
-                                                        <div class="checkbox">
-                                                            <label>
-                                                                <input type="checkbox" value="y" id="pool" name="pool">Pool
-                                                            </label>
-                                                        </div>
-                                                        <div class="checkbox">
-                                                            <label>
-                                                                <input type="checkbox" value="y" id="exercise" name="exercise">Excercise Room
-                                                            </label>
-                                                        </div>
-                                                        <div class="checkbox">
-                                                            <label>
-                                                                <input type="checkbox" value="y" id="garage" name="garage">Garage
-                                                            </label>
-                                                        </div>
-                                                        <div class="checkbox">
-                                                            <label>
-                                                                <input type="checkbox" value="y" id="meetingroom" name="meetingroom">Owners Meeting Room
-                                                            </label>
-                                                        </div>
-                                                        <div class="checkbox">
-                                                            <label>
-                                                                <input type="checkbox" value="y" id="playroom" name="playroom">Playroom
-                                                            </label>
-                                                        </div>
-                                                        <div class="checkbox">
-                                                            <label>
-                                                                <input type="checkbox" value="y" id="storage" name="storage">Storage Room
-                                                            </label>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-lg-6">
-                                            <div class="form-group">
-                                                <label for="priorities">High on My Priority List are</label>
-                                                <textarea rows="4" id="priorities" name="priorities" class="form-control"></textarea>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div class="form-group">
-                                                <label for="top_priority">Overriding Priority</label>
-                                                <textarea cols="50" rows="4" id="top_priority" name="top_priority" class="form-control"></textarea>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-lg-6">
-                                            <div class="form-group">
-                                                <label for="ammenities">Ammenities and Appurtenances</label>
-                                                <textarea rows="4" id="ammenities" name="ammenities" class="form-control"></textarea>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div class="form-group">
-                                                <label for="pet_description">Pet Description</label>
-                                                <textarea cols="50" rows="4" id="pet_description" name="pet_description" class="form-control"></textarea>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-lg-6">
-                                            <div class="form-group">
-                                                <label for="prequal">Pet Description</label>
-                                                <input type="text" id="prequal" name="prequal" class="form-control">
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-3">
-                                            <div class="form-group">
-                                                <label for="cash_down">Estimated Cash Down</label>
-                                                <input type="text" id="cash_down" name="cash_down" class="form-control">
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-3">
-                                            <div class="form-group">
-                                                <label for="bemail">Email Address</label>
-                                                <input type="text" id="bemail" name="bemail" class="form-control">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </form>
                             </div>
                             <div class="panel-footer">
                                 <button type="button" class="btn btn-primary">Find me a Match!</button>
