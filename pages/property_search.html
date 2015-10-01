@@ -85,7 +85,7 @@
                 <div class="col-lg-6">
                     <div class="form-group">
                         <label for="part_of_town">Part of Town</label>
-                        <select id="part_of_town" class="form-control" type="text" name="part_of_town" maxlength="255" />
+                        <select id="part_of_town" class="form-control" name="part_of_town">
                             <option value="lowermanhattan">Lower Manhattan</option>
                             <option value="downtowneast">Downtown East</option>
                             <option value="downtownwest">Downtown West</option>
@@ -99,7 +99,7 @@
                     </div>
                     <div class="form-group">
                         <label for="neighborhood">Neighborhood</label>
-                        <select id="neighborhood" type="text" class="form-control" name="neighborhood" />
+                        <select id="neighborhood" class="form-control" name="neighborhood">
                             <option value="Alphabet City">Alphabet City</option>
                             <option value="Ansonia Station">Ansonia Station</option>
                             <option value="Battery Park City">Battery Park City</option>
@@ -163,468 +163,313 @@
                         <label for="rent">Monthly Rent Amount</label>
                         <input id="rent" type="text" name="rent" maxlength="255" class="form-control" />
                     </div>
+                    <div class="form-group">
+                        <label>Washer-Dryer Hook-Up is a must</label>
+                        <div class="radio">
+                            <label><input type="radio" name="rproperty_type" id="rproperty_type-coop" value="co-op">Co-op</label>
+                            <label><input type="radio" name="rproperty_type" id="rproperty_type-condo" value="condo">Condo</label>
+                            <label><input type="radio" name="rproperty_type" id="rproperty_type-condop" value="condop">Condop</label>
+                            <label><input type="radio" name="rproperty_type" id="rproperty_type-free-hold" value="free-hold">Free-hold</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="dwelling_type">Dwelling Type</label>
+                        <select id="dwelling_type" name="dwelling_type" class="form-control">
+                            <option value="Tenement Apartment House">Tenement Apartment House</option>
+                            <option value="Loft">Loft</option>
+                            <option value="Flats Building">Flats Building</option>
+                            <option value="Apartment Hotel">Apartment Hotel</option>
+                            <option value="Innovative Apartment House">Innovative Apartment House</option>
+                            <option value="Pre-War">Pre-War</option>
+                            <option value="Post-War">Post-War</option>
+                            <option value="Apartment House Tower">Apartment House Tower</option>
+                            <option value="Row House">Row House</option>
+                            <option value="Town House">Town House</option>
+                            <option value="Mansion">Mansion</option>
+                            <option value="Brownstone Conversion">Brownstone Conversion</option>
+                            <option value="Town House / Mansion Conversion">Town House / Mansion Conversion</option>
+                            <option value="Office Building Conversion">Office Building Conversion</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="financing">Financing Allowed (%)</label>
+                        <select id="financing" name="financing" class="form-control">
+                            <option value="0">none</option>
+                            <option value="50">50</option>
+                            <option value="60">60</option>
+                            <option value="70">70</option>
+                            <option value="75">75</option>
+                            <option value="80">80</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="maint_cc">Maintenance/Monthly Charges</label>
+                        <select id="maint_cc" name="maint_cc" class="form-control">
+                            <option value="0">none</option>
+                            <option value="600-999">600-999</option>
+                            <option value="1000-1499">1000-1499</option>
+                            <option value="1500-1999">1500-1999</option>
+                            <option value="2000-2499">2000-2499</option>
+                            <option value="2500-2999">2500-2999</option>
+                            <option value="3000-3499">3000-3499</option>
+                            <option value="3500-3999">3500-3999</option>
+                            <option value="4000-4499">4000-4499</option>
+                            <option value="4500-5000">4500-5000</option>
+                            <option value="unlimited">unlimited</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="total_rooms">Total Rooms</label>
+                        <select id="total_rooms" name="total_rooms" class="form-control">
+                            <option value="1">1</option>
+                            <option value="1.5">1.5</option>
+                            <option value="2">2</option>
+                            <option value="2.5">2.5</option>
+                            <option value="3">3</option>
+                            <option value="3.5">3.5</option>
+                            <option value="4">4</option>
+                            <option value="4.5">4.5</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="bedrooms">Bedrooms</label>
+                        <select id="bedrooms" name="bedrooms" class="form-control">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="more">more</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="bathrooms">Bathrooms</label>
+                        <select id="bathrooms" name="bathrooms" class="form-control">
+                            <option value="1">1</option>
+                            <option value="1.5">1.5</option>
+                            <option value="2">2</option>
+                            <option value="2.5">2.5</option>
+                            <option value="3">3</option>
+                            <option value="3.5">3.5</option>
+                            <option value="4">4</option>
+                            <option value="more">more</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="dining_type">Dining Type</label>
+                        <select id="dining_type" name="dining_type" class="form-control">
+                            <option value="Formal Dining Room">Formal Dining Room</option>
+                            <option value="Dining Area">Dining Area</option>
+                            <option value="Dining Foyer">Dining Foyer</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="kitchen_type">Kitchen Type</label>
+                        <select id="kitchen_type" name="kitchen_type" class="form-control">
+                            <option value="Window">Window</option>
+                            <option value="Eat-in">Eat-in</option>
+                            <option value="Galley">Galley</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="overall_condition">Overall Condition</label>
+                        <select id="overall_condition" name="overall_condition" class="form-control">
+                            <option value="poor">poor</option>
+                            <option value="fair">fair</option>
+                            <option value="good">good</option>
+                            <option value="excellent">excellent</option>
+                            <option value="mint">mint</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="bath_condition">Bath Condition</label>
+                        <select id="bath_condition" name="bath_condition" class="form-group">
+                            <option value="poor">poor</option>
+                            <option value="fair">fair</option>
+                            <option value="good">good</option>
+                            <option value="excellent">excellent</option>
+                            <option value="mint">mint</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="kitchen_condition">Kitchen Condition</label>
+                        <select id="kitchen_condition" name="kitchen_condition" class="form-control">
+                            <option value="poor">poor</option>
+                            <option value="fair">fair</option>
+                            <option value="good">good</option>
+                            <option value="excellent">excellent</option>
+                            <option value="mint">mint</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="private_outdoor">Private Outdoor</label>
+                        <select id="private_outdoor" name="private_outdoor" class="form-control">
+                            <option value="balcony">Balcony</option>
+                            <option value="juliette balcony">Juliette balcony</option>
+                            <option value="terrace">Terrace</option>
+                            <option value="garden">Garden</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="views">Views</label>
+                        <select id="views" name="views" class="form-control">
+                            <option value=""> </option>
+                            <option value="City Full">City Full</option>
+                            <option value="Park Full">Park Full</option>
+                            <option value="River Full">River Full</option>
+                            <option value="Skyline Full">Skyline Full</option>
+                            <option value="City Partial">City Partial</option>
+                            <option value="Park Partial">Park Partial</option>
+                            <option value="River Partial">River Partial</option>
+                            <option value="Skyline Partial">Skyline Partial</option>
+                            <option value="Garden">Garden</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="additional_views">Additional Views</label>
+                        <select id="additional_views" name="additional_views" class="form-control">
+                            <option value=""> </option>
+                            <option value="City Full">City Full</option>
+                            <option value="Park Full">Park Full</option>
+                            <option value="River Full">River Full</option>
+                            <option value="Skyline Full">Skyline Full</option>
+                            <option value="City Partial">City Partial</option>
+                            <option value="Park Partial">Park Partial</option>
+                            <option value="River Partial">River Partial</option>
+                            <option value="Skyline Partial">Skyline Partial</option>
+                            <option value="Garden">Garden</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="exposure">Exposure</label>
+                        <select id="exposure" name="exposure" class="form-control">
+                            <option value="North">North</option>
+                            <option value="East">East</option>
+                            <option value="South">South</option>
+                            <option value="West">West</option>
+                            <option value="Bright">Bright</option>
+                            <option value="Direct sunlight">Direct sunlight</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <h4>Location</h4>
+                        <label for="between1">Between (avenue/street)</label>
+                        <input id="between1" type="text" name="between1" maxlength="255" />
+                        <label for="between2">and (avenue/street)</label>
+                        <input id="between2" type="text" name="between2" maxlength="255" />
+                    </div>
+                    <div class="form-group">
+                        <label>Central Air</label>
+                        <input type="radio" name="central_air" id="rcentral_air-y" value="y"/>Yes
+                        <input type="radio" name="central_air" id="rcentral_air-n" value="n"/>No
+                    </div>
+                    <div class="form-group">
+                        <label for="fireplace">Fireplace</label>
+                        <select id="fireplace" name="fireplace" class="form-control">
+                            <option value=""></option>
+                            <option value="wood buring">wood burning</option>
+                            <option value="decorative">decorative</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Full-time Doorman</label>
+                        <input type="radio" name="doorman" id="rdoorman-y" value="y"/>Yes
+                        <input type="radio" name="doorman" id="rdoorman-n" value="n"/>No
+                    </div>
+                    <div class="form-group">
+                        <label>Concierge</label>
+                        <input type="radio" name="concierge" id="rconcierge-y" value="y"/>Yes
+                        <input type="radio" name="concierge" id="rconcierge-n" value="n">No
+                    </div>
+                    <div class="form-group">
+                        <label>Attended Elevators</label>
+                        <input type="radio" name="elevator" id="relevator-y" value="y"/>Yes
+                        <input type="radio" name="elevator" id="relevator-n"  value="n"/>No
+                    </div>
+                    <div class="form-group">
+                        <label>Washer/dryer</label>
+                        <input type="radio" name="washer" id="rwasher-y" value="y"/>Yes
+                        <input type="radio" name="washer" id="rwasher-n" value="n"/>No
+                    </div>
+                    <div class="form-group">
+                        <label for="pets">Pets</label>
+                        <select id="pets" name="pets" class="form-control">
+                            <option value="none">none</option>
+                            <option value="dogs">dogs</option>
+                            <option value="cats">cats</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Health Club</label>
+                        <input type="radio" name="health_club" id="rhealth_club-y" value="y"/>Yes
+                        <input type="radio" name="health_club" id="rhealth_club-n" value="n"/>No
+                    </div>
+                    <div class="form-group">
+                        <label>Parking</label>
+                        <input type="radio" name="parking" id="rparking-y" value="y"/>Yes
+                        <input type="radio" name="parking" id="rparking-n" value="n"/>No
+                    </div>
+                    <div class="form-group">
+                        <label>Exercise Room</label>
+                        <input type="radio" name="exercise_room" id="rexercise_room-y" value="y"/>Yes
+                        <input type="radio" name="exercise_room" id="rexercise_room-n" value="n"/>No
+                    </div>
+                    <div class="form-group">
+                        <label>Pool</label>
+                        <input type="radio" name="pool" id="rpool-y" value="y"/>Yes
+                        <input type="radio" name="pool" id="rpool-n" value="n"/>No
+                    </div>
+                    <div class="form-group">
+                        <label>Gas</label>
+                        <input type="radio" name="gas" id="rgas-y" value="y"/>Yes
+                        <input type="radio" name="gas" id="rgas-n" value="n"/>No
+                    </div>
+                    <div class="form-group">
+                        <label>Electricity Only</label>
+                        <input type="radio" name="electricity" id="relectricity-y" value="y"/>Yes
+                        <input type="radio" name="electricity" id="relectricity-n" value="n"/>No
+                    </div>
+                    <div class="form-group">
+                        <label id="lcable">Cable Included</label>
+                        <input type="radio" name="cable" id="rcable-y" value="y"/>Yes
+                        <input type="radio" name="cable" id="rcable-n" value="n"/>No
+                    </div>
+                    <div class="form-group">
+                        <label>Meeting Space</label>
+                        <input type="radio" name="meeting_space" id="rmeeting_space-y" value="y"/>Yes
+                        <input type="radio" name="meeting_space" id="rmeeting_space-n" value="n"/>No
+                    </div>
+                    <div class="form-group">
+                        <label >Playroom</label>
+                        <input type="radio" name="playroom" id="rplayroom-y"  value="y"/>Yes
+                        <input type="radio" name="playroom" id="rplayroom-n" value="n"/>No
+                    </div>
+                    <div class="form-group">
+                        <label>Storage</label>
+                        <input type="radio" name="storage" id="rstorage-y" value="y"/>Yes
+                        <input type="radio" name="storage" id="rstorage-n" value="n"/>No
+                    </div>
+                    <input type="submit" value="Submit" class="btn btn-primary">
                 </div>
                 <div class="col-lg-6"></div>
                 <div class="thirds-left">
-                    <div id="dprice"> </div>
-                    <div id="drent"></div>
 
-                    
-
-                    <div><label id="lproperty_type"></label>Ownership<input type="radio" name="rproperty_type" id="rproperty_type-coop" value="co-op">Co-op<input type="radio" name="rproperty_type" id="rproperty_type-condo" value="condo">Condo<input type="radio" name="rproperty_type" id="rproperty_type-condop" value="condop">Condop<input type="radio" name="rproperty_type" id="rproperty_type-free-hold" value="free-hold">Free-hold
-                    </div>
-
-                    
-
-                    <div><label id="ldwelling_type">Dwelling Type</label><select id="dwelling_type" type="text" name="dwelling_type" maxlength="25" />
-                        <option value="Tenement Apartment House">Tenement Apartment House</option>
-                        <option value="Loft">Loft</option>
-                        <option value="Flats Building">Flats Building</option>
-                        <option value="Apartment Hotel">Apartment Hotel</option>
-                        <option value="Innovative Apartment House">Innovative Apartment House</option>
-                        <option value="Pre-War">Pre-War</option>
-                        <option value="Post-War">Post-War</option>
-                        <option value="Apartment House Tower">Apartment House Tower</option>
-                        <option value="Row House">Row House</option>
-                        <option value="Town House">Town House</option>
-                        <option value="Mansion">Mansion</option>
-                        <option value="Brownstone Conversion">Brownstone Conversion</option>
-                        <option value="Town House / Mansion Conversion">Town House / Mansion Conversion</option>
-                        <option value="Office Building Conversion">Office Building Conversion</option>
-                        </select>
-                    </div>
                     <br/>For a detailed explanation of Dwelling Type terms, please see our <a href="http://re-re.info/mastering-manhattan/manhattan-real-estate-terms-how-to-tips-facts/downtown-manhattan-real-estate-condo-coop-types/" target="_new"><b>Distinguishing Dwellings page</b></a>
-
-                    
-
-                    <div id="dfinancing"><label id="lfinancing">Financing Allowed (%)</label> <select id="financing" type="text" name="financing" maxlength="255" />
-                        <option value="0">none</option>
-                        <option value="50">50</option>
-                        <option value="60">60</option>
-                        <option value="70">70</option>
-                        <option value="75">75</option>
-                        <option value="80">80</option>
-                        </select>
-                    </div>
-
-
-                    
-
-                    <div>
-                        <label id="lmaint_cc">Maintenance/Monthly Charges</label>
-                        <select id="maint_cc" type="text" name="maint_cc" maxlength="15" />
-                        <option value="0">none</option>
-                        <option value="600-999">600-999</option>
-                        <option value="1000-1499">1000-1499</option>
-                        <option value="1500-1999">1500-1999</option>
-                        <option value="2000-2499">2000-2499</option>
-                        <option value="2500-2999">2500-2999</option>
-                        <option value="3000-3499">3000-3499</option>
-                        <option value="3500-3999">3500-3999</option>
-                        <option value="4000-4499">4000-4499</option>
-                        <option value="4500-5000">4500-5000</option>
-                        <option value="unlimited">unlimited</option>
-                        </select>
-                    </div>
-
-                    
-
-                    <div><label id="ltotal_rooms">Total Rooms</label> <select id="total_rooms" type="text" name="total_rooms" maxlength="2" />
-                        <option value="1">1</option>
-                        <option value="1.5">1.5</option>
-                        <option value="2">2</option>
-                        <option value="2.5">2.5</option>
-                        <option value="3">3</option>
-                        <option value="3.5">3.5</option>
-                        <option value="4">4</option>
-                        <option value="4.5">4.5</option>
-                        <option value="5">5</option>
-                        <option value="6">6</option>
-                        <option value="7">7</option>
-                        <option value="8">8</option>
-                        <option value="9">9</option>
-                        <option value="10">10</option>
-                        </select>
-                    </div>
-
-                    
-
-                    <div><label id="lbedrooms">Bedrooms</label> <select id="bedrooms" type="text" name="bedrooms" maxlength="2" />
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="5">5</option>
-                        <option value="6">6</option>
-                        <option value="more">more</option>
-                        </select>
-                    </div>
-
-                    
-
-                    <div><label id="lbathrooms">Bathrooms</label> <select id="bathrooms" type="text" name="bathrooms" maxlength="2" />
-                        <option value="1">1</option>
-                        <option value="1.5">1.5</option>
-                        <option value="2">2</option>
-                        <option value="2.5">2.5</option>
-                        <option value="3">3</option>
-                        <option value="3.5">3.5</option>
-                        <option value="4">4</option>
-                        <option value="more">more</option>
-                        </select>
-                    </div>
-
-                    
-
-                    <div><label id="ldining_type">Dining Type</label> <select id="dining_type" type="text" name="dining_type" maxlength="12" />
-                        <option value="Formal Dining Room">Formal Dining Room</option>
-                        <option value="Dining Area">Dining Area</option>
-                        <option value="Dining Foyer">Dining Foyer</option>
-                        </select>
-                    </div>
-
-                    
-
-                    <div><label id="lkitchen_type">Kitchen Type</label> <select id="kitchen_type" type="text" name="kitchen_type" maxlength="12" />
-                        <option value="Window">Window</option>
-                        <option value="Eat-in">Eat-in</option>
-                        <option value="Galley">Galley</option>
-                        </select>
-                    </div>
-
-                    
-
-                    
-
-                    
-
-                </div>
-                <div class="thirds-left">
-
-                    <div><label id="loverall_condition">Overall Condition</label> <select id="overall_condition" type="text" name="overall_condition" maxlength="12" />
-                        <option value="poor">poor</option>
-                        <option value="fair">fair</option>
-                        <option value="good">good</option>
-                        <option value="excellent">excellent</option>
-                        <option value="mint">mint</option>
-                        </select>
-                    </div>
-
-                    
-
-                    <div><label id="lbath_condition">Bath Condition</label> <select id="bath_condition" type="text" name="bath_condition" maxlength="12" />
-                        <option value="poor">poor</option>
-                        <option value="fair">fair</option>
-                        <option value="good">good</option>
-                        <option value="excellent">excellent</option>
-                        <option value="mint">mint</option>
-                        </select>
-                    </div>
-
-                    
-
-                    <div><label id="lkitchen_condition">Kitchen Condition</label> <select id="kitchen_condition" type="text" name="kitchen_condition" maxlength="12" />
-                        <option value="poor">poor</option>
-                        <option value="fair">fair</option>
-                        <option value="good">good</option>
-                        <option value="excellent">excellent</option>
-                        <option value="mint">mint</option>
-                        </select>
-                    </div>
-
-                    
-
-
-                    <div><label id="lprivate_outdoor">Private Outdoor</label> <select id="private_outdoor" type="text" name="private_outdoor" maxlength="12" />
-                        <option value="balcony">Balcony</option>
-                        <option value="juliette balcony">Juliette balcony</option>
-                        <option value="terrace">Terrace</option>
-                        <option value="garden">Garden</option>
-                        </select>
-                    </div>
-
-                    
-
-                    <div><label id="lviews">Views</label> <select id="views" type="text" name="views" maxlength="12" />
-                        <option value=""> </option>
-                        <option value="City Full">City Full</option>
-                        <option value="Park Full">Park Full</option>
-                        <option value="River Full">River Full</option>
-                        <option value="Skyline Full">Skyline Full</option>
-
-                        <option value="City Partial">City Partial</option>
-                        <option value="Park Partial">Park Partial</option>
-                        <option value="River Partial">River Partial</option>
-                        <option value="Skyline Partial">Skyline Partial</option>
-
-                        <option value="Garden">Garden</option>
-                        </select>
-                    </div>
-
-                    
-
-                    <div><label id="ladditional_views">Additional Views</label> <select id="additional_views" type="text" name="additional_views" maxlength="12" />
-                        <option value=""> </option>
-                        <option value="City Full">City Full</option>
-                        <option value="Park Full">Park Full</option>
-                        <option value="River Full">River Full</option>
-                        <option value="Skyline Full">Skyline Full</option>
-
-                        <option value="City Partial">City Partial</option>
-                        <option value="Park Partial">Park Partial</option>
-                        <option value="River Partial">River Partial</option>
-                        <option value="Skyline Partial">Skyline Partial</option>
-
-                        <option value="Garden">Garden</option>
-                        </select>
-                    </div>
-
-                    
-
-                    <div><label id="lexposure">Exposure</label> <select id="exposure" type="text" name="exposure" maxlength="12" />
-                        <option value="North">North</option>
-                        <option value="East">East</option>
-                        <option value="South">South</option>
-                        <option value="West">West</option>
-                        <option value="Bright">Bright</option>
-                        <option value="Direct sunlight">Direct sunlight</option>
-                        </select>
-                    </div>
-
-                    
-
-                    Location:
-
-                    <div><label id="lbetween1">Between (avenue/street)</label> <input id="between1" type="text" name="between1" maxlength="255" /></div>
-                    <div><label id="lbetween2">and (avenue/street)</label> <input id="between2" type="text" name="between2" maxlength="255" /></div>
-
-                    
-
-                    <div><label id="lcentral_air">Central Air</label><input type="radio" name="central_air" id="rcentral_air-y" value="y">Yes<input type="radio" name="central_air" id="rcentral_air-n" value="n">No
-                    </div>
-
-                    
-
-                    <div><label id="lfireplace ">Fireplace</label> <select id="fireplace" type="text" name="fireplace" maxlength="12" />
-                        <option value=""></option>
-                        <option value="wood buring">wood burning</option>
-                        <option value="decorative">decorative</option>
-                        <option value=""></option>
-                        </select>
-                    </div>
-
-                    
-
-                    <div><label id="ldoorman">Full-time Doorman</label><input type="radio" name="doorman" id="rdoorman-y" value="y">Yes<input type="radio" name="doorman" id="rdoorman-n" value="n">No
-                    </div>
-
-                    
-
-                    <div><label id="lconcierge">Concierge</label><input type="radio" name="concierge" id="rconcierge-y" value="y">Yes<input type="radio" name="concierge" id="rconcierge-n" value="n">No
-                    </div>
-
-                    
-
-                    <div><label id="lelevator">Attended Elevators</label><input type="radio" name="elevator" id="relevator-y" value="y">Yes<input type="radio" name="elevator" id="relevator-n"  value="n">No
-                    </div>
-
-                    
 
                 </div>
                 <div class="thirds-right">
 
-                    <div><label id="lwasher">Washer/dryer</label><input type="radio" name="washer" id="rwasher-y"  value="y">Yes<input type="radio" name="washer" id="rwasher-n" value="n">No
-                    </div>
-
-                    
-
-                    <div><label id="lpets">Pets</label><select id="pets" type="text" name="pets" maxlength="12" />
-                        <option value="none">none</option>
-                        <option value="dogs">dogs</option>
-                        <option value="cats">cats</option>
-                        </select>
-                    </div>
-
-                    
-
-                    <div><label id="lhealth_club">Health Club</label><input type="radio" name="health_club" id="rhealth_club-y"  value="y">Yes<input type="radio" name="health_club" id="rhealth_club-n"  value="n">No
-                    </div>
-
-                    
-
-                    <div><label id="lparking">Parking</label><input type="radio" name="parking" id="rparking-y"  value="y">Yes<input type="radio" name="parking" id="rparking-n" value="n">No
-                    </div>
-
-                    
-
-
-                    <div><label id="lexercise_room">Exercise Room</label><input type="radio" name="exercise_room" id="rexercise_room-y"  value="y">Yes<input type="radio" name="exercise_room" id="rexercise_room-n" value="n">No
-                    </div>
-
-                    
-
-
-                    <div><label id="lpool">Pool</label><input type="radio" name="pool" id="rpool-y" value="y">Yes<input type="radio" name="pool" id="rpool-n" value="n">No
-                    </div>
-
-                    
-
-                    <div><label id="lgas">Gas</label><input type="radio" name="gas" id="rgas-y"  value="y">Yes<input type="radio" name="gas" id="rgas-n" value="n">No
-                    </div>
-
-                    
-
-                    <div><label id="lelectricity">Electricity Only</label><input type="radio" name="electricity" id="relectricity-y"  value="y">Yes<input type="radio" name="electricity" id="relectricity-n" value="n">No
-                    </div>
-
-                    
-
-
-                    <div><label id="lcable">Cable Included</label><input type="radio" name="cable" id="rcable-y"  value="y">Yes<input type="radio" name="cable" id="rcable-n" value="n">No
-                    </div>
-
-                    
-
-
-                    <div><label id="lmeeting_space">Meeting Space</label><input type="radio" name="meeting_space" id="rmeeting_space-y"  value="y">Yes<input type="radio" name="meeting_space" id="rmeeting_space-n" value="n">No
-                    </div>
-
-                    
-
-
-                    <div><label id="lplayroom">Playroom</label><input type="radio" name="playroom" id="rplayroom-y"  value="y">Yes<input type="radio" name="playroom" id="rplayroom-n" value="n">No
-                    </div>
-
-                    
-
-                    <div><label id="lstorage">Storage</label><input type="radio" name="storage" id="rstorage-y"  value="y">Yes<input type="radio" name="storage" id="rstorage-n" value="n">No
-                    </div>
-
-                    
-
                 </div>
-                <div class="clear"></div>
 
-                <input type="submit" value="Submit">
-            </div>
-            <div class="row">
-                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                    <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="headingOne">
-                            <h4 class="panel-title">
-                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    Buyer Submission Form
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
-                            <div class="panel-body">
-                                <form>
-                                    <div class="row">
-                                        <div class="col-lg-6 col-xs-12">
-                                            <div class="form-group">
-                                                <label for="budgetRange">Your budget range</label>
-                                                <input type="number" class="form-control" id="budgetRange" name="budgetRange" placeholder="Min">
-                                                <input type="number" class="form-control" id="budgetRange2" name="budgetRange2" placeholder="Max">
-                                            </div>
-                                            <div class="form-group">
-                                                <label for="partTown">Your preferred Part(s) of Town</label>
-                                                <input type="text" class="form-control" id="partTown" name="partTown" placeholder="Your preferred Part(s) of Town">
-                                            </div>
-                                            <div class="form-group">
-                                                <label for="roomCount">Your desired room count</label>
-                                                <input type="number" class="form-control" min="0" max="10" id="roomCount" name="roomCount" placeholder="Your desired room count">
-                                            </div>
-                                            <div class="form-group">
-                                                <label for="bedroomCount">With at least bedroom(s)</label>
-                                                <input type="number" class="form-control" id="bedroomCount" name="bedroomCount" placeholder="With at least bedroom(s)">
-                                            </div>
-                                            <div class="form-group">
-                                                <label for="bathroomCount">The necessary bathroom(s)</label>
-                                                <input type="number" class="form-control" id="bathroomCount" name="bathroomCount" placeholder="The necessary bathroom(s)">
-                                            </div>
-                                            <div class="form-group">
-                                                <label for="highPriorities">List your two high priorities (see Buyer Personal Planner)</label>
-                                                <input type="text" class="form-control" id="highPriorities" name="highPriorities" placeholder="Firs Priority">
-                                                <input type="text" class="form-control" id="highPriorities2" name="highPriorities2" placeholder="Second Priority">
-                                            </div>
-                                            <div class="form-group">
-                                                <label for="amenitiesAppurtenances">Name the amenities and appurtenances (see Buyer Personal Planner) you expect</label>
-                                                <textarea class="form-control" id="amenitiesAppurtenances" name="amenitiesAppurtenances"></textarea>
-                                            </div>
 
-                                        </div>
-                                        <div class="col-lg-6 col-xs-12">
-                                            <div class="form-group">
-                                                <label for="petDesc">Household pet description (Bred and weight recommended when applicable)</label>
-                                                <textarea class="form-control" id="petDesc" name="petDesc"></textarea>
-                                            </div>
-                                            <div class="form-group">
-                                                <label>Washer-Dryer Hook-Up is a must</label>
-                                                <div class="radio">
-                                                    <label><input type="radio" name="washerDryer[]">Yes</label>
-                                                    <label><input type="radio" name="washerDryer[]">No</label>
-                                                </div>
-                                            </div>
-                                            <h4>Unpublished preliminary financial picture items for co-operative properties only:</h4>
 
-                                            <div class="form-group">
-                                                <label for="preMortgageAmount">Pre-qualifying mortgage amount</label>
-                                                <input type="number" class="form-control" id="preMortgageAmount" name="preMortgageAmount" placeholder="Pre-qualifying mortgage amount">
-                                            </div>
-                                            <div class="form-group">
-                                                <label for="cashDownAmount">Estimated cash down amount</label>
-                                                <input type="number" class="form-control" id="cashDownAmount" name="cashDownAmount" placeholder="Estimated cash down amount">
-                                            </div>
-                                            <h4>To Make a Post to Find Me a Match</h4>
-                                            <div class="form-group">
-                                                <label for="email">Enter Valid E-mail Address   :</label>
-                                                <input type="email" class="form-control" id="email" name="email" placeholder="Email">
-                                            </div>
-                                            <div class="form-group">
-                                                <!--<div class="col-xs-offset-2 col-xs-10">-->
-                                                <div class="radio">
-                                                    <label><input type="radio">Opt in</label>
-                                                </div>
-                                                <!--</div>-->
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-lg-12">
-                                            <button type="submit" class="btn btn-primary">Submit</button>
-                                            <p>
-                                                *Our Communication Compartments operates for opt-in users only to ensure security.
-                                                The e-mail exchange, therefore, requires reconfirming your opt-in status to begin a submission request.
-                                                An automated confirmation is sent to the valid e-mail address entered. A submission may require one day to process.
-                                                So keep an eye out for our subsequent reply.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                            <div class="panel-footer">
-                                <button type="button" class="btn btn-primary">Find me a Match!</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="headingTwo">
-                            <h4 class="panel-title">
-                                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    For owner and Brokers
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapseTwo" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingTwo">
-                            <div class="panel-body">
-                            </div>
-                            <div class="panel-footer">
-                                <button type="button" class="btn btn-primary">Find me a Match!</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
