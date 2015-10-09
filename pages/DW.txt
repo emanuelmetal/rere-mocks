@@ -1,580 +1,545 @@
-<span style="font-size: 13px; line-height: 19px;"> </span>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <a class="btn btn-primary form-control pull-right" href="#" role="button" data-toggle="modal" data-target="#publicSchools"><i class="fa fa-graduation-cap"></i> Public Schools</a>
+                            <div  class="bs-callout bs-callout-primary">
+                                <p>Click the above button to view our list of Public Schools</p>
+                                <a class="" href="https://www.google.com.ar/maps/search/public+schools,+downtown,+Manhattan,+New+York,+NY,+United+States/@40.7235774,-74.0143709,14z/data=!3m1!4b1?hl=en" role="button">...Or just google it</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <a class="btn btn-danger form-control pull-left" href="#" role="button" data-toggle="modal" data-target="#hospitals"><i class="fa fa-hospital-o"></i> Hospitals</a>
+                            <div  class="bs-callout bs-callout-danger">
+                                <p>Click the above button to view our list of Hospitals</p>
+                                <a class="" href="https://www.google.com.ar/maps/search/Hospitals,+downtown,+Manhattan,+New+York,+NY,+United+States/@40.7242824,-74.0077486,14z/data=!3m1!4b1?hl=en" role="button">...Or just google it</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <a class="btn btn-warning form-control pull-right" href="#" role="button" data-toggle="modal" data-target="#publicServices"><i class="fa fa-building-o"></i> Public Services</a>
+                            <div  class="bs-callout bs-callout-warning">
+                                <p>Click the above button to view our list of Public Services</p>
+                                <a class="" href="https://www.google.com.ar/maps/search/Public+Services,+downtown,+Manhattan,+New+York,+NY,+United+States/@40.7265858,-74.0234553,14z/data=!3m1!4b1?hl=en" role="button">...Or just google it</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <a class="btn btn-success form-control pull-left" href="#" role="button" data-toggle="modal" data-target="#housesOfWorship"><i class="fa fa-plus-square"></i> Houses of Worship</a>
+                            <div  class="bs-callout bs-callout-success">
+                                <p>Click the above button to view our list of Houses of Worship</p>
+                                <a class="" href="https://www.google.com.ar/maps/search/houses+of+worship,+downtown,+Manhattan,+New+York,+NY,+United+States/@40.7202958,-74.0048415,15z/data=!3m1!4b1?hl=en" role="button">...Or just google it</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 hidden-xs">
+                    <div class="pull-left">
+                        <img src="/wp-content/themes/rere_new/assets/img/maps/Downtown.png" alt="Upper East Side" width="150" height="374">
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="publicSchools" tabindex="-1" role="dialog" aria-labelledby="publicSchoolsLabel">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title">Public Schools</h4>
+                        </div>
+                        <div class="modal-body">
+                            <h4>Downtown West - Chelsea</h4>
+                            P.S. 011 WILLIAM T. HARRIS (M011)
+                            School Type: Elementary
+                            320 WEST 21th STREET
+
+                            P.S. 041 GREENWICH VILLAGE (M041)
+                            School Type: Elementary
+                            116 WEST 11th STREET
+
+                            M.S. 260 CLINTON SCHOOL WRITERS &amp; ARTISTS (M260)
+                            School Type: Junior High-Intermediate-Middle
+                            320 WEST 21st STREET
+
+                            NEW YORK CITY LAB MIDDLE SCHOOL FOR COLLABORATIVE (M312)
+                            School Type: Junior High-Intermediate-Middle
+                            333 WEST 17th STREET
+
+                            ES BALDWIN SCHOOL, THE: A SCHOOL FOR EXPEDITION (M313)
+                            School Type: High School
+                            351 WEST 18th STREET
+
+                            N.Y.C. LAB SCHOOL FOR COLLABORATIVE STUDIES (M412)
+                            School Type: High School
+                            333 WEST 17th STREET
+
+                            N.Y.C. MUSEUM SCHOOL (M414)
+                            School Type: High School
+                            333 WEST 17th STREET
+
+                            LEGACY SCHOOL FOR INTEGRATED STUDIES (M429)
+                            School Type: High school
+                            34 WEST 14th STREET
+
+                            BAYARD RUSTIN EDUCATIONAL COMPLEX (M440)
+                            School Type: High School
+                            351 WEST 18th STREET
+
+                            LIBERTY HIGH SCHOOL ACADEMY FOR NEWCOMERS (M550)
+                            School Type: High School
+                            250 WEST 18th STREET
+
+                            HIGH SCHOOL OF FASHION INDUSTRIES, THE (M600)
+                            School Type: High School
+                            225 WEST 24th STREET
+
+                            HUMANITIES PREPARATORY ACADEMY (M605)
+                            School Type: High School
+                            351 WEST 18th STREET
 
-<strong><span style="text-decoration: underline;"><a name="#10011"></a>Downtown West - Chelsea</span></strong>
+                            SCHOOL FOR THE PHYSICAL CITY HIGH SCHOOL (M690)
+                            School Type: Secondary School
+                            34 WEST 14th STREET
 
-POST OFFICES:
-Old Chelsea
-217 West 18th Street
-234 Tenth Avenue
-76 Ninth Avenue, Front 2
-70 West Tenth Street
+                            MANHATTAN BUSINESS ACADEMY (M392)
+                            School Type: High School
+                            351 WEST 18th STREET
 
-&nbsp;
+                            Preparatory Schools
+                            Xavier Parochial‎
+                            126 West 17th Street, (212) 924-7823‎
 
-6th Police Precinct, 233, West 10th Street, (212) 741-4811
-10th Police Precinct, 230, West 20th Street, (212) 741-8211
+                            Chabad Center for Jewish Discovery‎
+                            121 West 19th Street, (212) 924-3200‎
 
-&nbsp;
+                            New York Hebrew School‎
+                            199 West 19th Street (212) 924-3200‎
 
-FIREHOUSE LOCATIONS
-Eng.3, Lad.12, Bat.7, Hi-Rise, 146 West 19th Street
-Eng.5, 340 East 14th Street
+                            Lorge School‎
+                            353 West 17th Street, (212) 929-8660‎
 
-&nbsp;
+                            Winston Preparatory School‎
+                            12 West 17th Street, (646) 638-2705‎
 
-Libraries
-Andrew Heiskell Braille and Talking Book Library
-40 West 20th Street, (between Fifth and Sixth Avenues)
+                            Guardian Angel School‎
+                            193 10th Avenue (212) 989-8280‎
 
-Jefferson Market Library
-425 Avenue of the Americas (at 10th Street)
+                            Corlears School‎
+                            324 West 15th Street, (212) 741-2800‎
 
-Muhlenberg Library
-209 West 23rd Street (near Seventh Avenue)
-
-&nbsp;
-
-&nbsp;
-<h2>PUBLIC SCHOOLS</h2>
-&nbsp;
-
-&nbsp;
-<div class="glossary-section-left">
-
-P.S. 011 WILLIAM T. HARRIS (M011)
-School Type: Elementary
-320 WEST 21th STREET
-
-P.S. 041 GREENWICH VILLAGE (M041)
-School Type: Elementary
-116 WEST 11th STREET
-
-M.S. 260 CLINTON SCHOOL WRITERS &amp; ARTISTS (M260)
-School Type: Junior High-Intermediate-Middle
-320 WEST 21st STREET
-
-NEW YORK CITY LAB MIDDLE SCHOOL FOR COLLABORATIVE (M312)
-School Type: Junior High-Intermediate-Middle
-333 WEST 17th STREET
-
-ES BALDWIN SCHOOL, THE: A SCHOOL FOR EXPEDITION (M313)
-School Type: High School
-351 WEST 18th STREET
-
-N.Y.C. LAB SCHOOL FOR COLLABORATIVE STUDIES (M412)
-School Type: High School
-333 WEST 17th STREET
-
-N.Y.C. MUSEUM SCHOOL (M414)
-School Type: High School
-333 WEST 17th STREET
-
-LEGACY SCHOOL FOR INTEGRATED STUDIES (M429)
-School Type: High school
-34 WEST 14th STREET
-
-BAYARD RUSTIN EDUCATIONAL COMPLEX (M440)
-School Type: High School
-351 WEST 18th STREET
-
-LIBERTY HIGH SCHOOL ACADEMY FOR NEWCOMERS (M550)
-School Type: High School
-250 WEST 18th STREET
-
-HIGH SCHOOL OF FASHION INDUSTRIES, THE (M600)
-School Type: High School
-225 WEST 24th STREET
-
-HUMANITIES PREPARATORY ACADEMY (M605)
-School Type: High School
-351 WEST 18th STREET
-
-SCHOOL FOR THE PHYSICAL CITY HIGH SCHOOL (M690)
-School Type: Secondary School
-34 WEST 14th STREET
-
-MANHATTAN BUSINESS ACADEMY (M392)
-School Type: High School
-351 WEST 18th STREET
-
-</div>
-<div class="glossary-section-right">
-
-&nbsp;
-
-Preparatory Schools
-Xavier Parochial‎
-126 West 17th Street, (212) 924-7823‎
-
-Chabad Center for Jewish Discovery‎
-121 West 19th Street, (212) 924-3200‎
-
-New York Hebrew School‎
-199 West 19th Street (212) 924-3200‎
-
-Lorge School‎
-353 West 17th Street, (212) 929-8660‎
-
-Winston Preparatory School‎
-12 West 17th Street, (646) 638-2705‎
-
-Guardian Angel School‎
-193 10th Avenue (212) 989-8280‎
-
-Corlears School‎
-324 West 15th Street, (212) 741-2800‎
-
-Xavier High School‎
-30 West 16th Street, (212) 924-2087‎
-
-Notre Dame School‎
-327 West 13th Street, (212) 620-5575‎
-
-John A Coleman School‎
-590 Ave of the Americas, (646) 459-3402‎
-
-&nbsp;
-
-TUTORIAL SERVICES
-
-Photo-Manhattan‎
-51 West 14th Street, (212) 929-3302‎
-<div class="clear"></div>
-</div>
-<div class="clear"></div>
-&nbsp;
-
-HOSPITAL
-St. Vincent's Catholic Medical Center‎
-153 West 11th Street
-(212) 604-7000‎
-
-ST.  Vincent’s Catholic Medical Centers of New York: Psychiatry
-Department-Evaluation &amp; Referral‎
-170 West 12th Street
-(212) 604-8220‎
-
-&nbsp;
-
-24-HOUR DRUGSTORES
-Duane Reade 378, 6th Avenue, at Waverly Place
-Duane Reade, 180 West 20th Street, at Seventh Ave
-
-&nbsp;
-<h2>HOUSES OF WORSHIP</h2>
-&nbsp;
-
-&nbsp;
-<div class="glossary-section-left">
-
-Chabad On Washington Square
-27 Washington Square North
-(212) 674-1950
-
-Chogye International Zen Centre of New York
-40 West 17th Street
-(212) 645-5149
-
-Church Of Bible Understanding
-124 West 24th Street
-(212) 989-8401
-
-Church of St Francis Xavier
-55 West 15th Street
-(212) 243-7011
-
-Desmond Tutu Center
-180 Tenth Avenue
-(212) 243-5150
-
-First Presbyterian Church
-12 West 12th Street
-(212) 675-6150
-
-French Evangelical Church
-126 West 16th Street
-(212) 929-6312
-
-German Evangelist Lutheran St.  Paul’s Church
-315 West 22nd Street
-(212) 929-1695
-
-Metropolitan Duane United Methodist Church
-201 West 13th Street
-(212) 243-5470
-
-</div>
-<div class="glossary-section-right">
-
-Old First Reformed Church
-126 Seventh Avenue
-(718) 638-8300
-
-Pentecostal Church of God Manantial de Vida Incorporated
-236 West 20th Street
-(212) 620-7446
-
-Protestant Episcopal Church Of St. Peter In New York Of The City
-346 West 20th Street
-(212) 929-2390
-
-St.  Elftherios Church
-359 West 24th Street
-(212) 924-3919
-
-St. Francis Xavier Church
-30 West 16th Street
-(212) 627-2100
-
-St. Joseph’s Church
-364 Avenue Of The Americas
-(212) 741-1274
-
-St. Vincent de Paul Church
-116 West 24th Street
-(212) 243-4727
-
-The Caring Community at First Presbyterian
-12 West 12th St
-(212) 924-2810
-
-The Church of Jesus Christ of the Latter-Day Saints
-144 West 15th Street
-(212) 367-8847
-
-The New Shul
-111 Eighth Avenue
-(212) 284-6773
-
-Voices of Ascension
-12 West 11th Street
-(212) 254-8620
-
-Way Church of God International Incorporation
-419 West 17th Street
-(212) 729-4449
-
-</div>
-<div class="clear"></div>
-&nbsp;
-
-<strong><span style="text-decoration: underline;"><a name="#10012"></a>Downtown West – Greenwich Village, SoHo</span></strong>
-
-&nbsp;
-
-POST OFFICE: Prince
-103 Prince Street
-124 Greene Street
-
-5th Precinct, 19 Elizabeth Street, (212) 334-0711
-
-&nbsp;
-
-Mulberry Street Library
-10 Jersey Street, (Between Lafayette &amp; Mulberry Streets)
-Preparatory Schools
-Cooke Center Academy‎
-60 MacDougal Street, (212) 477-1297‎
-
-&nbsp;
-
-TUTORIAL SERVICES
-Sanford-Brown Institute
-120 East 16th Street, (888) 571-6333‎
-
-Academy of St Joseph‎
-111 West Washington Place, (212) 243-5420‎
-
-&nbsp;
-
-24-HOUR DRUGSTORES
-Duane Reade, 598 Broadway, between Houston and Prince
-
-&nbsp;
-<h2>HOUSES OF WORSHIP</h2>
-&nbsp;
-
-&nbsp;
-<div class="glossary-section-left">
-
-Judson Memorial Church
-239 Thompson Street
-(212) 477-0351
-
-Old St. Patrick’s Cathedral
-233 Mott Street
-(212) 226-3984
-
-Our Lady of Loreto Roman Catholic
-303 Elizabeth Street
-(212) 431-9840
-
-St. Michael’s
-266 Mulberry Street
-(212) 226-2644
-
-</div>
-<div class="glossary-section-right">
-
-St. Anthony Church
-154 Sullivan Street
-(212) 777-2755
-
-St. Anthony of Padua Orthodox Catholic Church
-238 Mott Street
-(212) 925-5238
-
-St. Patrick’s Old Cathedral
-263 Mulberry Street
-(212) 226-8075
-
-</div>
-<div class="clear"></div>
-&nbsp;
-
-<strong><span style="text-decoration: underline;"><a name="#10013"></a>Downtown West - SoHo; Lower Manhattan - Tribeca</span></strong>
-
-POST OFFICE: Canal
-350 Canal Street
-92 Vandam Street
-305 W Broadway
-
-&nbsp;
-
-1st Precinct, 16 Ericsson Place, (212) 334-0611
-
-&nbsp;
-
-FIREHOUSE LOCATIONS
-Eng.7, Lad.1, Bat.1, 100 Duane Street
-Eng.9, Lad.6, Sat.1, 75 Canal Street
-Eng.24, Lad.5, Div.1, 227 Sixth Avenue
-Eng.55, Bat. 2, 363 Broome Street
-Lad.8, 14 N. Moore Street
-
-&nbsp;
-
-&nbsp;
-<h2>PUBLIC SCHOOLS</h2>
-&nbsp;
-
-&nbsp;
-<div class="glossary-section-left">
-
-P.S. 130 HERNANDO DE SOTO (M130)
-School Type: Elementary
-143 BAXTER STREET
-
-P.S. 150 (M150)
-School Type: Elementary
-334 GREENWICH STREET
-
-NYCISCHOOL (M376)
-School Type: High School
-131 AVENUE OF THE AMERICAS
-
-UNITY CENTER FOR URBAN TECHNOLOGIES (M500)
-School Type: High School
-121 SIXTH AVENUE
-
-</div>
-<div class="glossary-section-right">
-
-CHELSEA CAREER AND TECHNICAL EDUCATION HIGH SCHOOL (M615)
-School Type: High School
-131 AVENUE OF THE AMERICAS
-
-&nbsp;
-
-Preparatory Schools
-Beth Jacob Schools‎
-142 Broome Street, (212) 473-4500‎
-
-Transfiguration Catholic Church‎
-29 Mott Street, (212) 962-5157‎
-
-&nbsp;
-
-TUTORIAL SERVICES
-Language Studies International‎
-431 Canal Street, (212) 965-9940‎
-
-</div>
-<div class="clear"></div>
-&nbsp;
-
-&nbsp;
-<h2>HOUSES OF WORSHIP</h2>
-&nbsp;
-
-&nbsp;
-<div class="glossary-section-left">
-
-Eastern States Buddhist Temple
-64 Mott Street
-(212) 966-6229
-
-First Chinese Baptist Church of N Y City
-21 Pell Street
-(212) 267-6436
-
-Heavenly Grace Buddhist Temple
-200 Centre Street
-(212) 966-6238
-
-</div>
-<div class="glossary-section-right">
-
-Holy Most Crucifix Church
-378 Broome Street
-(212) 226-2556
-
-Manhatton Chinese Vietnam S D A Church
-396 Broadway
-(212) 343-0941
-
-New York Chinese Baptist Church
-84 Walker Street
-(212) 431-0377
-
-</div>
-<div class="clear"></div>
-&nbsp;
-
-<strong><span style="text-decoration: underline;"><a name="#10014"></a>Downtown West - Meat-packing District, West Village, the Village</span></strong>
-
-<strong><span style="text-decoration: underline;"> </span></strong>
-
-POST OFFICES: Village Station
-201 Varick Street
-527 Hudson Street, Front
-435 Hudson Street, Floor 7
-
-&nbsp;
-
-10th Precinct, 230 West 20th Street (212) 741-8211‎
-
-&nbsp;
-
-FIREHOUSE LOCATIONS
-Eng.16, Lad.7, 234 East29 Street
-Squad.18, 132 West 10th Street
-Hudson Park Library
-66 Leroy Street, (off Seventh Avenue South)
-
-&nbsp;
-
-&nbsp;
-<h2>PUBLIC SCHOOLS</h2>
-&nbsp;
-
-&nbsp;
-<div class="glossary-section-left">
-
-S. 003 CHARRETTE SCHOOL (M003)
-School Type: Elementary
-490 HUDSON STREET
-
-HOME INSTRUCTION (M501)
-School Type: Ungraded
-250 WEST HOUSTON STREET
-
-HIGH SCHOOL M560 - CITY AS SCHOOL (M560)
-School Type: High School
-250 WEST HOUSTON STREET
-
-P.S. M721 - MANHATTAN OCCUPATIONAL TRAINING CENTER (M721)
-School Type: High School
-250 WEST HOUSTON STREET
-
-GREENWICH VILLAGE (M896)
-School Type: Junior High-Intermediate-Middle
-490 HUDSON STREET
-
-</div>
-<div class="glossary-section-right">
-
-&nbsp;
-
-Preparatory Schools
-Old St. Patrick’s Cathedral School‎
-233 Mott Street, (212) 226-3984‎
-
-Our Lady of Pompei School‎
-240 Bleecker Street, (212) 242-4147‎
-
-St. Luke's School‎
-487 Hudson Street, (212) 924-5960‎
-
-Village Community School‎
-272 West 10th Street, (212) 691-5146‎
-
-</div>
-<div class="clear"></div>
-&nbsp;
-
-&nbsp;
-<h2>HOUSES OF WORSHIP</h2>
-&nbsp;
-
-&nbsp;
-<div class="glossary-section-left">
-
-Christian City Church
-668 Greenwich Street
-(212) 267-6264
-
-Church of St. Luke in the Fields
-487 Hudson Street
-(212) 924-0562
-
-Congregation Beth Simcha Torah
-57 Bethune Street
-(212) 929-9498
-
-Greenwich Village Synagogue
-53 Charles Street
-(212) 242-6425
-
-Neighborhood Church of Greenwich Village Cccc
-269 Bleecker Street
-(212) 691-1770
-
-Our Lady of Pompei Church
-25 Carmine Street
-(212) 989-6805
-
-</div>
-<div class="glossary-section-right">
-
-St. John’s Episcopal Church
-224 Waverly Place
-(212) 243-6192
-
-St. Joseph Church
-371 Avenue Of The Americas
-(212) 741-1274
-
-Seventh Day Adventist Church
-232 West 11th Street
-(212) 242-5091
-
-Spanish Church la Guadalupe
-328 West 14th Street
-(212) 243-5317
-
-St. John's Lutheran Church
-81 Christopher Street (212) 242-5737
-
-St. Luke in The Fields Church
-487 Hudson Street
-(212) 229-2114
-
-Village Church
-232 West 11th Street
-(212) 725-2564
-
-&nbsp;
-
-</div>
-<div class="clear"></div>
+                            Xavier High School‎
+                            30 West 16th Street, (212) 924-2087‎
+
+                            Notre Dame School‎
+                            327 West 13th Street, (212) 620-5575‎
+
+                            John A Coleman School‎
+                            590 Ave of the Americas, (646) 459-3402‎
+
+                            TUTORIAL SERVICES
+
+                            Photo-Manhattan‎
+                            51 West 14th Street, (212) 929-3302‎
+
+                            <h4>Downtown West – Greenwich Village, SoHo</h4>
+                            TUTORIAL SERVICES
+                            Sanford-Brown Institute
+                            120 East 16th Street, (888) 571-6333‎
+
+                            Academy of St Joseph‎
+                            111 West Washington Place, (212) 243-5420‎
+
+                            <h4>Downtown West - SoHo; Lower Manhattan - Tribeca</h4>
+                            P.S. 130 HERNANDO DE SOTO (M130)
+                            School Type: Elementary
+                            143 BAXTER STREET
+
+                            P.S. 150 (M150)
+                            School Type: Elementary
+                            334 GREENWICH STREET
+
+                            NYCISCHOOL (M376)
+                            School Type: High School
+                            131 AVENUE OF THE AMERICAS
+
+                            UNITY CENTER FOR URBAN TECHNOLOGIES (M500)
+                            School Type: High School
+                            121 SIXTH AVENUE
+
+                            CHELSEA CAREER AND TECHNICAL EDUCATION HIGH SCHOOL (M615)
+                            School Type: High School
+                            131 AVENUE OF THE AMERICAS
+
+                            Preparatory Schools
+                            Beth Jacob Schools‎
+                            142 Broome Street, (212) 473-4500‎
+
+                            Transfiguration Catholic Church‎
+                            29 Mott Street, (212) 962-5157‎
+
+                            TUTORIAL SERVICES
+                            Language Studies International‎
+                            431 Canal Street, (212) 965-9940‎
+
+                            <h4>Downtown West - Meat-packing District, West Village, the Village</h4>
+                            S. 003 CHARRETTE SCHOOL (M003)
+                            School Type: Elementary
+                            490 HUDSON STREET
+
+                            HOME INSTRUCTION (M501)
+                            School Type: Ungraded
+                            250 WEST HOUSTON STREET
+
+                            HIGH SCHOOL M560 - CITY AS SCHOOL (M560)
+                            School Type: High School
+                            250 WEST HOUSTON STREET
+
+                            P.S. M721 - MANHATTAN OCCUPATIONAL TRAINING CENTER (M721)
+                            School Type: High School
+                            250 WEST HOUSTON STREET
+
+                            GREENWICH VILLAGE (M896)
+                            School Type: Junior High-Intermediate-Middle
+                            490 HUDSON STREET
+
+                            Preparatory Schools
+                            Old St. Patrick’s Cathedral School‎
+                            233 Mott Street, (212) 226-3984‎
+
+                            Our Lady of Pompei School‎
+                            240 Bleecker Street, (212) 242-4147‎
+
+                            St. Luke's School‎
+                            487 Hudson Street, (212) 924-5960‎
+
+                            Village Community School‎
+                            272 West 10th Street, (212) 691-5146‎
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div><!-- /.modal-content -->
+                </div><!-- /.modal-dialog -->
+            </div><!-- /.modal -->
+            <div class="modal fade" id="hospitals" tabindex="-1" role="dialog" aria-labelledby="hospitals">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title">Hospitals</h4>
+                        </div>
+                        <div class="modal-body">
+                            <h4>Downtown West - Chelsea</h4>
+                            HOSPITAL
+                            St. Vincent's Catholic Medical Center‎
+                            153 West 11th Street
+                            (212) 604-7000‎
+
+                            ST.  Vincent’s Catholic Medical Centers of New York: Psychiatry
+                            Department-Evaluation &amp; Referral‎
+                            170 West 12th Street
+                            (212) 604-8220‎
+
+                            24-HOUR DRUGSTORES
+                            Duane Reade 378, 6th Avenue, at Waverly Place
+                            Duane Reade, 180 West 20th Street, at Seventh Ave
+
+                            <h4>Downtown West – Greenwich Village, SoHo</h4>
+                            24-HOUR DRUGSTORES
+                            Duane Reade, 598 Broadway, between Houston and Prince
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div><!-- /.modal-content -->
+                </div><!-- /.modal-dialog -->
+            </div><!-- /.modal -->
+            <div class="modal fade" id="publicServices" tabindex="-1" role="dialog" aria-labelledby="publicServices">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title">Public Services</h4>
+                        </div>
+                        <div class="modal-body">
+                            <h4>Downtown West - Chelsea</h4>
+                            POST OFFICES
+                            Old Chelsea
+                            217 West 18th Street
+                            234 Tenth Avenue
+                            76 Ninth Avenue, Front 2
+                            70 West Tenth Street
+
+                            6th Police Precinct, 233, West 10th Street, (212) 741-4811
+                            10th Police Precinct, 230, West 20th Street, (212) 741-8211
+
+                            FIREHOUSE LOCATIONS
+                            Eng.3, Lad.12, Bat.7, Hi-Rise, 146 West 19th Street
+                            Eng.5, 340 East 14th Street
+
+                            Libraries
+                            Andrew Heiskell Braille and Talking Book Library
+                            40 West 20th Street, (between Fifth and Sixth Avenues)
+
+                            Jefferson Market Library
+                            425 Avenue of the Americas (at 10th Street)
+
+                            Muhlenberg Library
+                            209 West 23rd Street (near Seventh Avenue)
+
+                            <h4>Downtown West – Greenwich Village, SoHo</h4>
+                            POST OFFICE: Prince
+                            103 Prince Street
+                            124 Greene Street
+
+                            5th Precinct, 19 Elizabeth Street, (212) 334-0711
+
+                            Mulberry Street Library
+                            10 Jersey Street, (Between Lafayette &amp; Mulberry Streets)
+                            Preparatory Schools
+                            Cooke Center Academy‎
+                            60 MacDougal Street, (212) 477-1297‎
+
+                            <h4>Downtown West - SoHo; Lower Manhattan - Tribeca</h4>
+                            POST OFFICE: Canal
+                            350 Canal Street
+                            92 Vandam Street
+                            305 W Broadway
+
+                            1st Precinct, 16 Ericsson Place, (212) 334-0611
+
+                            FIREHOUSE LOCATIONS
+                            Eng.7, Lad.1, Bat.1, 100 Duane Street
+                            Eng.9, Lad.6, Sat.1, 75 Canal Street
+                            Eng.24, Lad.5, Div.1, 227 Sixth Avenue
+                            Eng.55, Bat. 2, 363 Broome Street
+                            Lad.8, 14 N. Moore Street
+
+                            <h4>Downtown West - Meat-packing District, West Village, the Village</h4>
+                            POST OFFICES: Village Station
+                            201 Varick Street
+                            527 Hudson Street, Front
+                            435 Hudson Street, Floor 7
+
+                            10th Precinct, 230 West 20th Street (212) 741-8211‎
+
+                            FIREHOUSE LOCATIONS
+                            Eng.16, Lad.7, 234 East29 Street
+                            Squad.18, 132 West 10th Street
+                            Hudson Park Library
+                            66 Leroy Street, (off Seventh Avenue South)
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div><!-- /.modal-content -->
+                </div><!-- /.modal-dialog -->
+            </div><!-- /.modal -->
+            <div class="modal fade" id="housesOfWorship" tabindex="-1" role="dialog" aria-labelledby="housesOfWorship">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title">Houses of Worship</h4>
+                        </div>
+                        <div class="modal-body">
+                            <h4>Downtown West - Chelsea</h4>
+                            Chabad On Washington Square
+                            27 Washington Square North
+                            (212) 674-1950
+
+                            Chogye International Zen Centre of New York
+                            40 West 17th Street
+                            (212) 645-5149
+
+                            Church Of Bible Understanding
+                            124 West 24th Street
+                            (212) 989-8401
+
+                            Church of St Francis Xavier
+                            55 West 15th Street
+                            (212) 243-7011
+
+                            Desmond Tutu Center
+                            180 Tenth Avenue
+                            (212) 243-5150
+
+                            First Presbyterian Church
+                            12 West 12th Street
+                            (212) 675-6150
+
+                            French Evangelical Church
+                            126 West 16th Street
+                            (212) 929-6312
+
+                            German Evangelist Lutheran St.  Paul’s Church
+                            315 West 22nd Street
+                            (212) 929-1695
+
+                            Metropolitan Duane United Methodist Church
+                            201 West 13th Street
+                            (212) 243-5470
+
+                            Old First Reformed Church
+                            126 Seventh Avenue
+                            (718) 638-8300
+
+                            Pentecostal Church of God Manantial de Vida Incorporated
+                            236 West 20th Street
+                            (212) 620-7446
+
+                            Protestant Episcopal Church Of St. Peter In New York Of The City
+                            346 West 20th Street
+                            (212) 929-2390
+
+                            St.  Elftherios Church
+                            359 West 24th Street
+                            (212) 924-3919
+
+                            St. Francis Xavier Church
+                            30 West 16th Street
+                            (212) 627-2100
+
+                            St. Joseph’s Church
+                            364 Avenue Of The Americas
+                            (212) 741-1274
+
+                            St. Vincent de Paul Church
+                            116 West 24th Street
+                            (212) 243-4727
+
+                            The Caring Community at First Presbyterian
+                            12 West 12th St
+                            (212) 924-2810
+
+                            The Church of Jesus Christ of the Latter-Day Saints
+                            144 West 15th Street
+                            (212) 367-8847
+
+                            The New Shul
+                            111 Eighth Avenue
+                            (212) 284-6773
+
+                            Voices of Ascension
+                            12 West 11th Street
+                            (212) 254-8620
+
+                            Way Church of God International Incorporation
+                            419 West 17th Street
+                            (212) 729-4449
+
+                            <h4>Downtown West – Greenwich Village, SoHo</h4>
+                            Judson Memorial Church
+                            239 Thompson Street
+                            (212) 477-0351
+
+                            Old St. Patrick’s Cathedral
+                            233 Mott Street
+                            (212) 226-3984
+
+                            Our Lady of Loreto Roman Catholic
+                            303 Elizabeth Street
+                            (212) 431-9840
+
+                            St. Michael’s
+                            266 Mulberry Street
+                            (212) 226-2644
+
+                            St. Anthony Church
+                            154 Sullivan Street
+                            (212) 777-2755
+
+                            St. Anthony of Padua Orthodox Catholic Church
+                            238 Mott Street
+                            (212) 925-5238
+
+                            St. Patrick’s Old Cathedral
+                            263 Mulberry Street
+                            (212) 226-8075
+
+                            <h4>Downtown West - SoHo; Lower Manhattan - Tribeca</h4>
+                            Eastern States Buddhist Temple
+                            64 Mott Street
+                            (212) 966-6229
+
+                            First Chinese Baptist Church of N Y City
+                            21 Pell Street
+                            (212) 267-6436
+
+                            Heavenly Grace Buddhist Temple
+                            200 Centre Street
+                            (212) 966-6238
+
+                            Holy Most Crucifix Church
+                            378 Broome Street
+                            (212) 226-2556
+
+                            Manhatton Chinese Vietnam S D A Church
+                            396 Broadway
+                            (212) 343-0941
+
+                            New York Chinese Baptist Church
+                            84 Walker Street
+                            (212) 431-0377
+
+                            <h4>Downtown West - Meat-packing District, West Village, the Village</h4>
+                            Christian City Church
+                            668 Greenwich Street
+                            (212) 267-6264
+
+                            Church of St. Luke in the Fields
+                            487 Hudson Street
+                            (212) 924-0562
+
+                            Congregation Beth Simcha Torah
+                            57 Bethune Street
+                            (212) 929-9498
+
+                            Greenwich Village Synagogue
+                            53 Charles Street
+                            (212) 242-6425
+
+                            Neighborhood Church of Greenwich Village Cccc
+                            269 Bleecker Street
+                            (212) 691-1770
+
+                            Our Lady of Pompei Church
+                            25 Carmine Street
+                            (212) 989-6805
+
+                            St. John’s Episcopal Church
+                            224 Waverly Place
+                            (212) 243-6192
+
+                            St. Joseph Church
+                            371 Avenue Of The Americas
+                            (212) 741-1274
+
+                            Seventh Day Adventist Church
+                            232 West 11th Street
+                            (212) 242-5091
+
+                            Spanish Church la Guadalupe
+                            328 West 14th Street
+                            (212) 243-5317
+
+                            St. John's Lutheran Church
+                            81 Christopher Street (212) 242-5737
+
+                            St. Luke in The Fields Church
+                            487 Hudson Street
+                            (212) 229-2114
+
+                            Village Church
+                            232 West 11th Street
+                            (212) 725-2564
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div><!-- /.modal-content -->
+                </div><!-- /.modal-dialog -->
+            </div><!-- /.modal -->
