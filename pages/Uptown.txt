@@ -1,592 +1,1550 @@
-<strong style="font-size: 13px; line-height: 19px;">Upper East Side – Lenox Hill, Sociable Sixties, Yorkville</strong>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <a class="btn btn-primary form-control pull-right" href="#" role="button" data-toggle="modal" data-target="#publicSchools"><i class="fa fa-graduation-cap"></i> Public Schools</a>
+                            <div  class="bs-callout bs-callout-primary">
+                                <p>Click the above button to view our list of Public Schools</p>
+                                <a class="" href="https://www.google.com.ar/maps/search/public+schools,+Uptown,+New+York,+NY,+United+States/@40.8324911,-73.9715671,13z/data=!3m1!4b1?hl=en" role="button">...Or just google it</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <a class="btn btn-danger form-control pull-left" href="#" role="button" data-toggle="modal" data-target="#hospitals"><i class="fa fa-hospital-o"></i> Hospitals</a>
+                            <div  class="bs-callout bs-callout-danger">
+                                <p>Click the above button to view our list of Hospitals</p>
+                                <a class="" href="https://www.google.com.ar/maps/search/Hospitals,+Uptown,+New+York,+NY,+United+States/@40.8340126,-73.9729597,13z?hl=en" role="button">...Or just google it</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <a class="btn btn-warning form-control pull-right" href="#" role="button" data-toggle="modal" data-target="#publicServices"><i class="fa fa-building-o"></i> Public Services</a>
+                            <div  class="bs-callout bs-callout-warning">
+                                <p>Click the above button to view our list of Public Services</p>
+                                <a class="" href="https://www.google.com.ar/maps/search/Public+Services,+Uptown,+New+York,+NY,+United+States/@40.8311246,-73.9778099,13.25z?hl=en" role="button">...Or just google it</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <a class="btn btn-success form-control pull-left" href="#" role="button" data-toggle="modal" data-target="#housesOfWorship"><i class="fa fa-plus-square"></i> Houses of Worship</a>
+                            <div  class="bs-callout bs-callout-success">
+                                <p>Click the above button to view our list of Houses of Worship</p>
+                                <a class="" href="https://www.google.com.ar/maps/search/Houses+of+worship,+Uptown,+New+York,+NY,+United+States/@40.8138245,-73.9854246,13z/data=!3m1!4b1?hl=en" role="button">...Or just google it</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 hidden-xs">
+                    <div class="pull-left">
+                        <img src="/wp-content/themes/rere_new/assets/img/maps/Uptown.png" alt="Uptown" width="383" height="374">
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="publicSchools" tabindex="-1" role="dialog" aria-labelledby="publicSchoolsLabel">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title">Public Schools</h4>
+                        </div>
+                        <div class="modal-body">
+                            <h4>Uptown – Morningside Heights, Columbia/Barnard University area</h4>
+                            P.S. 149 SOJOURNER TRUTH (M149)
+                            School Type: Elementary
+                            41 WEST 111th Street
+
+                            P.S. 185 JOHN M. LANGSTON (M185)
+                            School Type: Early Childhood
+                            20 WEST 112th Street
+
+                            P.S. 208 ALAIN L. LOCKE (M208)
+                            School Type: Elementary
+                            21 WEST 111th Street
+
+                            P.S. 241 FAMILY ACADEMY (M241)
+                            School Type: K-8
+                            240 WEST 113th Street
+
+                            THE OPPORTUNITY CHARTER SCHOOL (M279)
+                            School Type: Secondary School
+                            240 WEST 113th Street
+
+                            HARLEM SUCCESS ACADEMY 1 CHARTER SCHOOL (M351)
+                            School Type: Elementary
+                            34 WEST 118th Street
+
+                            WADLEIGH SECONDARY SCHOOL FOR THE PERFORMING &amp; VIS (M415)
+                            School Type: Secondary School
+                            215 WEST 114th Street
+
+                            SISULU-WALKER CHARTER SCHOOL (M702)
+                            School Type: Elementary
+                            125 WEST 115th Street
+
+                            FREDERICK DOUGLASS ACADEMY II SECONDARY SCHOOL (M860)
+                            School Type: Secondary School
+                            215 WEST 114th Street
+                            Preparatory Schools
+                            Fellowship of Learning School‎
+                            9 West 130th Street, (212) 690-8094‎
+
+                            St. Joseph's School‎
+                            168 Morningside Avenue, (212) 662-1736‎
+
+                            Cathedral School‎
+                            1047 Amsterdam Avenue, (212) 316-2083‎
+
+                            Harlem Academy‎
+                            1330 Fifth Avenue, (212) 348-2600‎
 
-&nbsp;
+                            <h4>Uptown – Central Harlem, Manhattanville</h4>
+                            P.S. 036 MARGARET DOUGLAS (M036)
+                            School Type: Early Childhood
+                            123 MORNINGSIDE DRIVE
 
-POST OFFICES:
-Lennox Hill Station
-217 East 70th Street
+                            P.S. 076 A. PHILIP RANDOLPH (M076)
+                            School Type: Elementary
+                            220 WEST 121st Street
 
-Cherokee
-1483 York Ave
+                            P.S. 125 RALPH BUNCHE (M125)
+                            School Type: Elementary
+                            425 WEST 123rd Street
 
-&nbsp;
+                            P.S. 129 JOHN H. FINLEY (M129)
+                            School Type: Elementary
+                            425 WEST 130th Street
 
-19th Precinct, 153 East 67th Street, (212) 452-0600
+                            P.S. 154 HARRIET TUBMAN (M154)
+                            School Type: Elementary
+                            250 WEST 127th Street
 
-&nbsp;
+                            P.S. 161 PEDRO ALBIZU CAMPOS (M161)
+                            School Type: Elementary
+                            499 WEST 133rd Street
 
-FIREHOUSE LOCATIONS
-Eng.39, Lad.16, 147 East 67th Street
-Eng.44, 221 East 75th Street
-67th Street Library
-328 East 67th Street, (near First Avenue)
+                            P.S. 180 HUGO NEWMAN (M180)
+                            School Type: Elementary
+                            370 WEST 120th Street
 
-Webster Library
-1465 York Avenue, (near East 78th Street)
+                            I.S. 195 ROBERTO CLEMENTE (M195)
+                            School Type: Junior High-Intermediate-Middle
+                            625 WEST 133rd Street
 
-Yorkville Library
-222 East 79th Street, (between Second and Third Avenues)
+                            THE MOTT HALL SCHOOL (M223)
+                            School Type: Junior High-Intermediate-Middle
+                            71-111 CONVENT AVENUE
 
-&nbsp;
+                            P.S. M242 - GWENDOLYN POWELL BROWN COMPUTER SCHOOL (M242)
+                            School Type: Elementary
+                            134 WEST 122nd Street
 
-<center>
-<h2>PUBLIC SCHOOLS</h2>
-&nbsp;
+                            I.S. M286 RENAISSANCE MILITARY LEADERSHIP ACADEMY (M286)
+                            School Type: Junior High-Intermediate-Middle
+                            509 WEST 129th Street
 
-</center>
-<div class="glossary-section-left">EAST SIDE MIDDLE SCHOOL (M114)
-School Type: Junior High-Intermediate-Middle
-1458 YORK AVENUEP.S. 158 BAYARD TAYLOR (M158)
-School Type: Elementary
-1458 YORK AVENUE
+                            HARLEM LINK CHARTER SCHOOL (M329)
+                            School Type: K-8
+                            134 WEST 122nd Street
 
-H.S. 167 ROBERT F. WAGNER (M167)
-School Type: Junior High-Intermediate-Middle
-220 EAST 76th Street
+                            KIPP INFINITY CHARTER SCHOOL (M336)
+                            School Type: Junior High-Intermediate-Middle
+                            625 WEST 133th Street
 
-PS. 183 ROBERT L. STEVENSON (M183)
-School Type: Elementary
-419 EAST 66th Street
+                            HARLEM CHILDREN'S ZONE/PROMISE ACADEMY II (M341)
+                            School Type: Early Childhood
+                            220 WEST 121st Street
 
-ELLA BAKER SCHOOL (M225)
-School Type: K-8
-317 EAST 67th Street
+                            COLUMBIA SECONDARY SCHOOL (M362)
+                            School Type: Secondary School
+                            425 WEST 123rd Street
 
-ELEANOR ROOSEVELT HIGH SCHOOL (M416)
-School Type: High School
-411 EAST 76th Street
+                            ACADEMY FOR SOCIAL ACTION: A COLLEGE BOARD SCHOOL (M367)
+                            School Type: Secondary School
+                            509 WEST 129th Street
 
-VANGUARD HIGH SCHOOL (M449)
-School Type: High School
-317 EAST 67th Street
+                            URBAN ASSEMBLY SCHOOL FOR THE PERFORMING ARTS (M369)
+                            School Type: Secondary School
+                            509 WEST 129th Street
 
-MANHATTAN INTERNATIONAL HIGH SCHOOL (M459)
-School Type: High School
-317 EAST 67th Street
+                            KIPP S.T.A.R. COLLEGE PREPARATORY (M726)
+                            School Type: Junior High-Intermediate-Middle
+                            433 WEST 123rd Street
 
-TALENT UNLIMITED HIGH SCHOOL (M519)
-School Type: High School
-317 EAST 67th Street
+                            FUTURE LEADERS INSTITUTE CHARTER SCHOOL (M861)
+                            School Type: K-8
+                            134 WEST 122nd Street
 
-URBAN ACADEMY LABORATORY HIGH SCHOOL (M565)
-School Type: High School
-317 EAST 67th Street
+                            THE URBAN ASSEMBLY INSTITUTE FOR NEW TECHNOLOGIES (M410)
+                            School Type: Junior High-Intermediate-Middle
+                            509 WEST 129th Street
 
-&nbsp;
+                            Preparatory Schools
+                            Rice High School‎
+                            74 West 124th Street, (212) 369-4100‎
 
-Preparatory Schools
-Resurrection Episcopal Day School‎
-119 East 74th Street, (212) 535-9666‎
+                            St. Aloysius Roman Catholic‎
+                            223 West 132 Street, (212) 234-2848‎
 
-Robert Louis Stevenson School‎
-24 East 74 Street, (212) 787-6400‎
+                            Annunciation School‎
+                            461 West 131st Street, (212) 281-7174‎
 
-St. Jean Baptiste High School‎
-173 East 75th Street, (212) 288-1645‎
+                            <h4>Uptown – Spanish Harlem</h4>
+                            Preparatory Schools
+                            Emily N Carey High School‎
+                            1 East 104th Street, (212) 427-2244‎
 
-</div>
-<div class="glossary-section-right">Lycee Francais de New York
-505 East 75th Street, (212) 369-1400‎Rudolf Steiner School‎
-15 East 79th Street, (212) 879-1101‎
+                            Ascension School of Religion‎
+                            220 West 108th Street, (212) 749-5938‎
 
-Birch Wathen Lenox School‎
-210 East 77th Street, (212) 861-0404‎
+                            Our Lady Queen of Angels School‎
+                            229 East 112th Street, (212) 722-9277‎
 
-The Browning School‎
-52 East 62nd Street, (212) 838-6280‎
+                            Reece School‎
+                            25 East 104th Street, (212) 289-4872‎
 
-Park East Synagogue‎
-163 East 67th Street, (212) 737-6900‎
+                            Cristo Rey High School‎
+                            112 East 106th Street, (212) 996-7000‎
 
-Episcopal School‎
-213 East 69th Street, (212) 879-9764‎
+                            St. Hilda's and St Hugh's School‎
+                            619 West 114th Street, (212) 932-1980‎
 
-Hewitt School‎
-45 East 75th Street, (212) 288-1919‎
+                            Islamic Educational Support
+                            1539 Lexington Avenue
+                            (212) 289-1125
 
-Manhattan High School for Girl‎s
-154 East 70th Street, (212) 737-6800‎
+                            P.S. 133 FRED R MOORE (M133)
+                            School Type: Elementary
+                            2121 FIFTH AVENUE
 
-Dominican Academy‎
-44 East 68th Street‎, (212) 744-0195‎
+                            P.S. 197 JOHN B. RUSSWURM (M197)
+                            School Type: Elementary
+                            2230 FIFTH AVENUE
 
-Buckley School‎
-113 East 73rd Street, (212) 535-8787‎
+                            Preparatory Schools
+                            St. Mark the Evangelist School‎
+                            55 West 138th Street
+                            (212) 283-4848‎
 
-Allen-Stevenson School‎
-132 East 78th Street, (212) 288-6710‎
+                            St. Charles Borromeo RC School‎
+                            214 West 142nd Street
+                            (212) 368-6666‎
 
-Town School‎
-540 East 76th Street, (212) 288-4383‎
+                            All St. School‎
+                            52 East 130th Street
+                            (212) 534-0558‎
 
-St. Vincent Ferrer High School‎
-151 East 65th Street, (212) 535-4680‎
+                            Fellowship of Learning
+                            9 West 130th Street
+                            (212) 690-8094
 
-Cathedral School‎
-319 East 74th Street, (212) 249-2840‎
+                            P.S. 007 SAMUEL STERN (M007)
+                            School Type: K-8
+                            160 EAST 120<sup>th</sup> Street
 
-Philosophy Day School‎
-12 East 79th Street, New York, NY‎ - (212) 744-7300‎
+                            P.S. 030 HERNANDEZ/HUGHES (M030)
+                            School Type: Elementary
+                            144-176 EAST 128th Street
 
-</div>
-<div class="clear"></div>
-&nbsp;
+                            RIVER EAST ELEMENTARY (M037)
+                            School Type: Elementary
+                            508 EAST 120th Street
 
-HOSPITALS
-Mount Sinai School of Medicine
-5 East 98th Street
-(212) 241-6500‎
+                            J.H.S. M045 JOHN S. ROBERTS (M045)
+                            School Type: Junior High-Intermediate-Middle
+                            2351 FIRST AVENUE
 
-New York Presbyterian Hospital
-425 East 61st Street
-(212) 207-3933‎
+                            P.S. M079 - HORAN SCHOOL (M079)
+                            School Type: K-12
+                            55 EAST 120th STREET
 
-Rockefeller University Hospital‎
-1230 York Avenue
-(212) 327-8000‎
+                            P.S. 096 JOSEPH LANZETTA (M096)
+                            School Type: K-8
+                            216 EAST 120th STREET
 
-Memorial Sloan Kettering Center
-1275 York Avenue
-(212) 639-5912‎
+                            P.S. 112 JOSE CELSO BARBOSA (M112)
+                            School Type: Early Childhood
+                            535 EAST 119th Street
 
-Manhattan Eye Ear and Throat HOSPITAL
-210 East 64th Street
-(212) 605-3744
+                            P.S. 138 (M138)
+                            School Type: K-12
+                            144-176 EAST 128th Street
 
-New York HOSPITAL
-525 East 68th Street
-(212) 472-6639‎
+                            P.S. 155, WILLIAM PACA (M155)
+                            School Type: Elementary
+                            319 EAST 117th STREET
 
-Rockefeller University Hospital‎
-504 East 63rd Street (212) 935-2076‎
+                            P.S. 206 JOSE CELSO BARBOSA (M206)
+                            School Type: Elementary
+                            508 EAST 120th STREET
 
-Lenox Hill Hospital‎
-100 East 77th Street
-(212) 434-2000‎
+                            HARLEM RENAISSANCE HIGH SCHOOL (M285)
+                            School Type: High School
+                            22 EAST 128th STREET
 
-Hospital for Special Surgery
-535 East 70th Street
-(212) 606-1000‎
+                            KAPPA II (M317)
+                            School Type: Junior High-Intermediate-Middle
+                            144-176 EAST 128th STREET
 
-Gracie Square Hospital
-420 East 76th Street (212) 988-4400
+                            HARLEM SUCCESS ACADEMY 4 CHARTER SCHOOL (M386)
+                            School Type: Elementary
+                            160 EAST 120th STREET
 
-Spine Care Institute
-523 East 72nd Street
-(212) 606-1946‎
+                            CHOIR ACADEMY OF HARLEM (M469)
+                            School Type: K-12
+                            2005 MADISON AVENUE
 
-&nbsp;
+                            URBAN PEACE ACADEMY (M695)
+                            School Type: High School
+                            2351 FIRST AVENUE
 
-24-HOUR DRUGSTORES
-Duane Reade, 773 Lexington Avenue, at 60th Street
-Duane Reade, 1191 Second Avenue, at 63rd Street
-Walgreen's, 1328 Second Avenue, at 70th Street
-CVS, 1396 Second Avenue, at 72nd Street
-Duane Reade, 1345 First Avenue, at 72nd Street
-Duane Reade, 1279 Third Avenue, at 74th Street
-Duane Reade, 1498 York Avenue, at 79th Street
+                            HARLEM DAY CHARTER SCHOOL (M708)
+                            School Type: Elementary
+                            240 EAST 123rd STREET
 
-&nbsp;
+                            GLOBAL TECHNOLOGY PREPARATORY (M406)
+                            School Type: Junior High-Intermediate-Middle
+                            160 EAST 120th STREET
 
-<center>
-<h2>HOUSES OF WORSHIP</h2>
-&nbsp;
+                            Children’s Storefront‎, 35
+                            61 East 129th Street, (917) 492-2627‎
+                            Preparatory Schools
+                            Children’s Storefront‎
+                            61 East 129th Street, (917) 492-2627‎
 
-</center>
-<div class="glossary-section-left">
+                            St. Paul's School‎
+                            114 East 118th Street, (212) 534-0619‎
 
-BETH EL of Manhattan Messianic Jewish Synagogue
-1173A Second Avenue
-(212) 772-7500
+                            Corpus Christi School‎
+                            533 West 121st Street, (212) 662-9344‎
 
-Chabad Lubavitch of the Upper East Side
-419 East 77th Street
-(212) 717-4613
+                            Mount Carmel Holy Rosary School‎ 35
+                            71 Pleasant Avenue, (212) 876-7555‎
 
-Christ Church United Methodist Church Incorporated
-520 Park Avenue
-(212) 838-3036
+                            Kings Academy‎
+                            2341 Third Avenue, (212) 348-7331‎
 
-Central Presbyterian Church
-593 Park Avenue, (212) 838-0808
+                            <h4>Uptown – Central Harlem, Manhattanville, Hamilton Heights</h4>
+                            P.S. 092 MARY MCLEOD BETHUNE (M092)
+                            School Type: Elementary
+                            222 WEST 134th Street
 
-Christ Church United Methodist Church
-520 Park Avenue, (212) 838-3036
+                            P.S. 123 MAHALIA JACKSON (M123)
+                            School Type: Elementary
+                            301 WEST 140th Street
 
-Christ the Savior Orthodox Church
-340 East 71st Street
-(212) 744-8502
+                            P.S. 175 HENRY H GARNET (M175)
+                            School Type: Elementary
+                            175 WEST 134th Street
 
-Christian Science Church
-147 East 62nd Street
-(212) 838-2855
+                            P.S. 194 COUNTEE CULLEN (M194)
+                            School Type: Elementary
+                            244 WEST 144th Street
 
-Church Of The Epiphany
-1393 York Avenue
-(212) 737-2720
+                            SCH (M284)
+                            School Type: K-8
+                            175 WEST 134th Street
 
-Church of the Resurrection
-115 East 74th Street
-(212) 879-4320
+                            KAPPA IV (M302)
+                            School Type: Junior High-Intermediate-Middle
+                            6 EDGECOMBE AVENUE
 
-CONGREGATION BETH EL
-1173 Second Avenue
-(212) 772-7500
+                            MOTT HALL HIGH SCHOOL (M304)
+                            School Type: High School
+                            6 EDGECOMBE AVENUE
 
-Congregation Bnai Gehjuda
-352 East 78th Street
-(212) 249-0766
+                            ACADEMY OF COLLABORATIVE EDUCATION (M344)
+                            School Type: Junior High-Intermediate-Middle
+                            222 WEST 134th Street
 
-Congregation Zechron Ephraim
-164 East 68th Street
-(212) 737-6900
+                            DEMOCRACY PREP CHARTER SCHOOL (M350)
+                            School Type: Secondary School
+                            222 WEST 134th Street
 
-East Side Synagogue
-1317 Third Avenue
-(212) 606-4066
+                            HARLEM SUCCESS ACADEMY 2 CHARTER SCHOOL (M384)
+                            School Type: Elementary
+                            301 WEST 140th Street
 
-Eighth Church of Christ Scientists
-103 East 77th Street
-(212) 535-2670
+                            STREET HOPE LEADERSHIP ACADEMY CHARTER SCHOOL (M388)
+                            School Type: K-12 all grades
+                            222 WEST 134th Street
 
-Fifth Avenue Synagogue
-5 East 62nd Street
-(212) 838-2122
+                            THURGOOD MARSHALL ACADEMY FOR LEARNING AND SOCIAL (M670)
+                            School Type: High School
+                            200 WEST 135th Street
 
-Hellenic Eastern Orthodox Church
-319 East 74th Street
-(212) 288-3215
+                            BREAD &amp; ROSES INTEGRATED ARTS HIGH SCHOOL (M685)
+                            School Type: High School
+                            6 EDGECOMBE AVENUE
 
-</div>
-<div class="glossary-section-right">
-
-Holy Trinity Cathedral
-337 East 74th Street
-(212) 288-3215
-
-Hungarian Baptist Church
-225 East 80th Street
-(212) 288-0258
-
-Hungarian Reformed Church First
-344 East 69th Street
-(212) 734-5252
-
-Jan Hus Presbyterian Church
-351 East 74th Street
-(212) 288-6743
-
-Kingdom Hall of Jehovah’;s Witnesses
-1499 First Avenue
-(212) 988-0909
-
-Madison Avenue Presbyterian Church
-921 Madison Avenue
-(212) 288-8920
-
-Manhattan Church of Christ
-48 East 80th Street
-(212) 737-4900
-
-St. Monica’s Church
-413 East 79th Street
-(212) 288-6250
-
-Rock Church
-153 East 62nd Street
-(212) 838-27241
-
-St. James' Episcopal Church
-865 Madison Avenue
-(212) 288-4100
-
-St.  Jeans Baptiste Church
-184 East 76th Street
-(212) 288-5082
-
-St. John the Martyr
-259 East 71st Street
-(212) 535-9840
-
-Temple Israel of The City Of New York
-112 East 75th Street
-(212) 249-5000
-
-Temple Shaaray Tefila
-250 East 79th Street
-(212) 535-8008
-
-Yorkville Synagogue
-352 East 78th Street
-(212) 249-0766
-
-</div>
-<div class="clear"></div>
-&nbsp;
-
-<span style="text-decoration: underline;"><strong><a name="10028"></a>Upper East Side - Metropolitan Museum District</strong></span>
-
-&nbsp;
-
-POST OFFICE; Gracie Station
-229 E 85th Street
-
-&nbsp;
-
-Central Park Precinct, 86th Street and Transverse Road, (212) 570-4820
-FIREHOUSE LOCATION
-Eng.22, Lad.13, Bat.10, 159 East 85th Street
-
-&nbsp;
-
-<center>
-<h2>PUBLIC SCHOOLS</h2>
-&nbsp;
-
-</center>
-<div class="glossary-section-left">
-
-P.S. 006 LILLIE D. BLAKE (M006)
-School Type: Elementary
-45 EAST 81st Street
-
-P.S. 290 MANHATTAN NEW SCHOOL (M290)
-School Type: Elementary
-311 EAST 82nd Street
-
-&nbsp;
-
-Preparatory Schools
-Chapin School‎
-100 East End Avenue, (212) 744-2335‎
-
-Lower School‎
-114 East 85th Street, (212) 410-9359‎
-
-Marymount School of New York‎
-1026 5th Ave, (212) 988-1246‎
-
-Regis High School‎
-55 East 84th Street, (212) 288-1100‎
-
-Brearley School‎
-610 East 83rd Street, (212) 744-8582‎
-
-Loyola School‎
-980 Park Avenue, (212) 288-3522‎
-
-Hunter College Elementary School‎ 28
-71 East 94th Street, (212) 860-1292‎
-
-Caedmon School‎
-416 East 80th Street, (212) 879-2296‎
-
-</div>
-<div class="glossary-section-right">St. Ignatius Loyola Parochial‎
-48 East 84th Street, (212) 861-3820‎St. Ignatius Loyola Parochial‎
-48 East 84th Street, (212) 861-3820‎
-
-Ramaz School
-114 East 85th Street,
-24-HOUR DRUGSTORES
-Duane Reade, 401 East 86th Street, at First Avenue
-Duane Reade, 125 East 86th Street, at Lexington Avenue
-
-HOUSES OF WORSHIP
-Congregation Kehilath Jeshurun
-125 East 85th Street
-(212) 774-5600
-
-Hungarian Reformed Church
-229 East 82nd Street
-(212) 734-3139
-
-Park Avenue United Methodist Church
-106 East 86th Street
-(212) 427-5421
-
-Scientology Celebrity Centre
-65 East 82nd St
-(212) 288-1526
-
-St. Ignatius Loyola Church
-980 Park Avenue
-(212) 288-3588
-
-</div>
-<div class="clear"></div>
-&nbsp;
-
-<strong><span style="text-decoration: underline;"><a name="10128"></a>Upper East Side – Carnegie Hill, Yorkville</span></strong>
-POST OFFICE: Carnegie Hill
-1617 Third Avenue
-FIREHOUSE LOCATIONS
-Eng.22, Lad.13, Bat.10, 159 East 85th Street
-(in 10028)
-
-&nbsp;
-
-96th Street Library
-112 East 96th Street,  (near Lexington Avenue)
-
-<center>
-<h2>PUBLIC SCHOOLS</h2>
-&nbsp;
-
-</center>
-<div class="glossary-section-left">
-
-P.S. M169 - ROBERT F. KENNEDY (M169)
-School Type: K-12 all grades
-110 East 88th Street
-
-P.S. 198 ISADOR E. IDA STRAUS (M198)
-School Type: Elementary
-1700 Third Avenue
-
-RICHARD R. GREEN HIGH SCHOOL OF TEACHING (M580)
-School Type: High School
-421 East 88th Street
-
-SCHOOL FOR COOPERATIVE TECHNICAL EDUCATION (M645)
-School Type: High school
-321 East 96th Street
-
-LIFE SCIENCES SECONDARY SCHOOL (M655)
-School Type: Secondary School
-320 East 96th Street
-
-PS 151 (M151)
-School Type: Elementary
-323 East 91st Street
-
-The Hunter College Campus Schools, City University of New York
-School Type: Kindergarten through High School
-71 East 94th Street
-
-Preparatory Schools
-Gillen Brewer School‎
-410 East 92nd Street, (212) 831-3667‎
-
-St Francis De Sales‎
-116 East 97th Street, (212) 289-0680‎
-
-St Thomas More Play Group‎
-65 East 89th Street (212) 534-3977‎
-
-St David's School‎
-12 East 89th Street (212) 369-0058‎
-
-Spence School‎
-22 East 91st Street (212) 289-5940‎
-
-Nightingale Bamford School‎
-20 East 92nd Street, (212) 289-5020‎
-
-</div>
-<div class="glossary-section-right">Dalton School (The)‎
-108 East 89th Street, (212) 423-5200‎Convent of the Sacred Heart‎
-1 East 91st Street, (212) 722-4745‎
-
-Manhattan Country School‎
-7 East 96th Street, (212) 348-0952‎
-
-Day School‎
-11 East 89th Street, New York, 369-8698‎
-
-St Joseph's School-Yorkville
-420 East 87th Street, (212) 289-3057‎
-
-La Scuola New York‎
-12 East 96th Street, (212) 369-3290‎
-
-St Bernard's School
-4 East 98th Street, (212) 289-2878
-
-Trevor Day School
-11 East 89th Street
-
-Horace Mann School for Nursery Years
-55 East 90th Street
-
-The Church of the Heavenly Rest
-2 East 90th Street
-
-Brick Church School
-62 East 92nd Street
-
-92nd Street Y Nursery School
-Lexington Avenue at 92nd Street
-
-T.H.I.S., Town House International School
-1109 Park Avenue
-
-Park Avenue Synagogue Early Childhood Center
-50 East 87th Street
-
-St Thomas More
-59 East 89th Street
-
-</div>
-<div class="clear"></div>
-24-HOUR DRUGSTORES
-Duane Reade, 1231 Madison Avenue, at 89th Street
-CVS 1622, Third Avenue,, at 91st Street
-Duane Reade, 1675 Third Avenue, at 93rd Street
-
-<center>
-<h2>HOUSES OF WORSHIP</h2>
-&nbsp;
-
-</center>
-<div class="glossary-section-left">
-
-Brick Presbyterian Church
-1140 Park Avenue
-(212) 289-4400
-
-Chaim Congregation Orach
-1459 Lexington Avenue
-(212) 722-6566
-
-Church Of Advent Hope
-111 East 87th Street
-(212) 534-8245
-
-Church of the Heavenly Rest
-2 East 90th Street
-(212) 369-0654
-
-</div>
-<div class="glossary-section-right">Church of the Holy Trinity
-341 East 87th Street
-(212) 722-7983Full Gospel New York Church
-316 East 91st Street
-(212) 410-5560
-
-Immanuel Evangelical Lutheran Church
-122 East 88th Street
-(212) 289-8128
-
-Our Lady of Good Counsel Church
-230 East 90th Street
-(212) 289-1742
-
-Park Avenue Synagogue
-50 East 87th Street
-(212) 369-2600
-
-St.  Joseph’s Church
-404 East 87th Street
-(212) 289-6030
-
-Sisters Of Sacred Heart Of Mar
-240 East 93rd Street
-(212) 876-7928
-
-The Church of Jesus Christ of Latter Day Saints
-217 East 87th Street
-(212) 427-2632
-
-</div>
-<div class="clear"></div>
+                            HARLEM VILLAGE ACADEMY CHARTER SCHOOL (M709)
+                            School Type: K-12
+                            244 WEST 144th Street
+
+                            <h4>Uptown - Hamilton Heights, Sugar Hill</h4>
+                            P.S. 153 ADAM CLAYTON POWELL (M153)
+                            School Type: Elementary
+                            1750 AMSTERDAM AVENUE
+
+                            P.S. 192 JACOB H. SCHIFF (M192)
+                            School Type: Elementary
+                            500 WEST 138th Street
+
+                            P.S. 325 (M325)
+                            School Type: Elementary
+                            500 WEST 138th Street
+
+                            NEW HEIGHTS ACADEMY CHARTER SCHOOL (M353)
+                            School Type: K-12 all grades
+                            1818 AMSTERDAM AVENUE
+
+                            PHILIP RANDOLPH CAMPUS HIGH SCHOOL (M540)
+                            School Type: High School
+                            443 WEST 135th StreetHIGH SCHOOL FOR MATHEMATICS, SCIENCE AND ENGINEERI (M692)
+                            School Type: High School
+                            138 CONVENT AVENUE
+
+                            P.S. 210, 21ST CENTURY ACADEMY (M210)
+                            School Type: Elementary
+                            501-503 WEST 152nd Street
+
+                            Pre-schools
+                            St. Mark the Evangelist Preschool‎
+                            67 West 138 Street, (212) 281-6270‎
+
+                            Our Lady of Lourdes Church‎
+                            463 West 142nd Street, (212) 862-4380
+
+                            P.S. 046 ARTHUR TAPPAN (M046)
+                            School Type: Elementary
+                            2987 Eighth Avenue
+
+                            P.S. 200 THE JAMES MCCUNE SMITH SCHOOL (M200)
+                            School Type: Elementary
+                            2589 Seventh Avenue
+
+                            THURGOOD MARSHALL ACADEMY LOWER SCHOOL (M318)
+                            School Type: Early Childhood
+                            276 West 151st Street
+
+                            FREDERICK DOUGLASS ACADEMY (M499)
+                            School Type: Secondary School
+                            2581 Seventh Avenue
+
+                            <h4>Uptown - Jumel-Morris District, Sugar Hill</h4>
+                            P.S. 004 DUKE ELLINGTON (M004)
+                            School Type: Elementary
+                            500 WEST 160th Street
+
+                            P.S. 008 LUIS BELLIARD (M008)
+                            School Type: Elementary
+                            465 WEST 167th Street
+
+                            P.S. 028 WRIGHT BROTHERS (M028)
+                            School Type: Elementary
+                            475 WEST 155th Street
+
+                            P.S. 128 AUDUBON (M128)
+                            School Type: Elementary
+                            560 WEST 169th Street
+
+                            M.S. 319, MARIA TERESA (M319)
+                            School Type: Junior High-Intermediate-Middle
+                            21 JUMEL PLACE
+
+                            M.S. 321, MINERVA (M321)
+                            School Type: Junior High-Intermediate-Middle
+                            21 JUMEL PLACE
+
+                            M.S. 324 - PATRIA (M324)
+                            School Type: Junior High-Intermediate-Middle
+                            21 JUMEL PLACE
+
+                            M.S. 326 - WRITERS TODAY &amp; LEADERS TOMORROW (M326)
+                            School Type: Junior High-Intermediate-Middle
+                            401 WEST 164th Street
+
+                            M.S. 328 - MANHATTAN MIDDLE SCHOOL FOR SCIENTIFIC (M328)
+                            School Type: Junior High-Intermediate-Middle
+                            401 WEST 164th Street
+
+                            GREGORIO LUPERON HIGH SCHOOL FOR SCIENCE AND MATHE (M552)
+                            School Type: High School
+                            501 WEST 165th Street
+
+                            HAMILTON HEIGHTS SCHOOL (M368)
+                            School Type: Elementary
+                            508 WEST 153rd Street
+                            Preparatory Schools
+                            St Rose of Lima School‎ 32
+                            517 West 164th Street, (212) 927-1619‎
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div><!-- /.modal-content -->
+                </div><!-- /.modal-dialog -->
+            </div><!-- /.modal -->
+            <div class="modal fade" id="hospitals" tabindex="-1" role="dialog" aria-labelledby="hospitals">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title">Hospitals</h4>
+                        </div>
+                        <div class="modal-body">
+                            <h4>Uptown – Spanish Harlem</h4>
+                            Mount Sinai Medical Center
+                            1 Gustave L Levy Place
+                            (212) 241-6500‎
+
+                            New York Metropolitan HOSPITAL‎
+                            1901 First Avenue
+                            (212) 423-6645‎
+
+                            Mount Sinai School of Medicine Faculty Practice Associates: Nephrology
+                            1 Gustave L Levy Place
+                            (212) 241-6187‎
+
+                            Metropolitan HOSPITAL
+                            1900 Second Avenue
+                            (212) 423-6685‎
+
+                            New York Medical College
+                            1901 First Avenue
+                            (212) 831-4422‎
+
+                            SpineCare Institute
+                            523 East 72nd Street
+                            (212) 606-1946‎
+
+                            Mount Sinai School of Medicine
+                            5 East 98th Street (212) 241-6500‎
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div><!-- /.modal-content -->
+                </div><!-- /.modal-dialog -->
+            </div><!-- /.modal -->
+            <div class="modal fade" id="publicServices" tabindex="-1" role="dialog" aria-labelledby="publicServices">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title">Public Services</h4>
+                        </div>
+                        <div class="modal-body">
+                            <h4>Uptown – Morningside Heights, Columbia/Barnard University area</h4>
+                            POST OFFICE:
+                            Morningside
+                            232 West 116th Street
+
+                            115th Street Library
+                            203 West 115th Street
+
+                            <h4>Uptown – Central Harlem, Manhattanville</h4>
+                            POST OFFICE
+                            Manhattanville
+                            365 West 125th Street
+
+                            26th Precinct, 520 West 126th Street (212) 678-1311
+                            28th Precinct, 2271-89 8th Avenue (212) 678-1611
+
+                            FIREHOUSE LOCATIONS
+                            Eng.37, Lad.40 415 West 125 Street
+                            Eng.59, Lad.30 111 West 133 Street
+
+                            George Bruce Library
+                            518 West 125th Street, (at Amsterdam Avenue)
+
+                            Harlem Library
+                            9 West 124th Street
+
+                            <h4>Uptown – Spanish Harlem</h4>
+                            POST OFFICE:
+                            Oscar Garcia Rivera Station
+                            (Hell Gate Station)
+                            153 East 110th Street
+
+                            23rd Precinct, 162 East 102nd Street (212) 860-6411
+
+                            FIREHOUSE LOCATIONS
+                            Eng.91, 242 East 111th Street
+                            Eng.53, Lad.43, Rac.1, 1836 Third Avenue
+
+                            Aguilar Library
+                            174 East 110th Street, (between Lexington and Third Avenues)
+
+                            POST OFFICE:
+                            Lincolnton
+                            2266 Fifth Avenue
+
+                            Schomburg Center for Research in Black Culture
+                            515 Malcolm X Boulevard
+
+                            POST OFFICE
+                            Triborough
+                            167 East 124th Street
+                            25th Precinct, 120 East 119th Street (212) 860-6511
+
+                            FIREHOUSE LOCATION
+                            Eng.35, Lad.14, Bat.12, 2282 Third Avenue
+                            125th Street Library
+                            224 East 125th Street, (near Third Avenue)
+
+                            <h4>Uptown – Central Harlem, Manhattanville, Hamilton Heights</h4>
+                            POST OFFICE:
+                            College Station
+                            217 West 140th Street
+
+                            Eng.58, Lad.26, 1367 Fifth Avenue
+
+                            Countee Cullen Library
+                            104 West 136th Street, (near Lenox Avenue)
+
+                            <h4>Uptown - Hamilton Heights, Sugar Hill</h4>
+                            POST OFFICE:
+                            Hamilton Grange
+                            521 West 146th Street
+                            30th Precinct, 451 West 151st Street (212) 690-8811
+                            32nd Precinct, 250 West 135th Street (212) 690-6311
+
+                            FIREHOUSE LOCATIONS
+                            Eng.69, Lad.28, Bat.16, 248 West 143th Street
+                            Eng.80, Lad.23 503 West 139 Street
+
+                            Hamilton Grange Library
+                            503 West 145th Street
+
+                            POST OFFICE: Colonial Park
+                            99 Malcombs Place
+
+                            Macomb's Bridge Library
+                            2650 Adam Clayton Powell, Jr. Boulevard, (between West 152nd and 153rd Streets)
+
+                            <h4>Uptown - Jumel-Morris District, Sugar Hill</h4>
+                            POST OFFICE:
+                            Audubon
+                            515 West 165th Street
+                            556 West 158th Street, Front 1
+
+                            33rd Precinct, 2207 Amsterdam Avenue, (212) 927-3200
+                            FIREHOUSE LOCATIONS
+                            Eng.67, 518 West 170th Street
+                            Eng.84, Lad.34 513 West 161st Street
+
+                            Washington Heights Library
+                            1000 St. Nicholas Avenue, (at West 160th Street)
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div><!-- /.modal-content -->
+                </div><!-- /.modal-dialog -->
+            </div><!-- /.modal -->
+            <div class="modal fade" id="housesOfWorship" tabindex="-1" role="dialog" aria-labelledby="housesOfWorship">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title">Houses of Worship</h4>
+                        </div>
+                        <div class="modal-body">
+                            <h4>Uptown – Morningside Heights, Columbia/Barnard University area</h4>
+                            Anglican Church of The Pentecost International
+                            143 West 117th Street
+                            (212) 864-2027
+
+                            Aun Nur Islamic Center Incorporated
+                            215 West 111th Street
+                            (212) 864-2110
+
+                            Baptist Temple Church Incorporated
+                            20 West 116th Street
+                            (212) 996-0334
+
+                            Bethel Christian Temple
+                            7 West 110th Street
+                            (212) 369-1255
+
+                            Canaan Baptist Church
+                            132 West 116th Street
+                            (212) 866-0301
+
+                            Faith Mission Baptist Church
+                            155 West 117th Street
+                            (212) 932-1832
+
+                            First Corinthian Baptist Church
+                            1912 Adam Clayton Powell Jr. Boulevard
+                            (212) 864-5976
+
+                            IGLESIA CRISTIANA LA HERMOSA DISCIPULOS DE CRISTO
+                            35 West 110th Street
+                            (212) 427-6936
+
+                            La Hermosa Christian Church
+                            5 West 110th Street
+                            (212) 427-6936
+
+                            Mount Nebo Baptist Church
+                            77 St. Nicholas Avenue
+                            (212) 749-6041
+
+                            Mount Nebo Baptist Church
+                            1883 Adam Clayton Powell Jr. Boulevard
+                            (212) 866-7880
+
+                            New York United Sabbath Day Adventist Church
+                            145 West 110th Street
+                            (212) 864-5040
+
+                            People’s Community Temple Incorporated
+                            391 Manhattan Avenue
+                            (212) 666-7341
+
+                            St. Thomas the Apostle
+                            262 West 118th Street
+                            (212) 662-2693
+
+                            Salvation &amp; Deliverance Church
+                            37 West 116th Street
+                            (212) 722-5488
+
+                            Second Providence Baptist Church
+                            11 West 116th Street
+                            (212) 831-6751
+
+                            Second St.  John Baptist
+                            141 West 118th Street
+                            (212) 749-4337
+
+                            United Divine Freedom Church Of The Healing Christ Incorporated
+                            15 West 116th Street
+                            (212) 722-2265
+
+                            <h4>Uptown – Central Harlem, Manhattanville</h4>
+                            Advent Sabbath Church
+                            255 West 131st Street
+                            (212) 926-8694
+
+                            Antioch Baptist Church
+                            515 West 125th Street
+                            (212) 222-2324
+
+                            Antioch Church of God in Christ Incorporated
+                            41 West 124th Street
+                            (212) 534-5715
+
+                            Herbert Swaranger of the United House of Prayer
+                            2320 Frederick Douglass Boulevard
+                            (212) 665-0614
+
+                            Bethelite Community Church Incorporated
+                            36 West 123rd Street
+                            (212) 427-2839
+
+                            Bethlehem Pentecostal Assembly
+                            32 West 129th Street
+                            (212) 410-5219
+
+                            Blessed Trinity Baptist Church
+                            131 West 129th Street
+                            (212) 722-0400
+
+                            Christian Parish for Spiritual Renewal
+                            2044 Adam Clayton Powell Jr. Boulevard
+                            (212) 663-6950
+
+                            Church of Christ
+                            105 West 130th Street
+                            (212) 281-5357
+
+                            Church Of Our Lord Jesus Christ Of The Apostolic Faith Incorporate
+                            2081 Adam Clayton Powell Jr. Boulevard
+                            (212) 866-1700
+
+                            Church of the Annunciation
+                            88 Convent Avenue
+                            (212) 234-1919
+
+                            Church of the Master
+                            86 Morningside Avenue
+                            (212) 666-8200
+
+                            Corpus Christi Catholic Church
+                            529 West 121st Street
+                            (212) 666-9350
+
+                            East Mount Olive Baptist Church Incorporated
+                            26 West 128th Street
+                            (212) 289-0477
+
+                            Fellowship Church
+                            160 West 129th Street
+                            (212) 662-3661
+
+                            Faith Temple Deliverance Church of Christ
+                            206 Malcolm X Boulevard
+                            (212) 534-7018
+
+                            First Ebenezer Baptist Church
+                            2457 Frederick Douglass Boulevard
+                            (212) 234-2013
+
+                            Friendship Baptist Church
+                            144 West 131st Street
+                            (212) 281-0600
+
+                            Glendale Baptist Church
+                            131 West 128th Street
+                            (212) 749-1719
+
+                            Greater Calvary Baptist
+                            55 West 124th Street
+                            (212) 348-6132
+
+                            Greater Metropolitan Baptist Church
+                            147 West 123rd Street
+                            (212) 678-4284
+
+                            Greater Zion Hill Baptist Church
+                            2365 Frederick Douglass Boulevard
+                            (212) 678-0792
+
+                            Haitian Evangelical Missionary Church
+                            107 West 128th Street
+                            (212) 678-1140
+
+                            Harlem Churches
+                            520 Manhattan Avenue
+                            (212) 865-5648
+
+                            House Of God Holy Church Of The Living God Inc
+                            127 West 128th Street
+
+                            Israelite Church of God and Jesus Christ
+                            1 West 125th Street
+                            (212) 828-9490
+
+                            Jehovah Witnesses
+                            310 West 129th Street
+                            (212) 666-2867
+
+                            Legree Baptist Church
+                            362 West 125th Street
+                            (212) 678-0200
+
+                            Meeting With God Pentecostal Church
+                            601 West 130th Street
+                            (212) 234-3564
+
+                            Metropolitan Baptist Church
+                            151 West 128th Street
+                            (212) 663-8990
+
+                            Metropolitan Koryo United Methodist Church
+                            200 Claremont Avenue
+                            (212) 932-7746
+
+                            Mount Zion Baptist Church Of Christ
+                            26 West 127th Street
+                            (212) 369-8205
+
+                            Mount Morris Ascension Presbyterian Church
+                            15 Mount Morris Park West
+                            (212) 831-6800
+
+                            Mount Olivett Baptist Church
+                            201 Malcolm X Boulevard
+                            (212) 864-1155
+
+                            New Hope Community Church
+                            63 West 126th Street
+                            (212) 996-0976
+
+                            New Song Community Church
+                            2230 Frederick Douglass Boulevard
+                            (212) 749-6122
+
+                            Old Broadway Synagogue
+                            15 Old Broadway
+                            (212) 662-9767
+
+                            Pilgrim Cathedral
+                            15 West 126th Street
+                            (212) 426-2888
+
+                            Presbyterian Church of Ghana
+                            259 West 123rd Street
+                            (212) 222-2380
+
+                            Progressive Baptist Church
+                            327 West 126th Street
+                            (212) 749-5222
+
+                            Prothetic Church of God
+                            130 West 129th Street
+                            (212) 222-3594
+
+                            Riverside Church
+                            480 Riverside Drive
+                            (212) 870-6743
+
+                            St.  Josephs of the Holy Family
+                            405 West 125th Street
+                            (212) 662-9125
+
+                            St. Marks Holy Tabernacle Church
+                            262 Malcolm X Boulevard
+                            (212) 831-3689
+
+                            St. Martin’s Episcopal Church
+                            230 Malcolm X Boulevard
+                            (212) 534-4531
+
+                            St. Mary’s Episcopal Church
+                            521 West 126th Street
+                            (212) 864-4013
+
+                            Sanctuary of Praise
+                            130 West 130th Street
+                            (212) 996-6514
+
+                            Shiloh Baptist Church
+                            2226 Adam Clayton Powell Jr. Boulevard
+                            (212) 234-0440
+
+                            Shiloh Church of Christ
+                            57 West 128th Street
+                            (212) 534-7292
+
+                            St. Luke Baptist Church
+                            103 Morningside Avenue
+                            (212) 222-2296
+
+                            St. Paul Baptist Church
+                            249 West 132nd Street
+                            (212) 926-4885
+
+                            Tabernacle of Prayer
+                            139 West 126th Street
+                            (212) 316-4492
+
+                            Templo Biblico Church
+                            503 West 126th Street
+                            (212) 531-2718
+
+                            The Church of Jesus Christ of Latter Day Saints
+                            306 Malcolm X Boulevard
+                            (212) 799-2414
+
+                            The Church of Jesus Christ of Latter Day Saints
+                            306 Malcolm X Blvd
+                            (917) 492-0850
+
+                            The Riverside Church
+                            490 Riverside Drive
+                            (212) 870-6700
+
+                            Thomas Memorial Wesleyan Methodist Church
+                            270 West 126th Street
+                            (212) 663-0650
+
+                            Trinity America Church Incorporated
+                            259 West 126th Street
+                            (212) 866-3303
+
+                            Triumph Baptist Church Incorporated
+                            214 Malcolm X Boulevard
+                            (212) 987-1240
+
+                            United House of Prayer for All People
+                            2320 Frederick Douglass Boulevard
+                            (212) 531-4418
+
+                            White Rock Baptist Church
+                            152 West 127th Street
+                            (212) 663-5270
+
+                            Williams Institution Cme Church
+                            2225 Adam Clayton Powell Jr. Boulevard
+                            (212) 283-6959
+
+                            <h4>Uptown – Spanish Harlem</h4>
+                            Baptist Church First Spanish
+                            213 East 115th Street
+                            (212) 828-8864
+
+                            Christ Apostolic Church
+                            160 East 112th Street
+                            (212) 534-4094
+
+                            Christian Missionary Alliance Church
+                            155 East 107th Street
+                            (212) 369-9155
+
+                            Church of God of 100th Street
+                            198 East 100th Street
+                            (212) 876-7461
+
+                            Church of Our Lady of Mount Carmel
+                            448 East 116th Street
+                            (212) 534-0681
+
+                            Church of St.  Edward Martyr
+                            14 East 109th Street
+                            (212) 369-1140
+
+                            Church of the Holy Agony
+                            1834 Third Avenue
+                            (212) 289-5589
+
+                            East Harlem Fellowship
+                            1620 Lexington Avenue
+                            (212) 427-9662
+
+                            East Ward Missionary Baptist Church
+                            2011 First Avenue
+                            (212) 410-9073
+
+                            Ebenezer Wesleyan Methodist Church
+                            1572 Lexington Avenue
+                            (212) 534-5655
+
+                            Eglesia de Dios Pentecostal M I
+                            200 East 116th Street
+                            (212) 348-0808
+
+                            Emmanuel Youth Chapel Assemblies of God
+                            222 East 105th Street
+                            (212) 427-7293
+
+                            Fifth Latin American Pentecostal Church
+                            174 East 112th Street
+                            (212) 369-2556
+
+                            First Sharon Baptist Church Incorporated
+                            233 East 116th Street
+                            (212) 348-2038
+
+                            First Spanish Methodist Church
+                            163 East 111th Street
+                            (212) 289-5690
+
+                            Foster Congregation
+                            1763 Madison Avenue
+                            (212) 860-7705
+
+                            Holy Tabernacle Church
+                            407 East 114th Street
+                            (212) 289-7083
+
+                            Iglesia Abrigo del Altisimo
+                            2058 Second Ave
+                            (212) 722-5912
+
+                            Iglesia Gethsemani Pentecosta
+                            112 East 104th Street
+                            (646) 672-0363
+
+                            Igreja  Evangelica De Manhattan
+                            1625 Lexington Avenue
+                            (212) 289-5839
+
+                            Liberation and Healing Pentecostal Incorporated
+                            214 East 111th Street
+                            (212) 831-3938
+
+                            Life Changers Church
+                            1578 Lexington Avenue
+                            (212) 831-4006
+
+                            Macedonia Church Assemblies of God
+                            340 East 106th Street
+                            (212) 410-3412
+
+                            Mount Zion Ame Church
+                            1765 Madison Avenue
+                            (212) 369-6643
+
+                            Primera Iglesia Bautista
+                            216 East 116th Street
+                            (212) 828-6356
+
+                            Reach Out Baptist Church
+                            2152 Second Avenue
+                            (212) 996-6626
+
+                            St.  Peter’s Baptist Church
+                            110 East 101st Street
+                            (212) 348-2722
+
+                            Second Spanish Baptist Church
+                            163 East 102nd Street
+                            (212) 534-8672
+
+                            Segunda Iglesia Cristiana
+                            1713 Lexington Avenue
+                            (212) 369-0356
+
+                            St. Nicholas Russian Orthodox Cathedral
+                            15 East 97th Street
+                            (212) 289-1915
+
+                            The Glory of Lebanon
+                            347 East 105th Street, Front
+                            (212) 427-7955
+
+                            The Good Neighbor Presbyterian
+                            119 East 106th Street
+                            (212) 369-0505
+
+                            Upper Madison Av United Methodist Church
+                            1723 Madison Avenue
+                            (212) 534-1260
+
+                            African Methodist Episcopal Church
+                            170 EAST 123rd Street
+                            (212) 348-8787
+
+                            Assembly of Pentecostals
+                            220 East 118th Street
+                            (212) 876-4266
+
+                            Bethel Church of Christ
+                            2238 Third Avenue
+                            (212) 426-1801
+
+                            Bethel Gospel Assembly
+                            226 East 120th Street
+                            (212) 860-1510
+
+                            Body Temple
+                            2111 Fifth Avenue
+                            (212) 996-3817
+
+                            Bronx Christian Fellowship Church
+                            2031 Fifth Avenue
+                            (212) 289-4374
+
+                            Chambers Memorial Baptist Church
+                            219 East 123rd Street
+                            (212) 289-6606
+
+                            Church of God
+                            1488 First Avenue
+                            (212) 348-8455
+
+                            Church of Love and Life Incorporated
+                            217 East 119th Street
+                            (212) 987-9240
+
+                            Church of Scientology Harlem
+                            2250 Third Avenue
+                            (212) 828-1825
+
+                            Church of the Crucified Christ
+                            350 East 120th Street
+                            (212) 860-1239
+
+                            Church of the Lord Jesus Christ of The Apostolic Faith
+                            1421 Fifth Avenue
+                            (212) 369-3037
+
+                            Ebenezer A M E Church
+                            170 East 123rd Street
+                            (212) 348-8787
+
+                            Eden Baptist Church
+                            31 East 126th Street
+                            (212) 427-2309
+
+                            Elmendorf Reformed Church
+                            171 East 121st Street
+                            (212) 534-5856
+
+                            First Church of Christ Holiness USA
+                            1935 Madison Avenue
+                            (212) 427-8470
+
+                            Greater Emanuel Baptist Church
+                            323 East 118th Street
+                            (212) 996-2612
+
+                            Jehovah Witness East Harlem
+                            175 East 120th Street
+                            (212) 722-5460
+
+                            Latin American Pentecostal Church
+                            115 East 125th Street
+                            (212) 722-4165
+
+                            New Ebenezer Baptist Church
+                            1480 Fifth Avenue
+                            (212) 534-5766
+
+                            New Zion Baptist Church Incorporated
+                            49 East 126th Street
+                            (212) 534-6470
+
+                            Rehoboth Christian Church Council
+                            164 East 118th Street
+                            (212) 369-4540
+
+                            Second Corinthian Baptist Church
+                            5 East 129th Street
+                            (212) 534-6776
+
+                            St. Andrew’s Episcopal Church
+                            2067 Fifth Avenue
+                            (212) 534-0896
+
+                            The Full Gospel Believers Church
+                            2339 First Avenue
+                            (212) 384-8170
+
+                            The Spiritual Israel Church and its Army
+                            63 East 129th Street
+                            (212) 369-7018
+
+                            The Word of God Hour Baptist Church Incorporated
+                            57 East 125th Street
+                            (212) 987-4072
+
+                            United Moravian Church
+                            200 East 127th Street
+                            (212) 722-2109
+
+                            Church of God in Christ
+                            8 East 130th St
+                            (212) 289-7054
+
+                            Church of the People
+                            27 West 130th St
+                            (212) 234-7477
+
+                            Downtown Baptist Church
+                            413 Malcolm X Boulevard
+                            (212) 690-0250
+
+                            Greater Central Baptist Church
+                            2152 Fifth Ave
+                            (212) 234-3828
+
+                            Kelly Temple Church of God in Christ
+                            10 East 130th Street
+                            (212) 289-9618
+
+                            Metropolitan African M E Church
+                            58 West 135th Street
+                            (212) 690-1834
+
+                            Minisink Townhouse
+                            646 Malcolm X Boulevard
+                            (212) 368-8400
+
+                            St.  John’s Pent Church
+                            440 Malcolm X Boulevard
+                            (212) 926-2300
+
+                            St Ambrose Episcopal Church
+                            9 West 130th Street
+                            (212) 283-2175
+
+                            The Union Congregational Church
+                            60 West 138th Street
+                            (212) 926-2549
+
+                            <h4>Uptown – Central Harlem, Manhattanville, Hamilton Heights</h4>
+                            Abyssinian Baptist Church
+                            132 Odell Clark Place
+                            (212) 862-7474
+
+                            First Baptist Church
+                            2705 Frederick Douglass Boulevard
+                            (212) 368-7376
+
+                            Grace Congregational Church
+                            310 West 139th Street
+                            (212) 694-4263
+
+                            Grace Gospel Chapel Incorporated
+                            102 West 133rd Street
+                            (212) 281-0642
+
+                            Holiness Temple Body Of Prayer
+                            2660 Frederick Douglass Boulevard
+                            (212) 926-0596
+
+                            Mother African Methodist Episcopal Zion Church, Incorporated
+                            151 West 136th Street, Suite 7
+                            (212) 234-1545
+
+                            Mount Calvary Baptist Church
+                            231 West 142nd Street
+                            (212) 234-1447
+
+                            Mount Calvary United Methodist Church
+                            116 Edgecombe Avenue
+                            (212) 281-1658
+
+                            New Hope Church
+                            28 Edgecombe Avenue
+                            (212) 926-5785
+
+                            New Mount Zion Baptist Church
+                            171 West 140th Street
+                            (212) 283-2934
+
+                            St.  Philip’s Church
+                            204 West 134th Street
+                            (212) 862-4940
+
+                            St. Charles Church
+                            211 West 141st Street
+                            (212) 281-2100
+
+                            St. John American Church
+                            132 West 134th Street
+                            (212) 281-2250
+
+                            St. Marks United Methodist Church
+                            55 Edgecombe Avenue
+                            (212) 926-4400
+
+                            St. Stephen’s African Orthodox Church
+                            199 Edgecombe Avenue
+                            (212) 368-6767
+
+                            Temple Healing from Heaven
+                            2535 Frederick Douglass Boulevard
+                            (212) 368-8472
+
+                            United Methodist Church
+                            53 Edgecombe Avenue
+                            (212) 283-9683
+
+                            Way of the Cross
+                            124 West 136th Street
+                            (212) 690-6562
+
+                            Zion Baptist Church
+                            203 West 144th St Street, Front 2
+                            (212) 281-8763
+
+                            <h4>Uptown - Hamilton Heights, Sugar Hill</h4>
+                            Church of Christian Fellowship of Love
+                            1763 Amsterdam Avenue
+                            (212) 281-3766
+
+                            Church Of Crucifixion
+                            459 West 149th Street
+                            (212) 281-0900
+
+                            City Tabernacle Seventh Day Adventist Church
+                            562 West 150th Street
+                            (212) 234-5630
+
+                            Congregation of Jehovah Witness
+                            3654 Broadway
+                            (212) 862-0945
+
+                            Convent Avenue Baptist Church
+                            420 West 145th Street
+                            (212) 234-6767
+
+                            Convent Avenue Baptist Church
+                            425 West 144th Street
+                            (212) 234-4673
+
+                            Day Spring Baptist Church
+                            1788 Amsterdam Avenue
+                            (212) 281-4606
+
+                            First Calvary Baptist Church of Harlem Incorporated
+                            469 West 148th Street
+                            (212) 281-2192
+
+                            Gospel Missionary Baptist Church
+                            610 West 149th Street
+                            (212) 694-4175
+
+                            Greater Tabernacle Baptist Church
+                            340 Convent Avenue
+                            (212) 368-4754
+
+                            Jehovah Jireh Baptist Church of Christ
+                            536 West 148th Street
+                            (212) 234-5422
+
+                            Moment of Truth Church
+                            528 West 145th Street
+                            (212) 862-6030
+
+                            Mount Zion Lutheran Church
+                            421 West 145th Street
+                            (212) 862-8680
+
+                            Nazareth Deliverance Spiritual Church Incorporated
+                            72 Hamilton Terrace
+                            (212) 234-0484
+
+                            New Covenant Temple of the United Holy Church of America
+                            1805 Amsterdam Avenue
+                            (212) 926-4636
+
+                            St.  Luke American Church
+                            1854 Amsterdam Avenue
+                            (212) 870-1349
+
+                            St. Luke’s Episcopal Church
+                            435 West 141st Street
+                            (212) 926-2713
+
+                            St. Catherine of Genoa
+                            506 West 153rd Street
+                            (212) 862-6130
+
+                            St. James Presbyterian Church
+                            409 West 141st Street
+                            (212) 283-4541
+
+                            St. Johns Baptist Church
+                            448 West 152nd Street
+                            (212) 283-2648
+
+                            Travellers Rest Baptist Church
+                            1650 Amsterdam Avenue
+                            (212) 281-7777
+
+                            Bethany Baptist Church
+                            304 West 154th Street
+                            (212) 926-8330
+
+                            First Grace Baptist Church
+                            2799 Frederick Douglass Blvd
+                            (212) 491-7973
+
+                            Greater Hood Memorial A M E Zion Church
+                            160 West 146th Street
+                            (212) 281-3130
+
+                            Harlem Grace Tabernacle
+                            256 West 145th Street
+                            (212) 368-7977
+
+                            Kingdom Hall of Jehovah’s Witnesses
+                            90 Bradhurst Avenue
+                            (212) 234-8583
+
+                            Messiah’s Temple
+                            200 West 146th Street
+                            (212) 281-7779
+
+                            Moment of Truth
+                            2537 Adam Clayton Powell Jr. Boulevard
+                            (212) 281-1290
+
+                            New Bethlehem Church of Christ
+                            192 Bradhurst Avenue
+                            (212) 368-0756
+
+                            Resurrection Roman Catholic Church
+                            276 West 151st Street
+                            (212) 690-7555
+
+                            St.  Paul Community Church
+                            256 West 145th Street
+                            (212) 234-1714
+
+                            St Matthew’s Baptist Church
+                            43 Macombs Place
+                            (212) 281-5433
+
+                            <h4>Uptown - Jumel-Morris District, Sugar Hill</h4>
+                            Baptist Church Bryant Memorial Zion
+                            411 West 154th Street
+                            (212) 368-5282
+
+                            Bethel Holy Church of Mount Sinai Incorporated
+                            922 St Nicholas Avenue
+                            (212) 283-9407
+
+                            Church of the Intercession
+                            550 West 155th Street
+                            (212) 283-6200
+
+                            Congregation Church of God
+                            1889 Amsterdam Avenue
+                            (212) 283-9809
+
+                            de Manhattan Hispanic Free Methodist Church
+                            2086 Amsterdam Avenue
+                            (212) 543-4887
+
+                            Iglesia Pentecostal Monte Cal Vario
+                            465 West 162nd Street
+                            (212) 781-7665
+
+                            Image Church
+                            418 West 160th Street
+                            (212) 781-4502
+
+                            Inglesia el Camino
+                            141 Audubon Avenue
+                            (212) 928-3404
+
+                            Kingdom Hall of Jehovah’s Witnesses
+                            609 West 161st Street
+                            (212) 928-7406
+
+                            New Covenant Holiness Church
+                            512 West 157th Street
+                            (212) 283-8735
+
+                            North Presbyterian Church
+                            529 West 155th Street
+                            (212) 926-5162
+
+                            New York Congregation of Jehovah
+                            609 West 161st Street
+                            (212) 928-4484
+
+                            Our Lady of Esperanza Church
+                            624 West 156th Street
+                            (212) 283-4340
+
+                            Paradise Baptist Church
+                            23 Fort Washington Avenue
+                            (212) 781-3310
+
+                            Salvation Pentecostal Church
+                            950 St. Nicholas Avenue
+                            (212) 283-7258
+
+                            Spanish Fort Washington Seventh Day Adventist Church
+                            502 West 157th Street
+                            (212) 368-7948
+
+                            Temple of Joy Sounds of Praise
+                            876 St. Nicholas Avenue
+                            (212) 491-3432
+
+                            The Church of the Solar Cult
+                            250 Fort Washington Avenue
+                            (212) 740-0111
+
+                            Universal Church
+                            2067 Amsterdam Avenue
+                            (212) 928-6218
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div><!-- /.modal-content -->
+                </div><!-- /.modal-dialog -->
+            </div><!-- /.modal -->

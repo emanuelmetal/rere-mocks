@@ -39,7 +39,7 @@
                 </div>
                 <div class="col-lg-6 hidden-xs">
                     <div class="pull-left">
-                        <img src="/wp-content/themes/rere_new/assets/img/maps/LM.png" alt="Upper East Side" width="150" height="374">
+                        <img src="/wp-content/themes/rere_new/assets/img/maps/LM.png" alt="Lower Manhattan" width="359" height="395">
                     </div>
                 </div>
             </div>

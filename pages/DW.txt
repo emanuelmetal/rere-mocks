@@ -39,7 +39,7 @@
                 </div>
                 <div class="col-lg-6 hidden-xs">
                     <div class="pull-left">
-                        <img src="/wp-content/themes/rere_new/assets/img/maps/Downtown.png" alt="Upper East Side" width="150" height="374">
+                        <img src="/wp-content/themes/rere_new/assets/img/maps/Downtown.png" alt="Downtown" width="383" height="378">
                     </div>
                 </div>
             </div>

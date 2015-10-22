@@ -39,7 +39,7 @@
                 </div>
                 <div class="col-lg-6 hidden-xs">
                     <div class="pull-left">
-                        <img src="/wp-content/themes/rere_new/assets/img/maps/UM.png" alt="Upper East Side" width="150" height="374">
+                        <img src="/wp-content/themes/rere_new/assets/img/maps/UM.png" alt="Upper Manhattan" width="140" height="380">
                     </div>
                 </div>
             </div>
@@ -221,6 +221,69 @@
                             <h4 class="modal-title">Hospitals</h4>
                         </div>
                         <div class="modal-body">
+                            <h4>No information found</h4>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div><!-- /.modal-content -->
+                </div><!-- /.modal-dialog -->
+            </div><!-- /.modal -->
+            <div class="modal fade" id="publicServices" tabindex="-1" role="dialog" aria-labelledby="publicServices">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title">Public Services</h4>
+                        </div>
+                        <div class="modal-body">
+                            <h4>Upper Manhattan - Washington Heights, Hudson Heights</h4>
+                            POST OFFICE:
+                            Fort Washington
+                            556 West 165 Street
+
+                            Sgt. Riayan A. Tejeda Station
+                            (Washington Bridge)
+                            555 West 180th Street
+
+                            34th Precinct, 4295 Broadway (212) 927-9711
+
+                            FIREHOUSE LOCATIONS
+
+                            Eng.93, Lad.45, Bat.13, 515 West 181th Street
+                            Fort Washington Library
+                            535 West 179th Street, (between St. Nicholas and Audubon Avenues)
+
+                            <h4>Upper Manhattan - Inwood</h4>
+                            POST OFFICE:
+                            Inwood
+                            90 Vermilyea Avenue
+
+                            FIREHOUSE LOCATION
+                            Eng.95, Lad.36, Foam 88, 29 Vermilyea Avenue
+
+                            Inwood Library
+                            4790 Broadway, (near Dyckman Street)
+
+                            <h4>Upper Manhattan – Fort George</h4>
+                            POST OFFICE:
+                            Fort George
+                            4558 Broadway
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div><!-- /.modal-content -->
+                </div><!-- /.modal-dialog -->
+            </div><!-- /.modal -->
+            <div class="modal fade" id="housesOfWorship" tabindex="-1" role="dialog" aria-labelledby="housesOfWorship">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title">Houses of Worship</h4>
+                        </div>
+                        <div class="modal-body">
                             <h4>Upper Manhattan - Washington Heights, Hudson Heights</h4>
                             Berea Pentecostal Church
                             619 West 179th Street
@@ -382,72 +445,6 @@
                             St Matthews Lutheran Church
                             178 Bennett Avenue
                             (212) 567-5948
-
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                        </div>
-                    </div><!-- /.modal-content -->
-                </div><!-- /.modal-dialog -->
-            </div><!-- /.modal -->
-            <div class="modal fade" id="publicServices" tabindex="-1" role="dialog" aria-labelledby="publicServices">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                            <h4 class="modal-title">Public Services</h4>
-                        </div>
-                        <div class="modal-body">
-                            <h4>Upper Manhattan - Washington Heights, Hudson Heights</h4>
-                            POST OFFICE:
-                            Fort Washington
-                            556 West 165 Street
-
-                            Sgt. Riayan A. Tejeda Station
-                            (Washington Bridge)
-                            555 West 180th Street
-
-                            34th Precinct, 4295 Broadway (212) 927-9711
-
-                            FIREHOUSE LOCATIONS
-
-                            Eng.93, Lad.45, Bat.13, 515 West 181th Street
-                            Fort Washington Library
-                            535 West 179th Street, (between St. Nicholas and Audubon Avenues)
-
-                            <h4>Upper Manhattan - Inwood</h4>
-                            POST OFFICE:
-                            Inwood
-                            90 Vermilyea Avenue
-
-                            FIREHOUSE LOCATION
-                            Eng.95, Lad.36, Foam 88, 29 Vermilyea Avenue
-
-                            Inwood Library
-                            4790 Broadway, (near Dyckman Street)
-
-                            <h4>Upper Manhattan – Fort George</h4>
-                            POST OFFICE:
-                            Fort George
-                            4558 Broadway
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                        </div>
-                    </div><!-- /.modal-content -->
-                </div><!-- /.modal-dialog -->
-            </div><!-- /.modal -->
-            <div class="modal fade" id="housesOfWorship" tabindex="-1" role="dialog" aria-labelledby="housesOfWorship">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                            <h4 class="modal-title">Houses of Worship</h4>
-                        </div>
-                        <div class="modal-body">
-                            <h4>Upper Manhattan - Washington Heights, Hudson Heights</h4>
-                            <h4>Upper Manhattan - Inwood</h4>
-                            <h4>Upper Manhattan – Fort George</h4>
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
