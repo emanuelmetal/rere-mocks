@@ -5,7 +5,7 @@
                             <a class="btn btn-primary form-control pull-right" href="#" role="button" data-toggle="modal" data-target="#publicSchools"><i class="fa fa-graduation-cap"></i> Public Schools</a>
                             <div  class="bs-callout bs-callout-primary">
                                 <p>Click the above button to view our list of Public Schools</p>
-                                <a class="" href="https://www.google.com.ar/maps/search/public+schools+,+lower+manhattan,+Manhattan,+New+York,+NY,+United+States/@40.7208755,-74.0138294,14z/data=!3m1!4b1?hl=en" role="button">...Or just google it</a>
+                                <a class="" href="https://www.google.com.ar/maps/search/public+schools+,+midtown+east,+Manhattan,+New+York,+NY,+United+States/@40.7649681,-73.9984958,14z/data=!3m1!4b1?hl=en" role="button">...Or just google it</a>
                             </div>
                         </div>
                     </div>
@@ -14,7 +14,7 @@
                             <a class="btn btn-danger form-control pull-left" href="#" role="button" data-toggle="modal" data-target="#hospitals"><i class="fa fa-hospital-o"></i> Hospitals</a>
                             <div  class="bs-callout bs-callout-danger">
                                 <p>Click the above button to view our list of Hospitals</p>
-                                <a class="" href="https://www.google.com.ar/maps/search/Hospitals+,+lower+manhattan,+Manhattan,+New+York,+NY,+United+States/@40.7242824,-74.0077486,14z/data=!3m1!4b1?hl=en" role="button">...Or just google it</a>
+                                <a class="" href="https://www.google.com.ar/maps/search/Hospitals,+midtown+east,+Manhattan,+New+York,+NY,+United+States/@40.7688733,-73.9917136,13.5z?hl=en" role="button">...Or just google it</a>
                             </div>
                         </div>
                     </div>
@@ -23,7 +23,7 @@
                             <a class="btn btn-warning form-control pull-right" href="#" role="button" data-toggle="modal" data-target="#publicServices"><i class="fa fa-building-o"></i> Public Services</a>
                             <div  class="bs-callout bs-callout-warning">
                                 <p>Click the above button to view our list of Public Services</p>
-                                <a class="" href="https://www.google.com.ar/maps/search/Public+Services+,+lower+manhattan,+Manhattan,+New+York,+NY,+United+States/@40.7204414,-74.0056637,15z/data=!3m1!4b1?hl=en" role="button">...Or just google it</a>
+                                <a class="" href="https://www.google.com.ar/maps/search/Public+Services,+midtown+east,+Manhattan,+New+York,+NY,+United+States/@40.7541466,-73.9757175,16z/data=!3m1!4b1?hl=en" role="button">...Or just google it</a>
                             </div>
                         </div>
                     </div>
@@ -32,14 +32,14 @@
                             <a class="btn btn-success form-control pull-left" href="#" role="button" data-toggle="modal" data-target="#housesOfWorship"><i class="fa fa-plus-square"></i> Houses of Worship</a>
                             <div  class="bs-callout bs-callout-success">
                                 <p>Click the above button to view our list of Houses of Worship</p>
-                                <a class="" href="https://www.google.com.ar/maps/search/Houses+of+Worship+,+lower+manhattan,+Manhattan,+New+York,+NY,+United+States/@40.7202958,-74.0048415,15z/data=!3m1!4b1?hl=en" role="button">...Or just google it</a>
+                                <a class="" href="https://www.google.com.ar/maps/search/Houses+of+Worship,+midtown+east,+Manhattan,+New+York,+NY,+United+States/@40.7590119,-73.9830861,15z/data=!3m1!4b1?hl=en" role="button">...Or just google it</a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6 hidden-xs">
                     <div class="pull-left">
-                        <img src="/wp-content/themes/rere_new/assets/img/maps/LM.png" alt="Upper East Side" width="150" height="374">
+                        <img src="/wp-content/themes/rere_new/assets/img/maps/ME.png" alt="Upper East Side" width="150" height="374">
                     </div>
                 </div>
             </div>
