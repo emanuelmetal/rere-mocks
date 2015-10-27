@@ -4,12 +4,10 @@
     <title>Regarding Real Estate</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link href="../bower_components/pgwslideshow/pgwslideshow.css" rel="stylesheet">
-    <link href="../bower_components/pgwslideshow/pgwslideshow_light.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link href="../assets/css/rere.css" rel="stylesheet">
 
-    <!--[if lt IE 9]>
+    <!--&lt;!&ndash;[if lt IE 9]>-->
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
@@ -360,10 +358,18 @@
                     </div>
                     <div class="form-group">
                         <h4>Location</h4>
-                        <label for="between1">Between (avenue/street)</label>
-                        <input id="between1" type="text" name="between1" maxlength="255" />
-                        <label for="between2">and (avenue/street)</label>
-                        <input id="between2" type="text" name="between2" maxlength="255" />
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <label for="between1">Between (avenue/street)</label>
+                                <input id="between1" class="form-control" type="text" name="between1" maxlength="255" />
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <label for="between2">and (avenue/street)</label>
+                                <input id="between2" type="text" class="form-control" name="between2" maxlength="255" />
+                            </div>
+                        </div>
                     </div>
                     <div class="form-group">
                         <label>Central Air</label>
@@ -458,7 +464,25 @@
                     </div>
                     <input type="submit" value="Submit" class="btn btn-primary">
                 </div>
-                <div class="col-lg-6"></div>
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-lg-12">
+
+                                <img id="manhattan" src="../assets/img/maps/Manhattan.png" alt="Upper Manhattan" usemap="#man">
+                                <map id="man_map" name="man">
+                                    <area shape="poly" name="lm" coords="41, 659, 104, 671, 126, 688, 117, 699, 114, 707, 96, 740, 89, 746, 78, 747, 69, 742, 61, 739, 55, 721, 44, 686, 53, 680, 44, 660, 42, 660, 44, 661" href="#"/>
+                                    <area shape="poly" name="les" coords="127, 689, 104, 668, 100, 636, 115, 637, 117, 577, 136, 577, 149, 585, 158, 599, 158, 617, 162, 634, 163, 647, 162, 663, 156, 672, 147, 679" href="#"/>
+                                    <area shape="poly" name="downtown" coords="104, 671, 95, 670, 42, 657, 14, 575, 76, 574, 115, 574, 113, 637, 101, 638" href="#"/>
+                                    <area shape="poly" name="me" coords="137, 578, 80, 575, 78, 465, 132, 466, 132, 478, 129, 495, 125, 522, 125, 539, 129, 556" href="#"/>
+                                    <area shape="poly" name="mw" coords="79, 574, 15, 573, 6, 545, 5, 539, 14, 503, 13, 492, 10, 483, 11, 467, 78, 469" href="#"/>
+                                    <area shape="poly" name="ues" coords="133, 466, 86, 465, 88, 321, 134, 324, 135, 350, 130, 354, 128, 359, 131, 369, 143, 379, 144, 385, 142, 403, 137, 433" href="#"/>
+                                    <area shape="poly" name="uws" coords="53, 467, 11, 466, 11, 434, 15, 418, 16, 406, 11, 397, 13, 321, 54, 322" href="#"/>
+                                    <area shape="poly" name="uptown" coords="132, 321, 12, 320, 22, 206, 16, 193, 75, 199, 92, 227, 105, 254, 118, 261, 130, 271, 141, 284, 147, 298, 143, 303" href="#"/>
+                                    <area shape="poly" name="um" coords="72, 195, 14, 192, 13, 154, 2, 127, 1, 119, 4, 92, 1, 35, 9, 1, 14, 4, 20, 16, 34, 0, 56, 2, 62, 4, 58, 63, 53, 67, 57, 124, 55, 130, 56, 136, 60, 144, 60, 159, 58, 165" href="#"/>
+                                </map>
+                        </div>
+                    </div>
+                </div>
                 <div class="thirds-left">
 
                     <br/>For a detailed explanation of Dwelling Type terms, please see our <a href="http://re-re.info/mastering-manhattan/manhattan-real-estate-terms-how-to-tips-facts/downtown-manhattan-real-estate-condo-coop-types/" target="_new"><b>Distinguishing Dwellings page</b></a>
@@ -516,12 +540,65 @@
 <!--</footer>-->
 <script src="../bower_components/jquery/dist/jquery.min.js"></script>
 <script src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
-<script src="../bower_components/pgwslideshow/pgwslideshow.min.js"></script>
+<script src="../bower_components/imagemapster/jquery.imagemapster.min.js"></script>
 <script>
-    $(document).ready(function() {
-        var pgwSlideshow = $('.pgwSlideshow').pgwSlideshow();
-//        pgwSlideshow.startSlide();
-    });
+        var image = $('#manhattan');
+
+        image.mapster(
+                {
+                    fillOpacity: 0.4,
+                    fillColor: "d42e16",
+                    stroke: true,
+                    strokeColor: "3320FF",
+                    strokeOpacity: 0.8,
+                    strokeWidth: 4,
+                    singleSelect: true,
+                    mapKey: 'name',
+                    listKey: 'name',
+                    onClick: function (e) {
+                        console.log("clicked in nap");
+                    },
+                    showToolTip: true,
+                    toolTipClose: ["tooltip-click", "area-click"],
+                    areas: [
+                        {
+                            key: "lm",
+                            fillColor: "ffffff"
+                        },
+                        {
+                            key: "downtown",
+                            fillColor: "000000"
+                        },
+                        {
+                            key: "les",
+                            fillColor: "000000"
+                        },
+                        {
+                            key: "me",
+                            fillColor: "000000"
+                        },
+                        {
+                            key: "mw",
+                            strokeColor: "ffffff"
+                        },
+                        {
+                            key: "ues",
+                            strokeColor: "ffffff"
+                        },
+                        {
+                            key: "uws",
+                            strokeColor: "ffffff"
+                        },
+                        {
+                            key: "uptown",
+                            strokeColor: "000000"
+                        },
+                        {
+                            key: "um",
+                            strokeColor: "000000"
+                        }
+                    ]
+                });
 </script>
 </body>
 </html>
