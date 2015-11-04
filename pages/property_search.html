@@ -84,15 +84,15 @@
                     <div class="form-group">
                         <label for="part_of_town">Part of Town</label>
                         <select id="part_of_town" class="form-control" name="part_of_town">
-                            <option value="lowermanhattan">Lower Manhattan</option>
-                            <option value="downtowneast">Downtown East</option>
-                            <option value="downtownwest">Downtown West</option>
-                            <option value="midtowneast">Midtown East</option>
-                            <option value="midtownwest">Midtown West</option>
-                            <option value="uppereastside">Upper East Side</option>
-                            <option value="upperwestside">Upper West Side</option>
-                            <option value="uptown">Uptown</option>
-                            <option value="uppermanhattan">Upper Manhattan</option>
+                            <option data-value="null" value="null">Select an option...</option>
+                            <option data-value="#map_lm" value="lowermanhattan">Lower Manhattan</option>
+                            <option data-value="#map_downtown" value="downtown">Downtown</option>
+                            <option data-value="#map_me" value="midtowneast">Midtown East</option>
+                            <option data-value="#map_mw" value="midtownwest">Midtown West</option>
+                            <option data-value="#map_ues" value="uppereastside">Upper East Side</option>
+                            <option data-value="#map_uws" value="upperwestside">Upper West Side</option>
+                            <option data-value="#map_uptown" value="uptown">Uptown</option>
+                            <option data-value="#map_um" value="uppermanhattan">Upper Manhattan</option>
                         </select>
                     </div>
                     <div class="form-group">
@@ -470,15 +470,15 @@
 
                                 <img id="manhattan" src="../assets/img/maps/Manhattan.png" alt="Upper Manhattan" usemap="#man">
                                 <map id="man_map" name="man">
-                                    <area shape="poly" name="lm" coords="41, 659, 104, 671, 126, 688, 117, 699, 114, 707, 96, 740, 89, 746, 78, 747, 69, 742, 61, 739, 55, 721, 44, 686, 53, 680, 44, 660, 42, 660, 44, 661" href="#"/>
-                                    <area shape="poly" name="les" coords="127, 689, 104, 668, 100, 636, 115, 637, 117, 577, 136, 577, 149, 585, 158, 599, 158, 617, 162, 634, 163, 647, 162, 663, 156, 672, 147, 679" href="#"/>
-                                    <area shape="poly" name="downtown" coords="104, 671, 95, 670, 42, 657, 14, 575, 76, 574, 115, 574, 113, 637, 101, 638" href="#"/>
-                                    <area shape="poly" name="me" coords="137, 578, 80, 575, 78, 465, 132, 466, 132, 478, 129, 495, 125, 522, 125, 539, 129, 556" href="#"/>
-                                    <area shape="poly" name="mw" coords="79, 574, 15, 573, 6, 545, 5, 539, 14, 503, 13, 492, 10, 483, 11, 467, 78, 469" href="#"/>
-                                    <area shape="poly" name="ues" coords="133, 466, 86, 465, 88, 321, 134, 324, 135, 350, 130, 354, 128, 359, 131, 369, 143, 379, 144, 385, 142, 403, 137, 433" href="#"/>
-                                    <area shape="poly" name="uws" coords="53, 467, 11, 466, 11, 434, 15, 418, 16, 406, 11, 397, 13, 321, 54, 322" href="#"/>
-                                    <area shape="poly" name="uptown" coords="132, 321, 12, 320, 22, 206, 16, 193, 75, 199, 92, 227, 105, 254, 118, 261, 130, 271, 141, 284, 147, 298, 143, 303" href="#"/>
-                                    <area shape="poly" name="um" coords="72, 195, 14, 192, 13, 154, 2, 127, 1, 119, 4, 92, 1, 35, 9, 1, 14, 4, 20, 16, 34, 0, 56, 2, 62, 4, 58, 63, 53, 67, 57, 124, 55, 130, 56, 136, 60, 144, 60, 159, 58, 165" href="#"/>
+                                    <area id="map_lm" shape="poly" name="lm" coords="41, 659, 104, 671, 126, 688, 117, 699, 114, 707, 96, 740, 89, 746, 78, 747, 69, 742, 61, 739, 55, 721, 44, 686, 53, 680, 44, 660, 42, 660, 44, 661" href="#"/>
+                                    <area id="map_les" shape="poly" name="les" coords="127, 689, 104, 668, 100, 636, 115, 637, 117, 577, 136, 577, 149, 585, 158, 599, 158, 617, 162, 634, 163, 647, 162, 663, 156, 672, 147, 679" href="#"/>
+                                    <area id="map_downtown" shape="poly" name="downtown" coords="104, 671, 95, 670, 42, 657, 14, 575, 76, 574, 115, 574, 113, 637, 101, 638" href="#"/>
+                                    <area id="map_me" shape="poly" name="me" coords="137, 578, 80, 575, 78, 465, 132, 466, 132, 478, 129, 495, 125, 522, 125, 539, 129, 556" href="#"/>
+                                    <area id="map_mw" shape="poly" name="mw" coords="79, 574, 15, 573, 6, 545, 5, 539, 14, 503, 13, 492, 10, 483, 11, 467, 78, 469" href="#"/>
+                                    <area id="map_ues" shape="poly" name="ues" coords="133, 466, 86, 465, 88, 321, 134, 324, 135, 350, 130, 354, 128, 359, 131, 369, 143, 379, 144, 385, 142, 403, 137, 433" href="#"/>
+                                    <area id="map_uws" shape="poly" name="uws" coords="53, 467, 11, 466, 11, 434, 15, 418, 16, 406, 11, 397, 13, 321, 54, 322" href="#"/>
+                                    <area id="map_uptown" shape="poly" name="uptown" coords="132, 321, 12, 320, 22, 206, 16, 193, 75, 199, 92, 227, 105, 254, 118, 261, 130, 271, 141, 284, 147, 298, 143, 303" href="#"/>
+                                    <area id="map_um" shape="poly" name="um" coords="72, 195, 14, 192, 13, 154, 2, 127, 1, 119, 4, 92, 1, 35, 9, 1, 14, 4, 20, 16, 34, 0, 56, 2, 62, 4, 58, 63, 53, 67, 57, 124, 55, 130, 56, 136, 60, 144, 60, 159, 58, 165" href="#"/>
                                 </map>
                         </div>
                     </div>
@@ -526,79 +526,95 @@
         </a>
     </div>
 </footer>
-<!--<footer>-->
-    <!--<div class="footer">-->
-        <!--<h3>-->
-            <!--<a href="#"><span class="label label-primary">PERSONNAL PLANNER</span></a>-->
-            <!--<a href="#"><span class="label label-primary">FIND ME A MATCH</span></a>-->
-            <!--<a href="#"><span class="label label-primary">POST A PROPERTY</span></a>-->
-            <!--<a href="#"><span class="label label-primary">ABOUT</span></a>-->
-            <!--<a href="#"><span class="label label-primary">QUESTIONS</span></a>-->
-            <!--<a href="#"><span class="label label-primary">CONTACT</span></a>-->
-        <!--</h3>-->
-    <!--</div>-->
-<!--</footer>-->
 <script src="../bower_components/jquery/dist/jquery.min.js"></script>
 <script src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
 <script src="../bower_components/imagemapster/jquery.imagemapster.min.js"></script>
 <script>
-        var image = $('#manhattan');
+    var image = $('#manhattan');
+    var part_of_town = $('#part_of_town');
+    var key_map = {
+        lm: 'lowermanhattan',
+        downtown: 'downtown',
+        me: 'midtowneast',
+        mw: 'midtownwest',
+        ues: 'uppereastside',
+        uws: 'upperwestside',
+        uptown: 'uptown',
+        um: 'uppermanhattan'
+    };
+    image.mapster(
+            {
+                fillOpacity: 0.4,
+                fillColor: "d42e16",
+                stroke: true,
+                strokeColor: "3320FF",
+                strokeOpacity: 0.8,
+                strokeWidth: 4,
+                singleSelect: true,
+                mapKey: 'name',
+                listKey: 'name',
+                showToolTip: true,
+                toolTipClose: ["tooltip-click", "area-click"],
+                onClick: function(data){
+                    if (data.selected){
+                        part_of_town.val(key_map[data.key]);
+                    } else {
+                        part_of_town.val("null");
+                    }
 
-        image.mapster(
-                {
-                    fillOpacity: 0.4,
-                    fillColor: "d42e16",
-                    stroke: true,
-                    strokeColor: "3320FF",
-                    strokeOpacity: 0.8,
-                    strokeWidth: 4,
-                    singleSelect: true,
-                    mapKey: 'name',
-                    listKey: 'name',
-                    onClick: function (e) {
-                        console.log("clicked in nap");
+                },
+                areas: [
+                    {
+                        key: "lm",
+                        fillColor: "ffffff"
                     },
-                    showToolTip: true,
-                    toolTipClose: ["tooltip-click", "area-click"],
-                    areas: [
-                        {
-                            key: "lm",
-                            fillColor: "ffffff"
-                        },
-                        {
-                            key: "downtown",
-                            fillColor: "000000"
-                        },
-                        {
-                            key: "les",
-                            fillColor: "000000"
-                        },
-                        {
-                            key: "me",
-                            fillColor: "000000"
-                        },
-                        {
-                            key: "mw",
-                            strokeColor: "ffffff"
-                        },
-                        {
-                            key: "ues",
-                            strokeColor: "ffffff"
-                        },
-                        {
-                            key: "uws",
-                            strokeColor: "ffffff"
-                        },
-                        {
-                            key: "uptown",
-                            strokeColor: "000000"
-                        },
-                        {
-                            key: "um",
-                            strokeColor: "000000"
-                        }
-                    ]
-                });
+                    {
+                        key: "downtown",
+                        fillColor: "000000"
+                    },
+                    {
+                        key: "les",
+                        fillColor: "000000"
+                    },
+                    {
+                        key: "me",
+                        fillColor: "000000"
+                    },
+                    {
+                        key: "mw",
+                        strokeColor: "ffffff"
+                    },
+                    {
+                        key: "ues",
+                        strokeColor: "ffffff"
+                    },
+                    {
+                        key: "uws",
+                        strokeColor: "ffffff"
+                    },
+                    {
+                        key: "uptown",
+                        strokeColor: "000000"
+                    },
+                    {
+                        key: "um",
+                        strokeColor: "000000"
+                    }
+                ]
+            });
+
+    var pot_selected = $("#part_of_town option:selected");
+    part_of_town.on("change", function(e){
+        var selected_pot = $(this).find(":selected").data("value");
+//        console.log(selected_pot);
+        if (selected_pot !== null){
+            $(selected_pot).click();
+//            console.log( $(this).find(":selected").data("value"));
+        } else {
+            $('area').mapster('deselect');
+        }
+
+    });
 </script>
 </body>
 </html>
