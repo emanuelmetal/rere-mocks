@@ -6,10 +6,14 @@ jQuery(document).ready(function($){
     property_search.on("submit", function(e){
         e.preventDefault();
         var fields = property_search.serializeArray(),
-        count = 0;
-        $.each(fields,function(key,value){
-            count++;
+        count = 0,
+        sqlQuery = "";
+        $.each(fields,function(key,field){
+            //count++;
+            if (field.value !== '' && field.value !== null && field.value != 'null') {
+                sqlQuery += " AND " + field.name + " = '" + field.value + "'";
+            }
         });
-        console.log(count);
+        console.log(sqlQuery);
     });
 });
