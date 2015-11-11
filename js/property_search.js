@@ -11,7 +11,9 @@ jQuery(document).ready(function($){
         $.each(fields,function(key,field){
             //count++;
             if (field.value !== '' && field.value !== null && field.value != 'null') {
-                sqlQuery += " AND " + field.name + " = '" + field.value + "'";
+                if (field.name === "property_type") {
+                    sqlQuery += " AND " + field.name + " = '" + field.value + "'";
+                }
             }
         });
         console.log(sqlQuery);
