@@ -42,5 +42,7 @@ jQuery(document).ready(function($){
             sqlQuery += ' AND (' + view_cond.join(' OR ') + ')';
         }
         console.log(sqlQuery);
+        sqlQuery = " AND 2=2 LIMIT 5";
+        $("#results").load("/runquery", {query: sqlQuery});
     });
 });
