@@ -6835,6 +6835,9 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
   box-shadow: none;
   background: transparent;
 }
+.debug {
+  display: none;
+}
 .rere-content p {
   text-align: justify;
 }
