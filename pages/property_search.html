@@ -103,59 +103,7 @@
                                 <div class="form-group">
                                     <label for="neighborhood">Neighborhood</label>
                                     <select id="neighborhood" class="form-control" name="neighborhood">
-                                        <option value="Alphabet City">Alphabet City</option>
-                                        <option value="Ansonia Station">Ansonia Station</option>
-                                        <option value="Battery Park City">Battery Park City</option>
-                                        <option value="Beekman Place">Beekman Place</option>
-                                        <option value="Carnegie Hill">Carnegie Hill</option>
-                                        <option value="Central Park West corridor">Central Park West corridor</option>
-                                        <option value="Chelsea">Chelsea</option>
-                                        <option value="Chinatown">Chinatown</option>
-                                        <option value="Clinton">Clinton</option>
-                                        <option value="East Village">East Village</option>
-                                        <option value="Financial District">Financial District</option>
-                                        <option value="Flatiron">Flatiron</option>
-                                        <option value="Fort George">Fort George</option>
-                                        <option value="Gramercy Park">Gramercy Park</option>
-                                        <option value="Greenwich Village">Greenwich Village</option>
-                                        <option value="Hamilton heights">Hamilton heights</option>
-                                        <option value="Hells Kitchen">Hells Kitchen</option>
-                                        <option value="Hudson Heights">Hudson Heights</option>
-                                        <option value="Inwood">Inwood</option>
-                                        <option value="Jumel-Morris District">Jumel-Morris District</option>
-                                        <option value="Kips and Rose Bays">Kips and Rose Bays</option>
-                                        <option value="Lenox Hill">Lenox Hill</option>
-                                        <option value="Lincoln Square">Lincoln Square</option>
-                                        <option value="Lower East Side">Lower East Side</option>
-                                        <option value="Manhattan Valley">Manhattan Valley</option>
-                                        <option value="Manhattanville">Manhattanville</option>
-                                        <option value="Meat-packing District">Meat-packing District</option>
-                                        <option value="Metropolitan Museum District">Metropolitan Museum District</option>
-                                        <option value="Morningside Heights">Morningside Heights</option>
-                                        <option value="Murray Hill">Murray Hill</option>
-                                        <option value="New York City Hall Park">New York City Hall Park</option>
-                                        <option value="NoHo">NoHo</option>
-                                        <option value="Nolita">Nolita</option>
-                                        <option value="North Chelsea">North Chelsea</option>
-                                        <option value="Riverside Drive-West End Avenue">Riverside Drive-West End Avenue</option>
-                                        <option value="Sociable Sixties">Sociable Sixties</option>
-                                        <option value="SoHo">SoHo</option>
-                                        <option value="South Harlem">South Harlem</option>
-                                        <option value="South Street Seaport">South Street Seaport</option>
-                                        <option value="Spanish Harlem">Spanish Harlem</option>
-                                        <option value="Stuyvesant Square">Stuyvesant Square</option>
-                                        <option value="Sugar Hill">Sugar Hill</option>
-                                        <option value="Sutton Place">Sutton Place</option>
-                                        <option value="The Village">The Village</option>
-                                        <option value="Tribeca">Tribeca</option>
-                                        <option value="Tudor City">Tudor City</option>
-                                        <option value="Turtle Bay">Turtle Bay</option>
-                                        <option value="Union Square">Union Square</option>
-                                        <option value="United Nations Plaza">United Nations Plaza</option>
-                                        <option value="Washington Heights">Washington Heights</option>
-                                        <option value="West 50s">West 50s</option>
-                                        <option value="West Village">West Village</option>
-                                        <option value="Yorkville">Yorkville</option>
+                                        <option value="null">Select Part of Town first ...</option>
                                     </select>
                                 </div>
                             </div>
@@ -188,6 +136,7 @@
                                 <div class="form-group">
                                     <label for="dwelling_type">Dwelling Type</label>
                                     <select id="dwelling_type" name="dwelling_type" class="form-control">
+                                        <option data-value="null" value="null">Select an option...</option>
                                         <option value="Tenement Apartment House">Tenement Apartment House</option>
                                         <option value="loft">Loft</option>
                                         <option value="Flats Building">Flats Building</option>
@@ -209,7 +158,7 @@
                                 <div class="form-group">
                                     <label for="financing">Financing Allowed (%)</label>
                                     <select id="financing" name="financing_allowed" class="form-control">
-                                        <option value="0">none</option>
+                                        <option value="null">none</option>
                                         <option value="50">50</option>
                                         <option value="60">60</option>
                                         <option value="70">70</option>
@@ -242,6 +191,7 @@
                                 <div class="form-group">
                                     <label for="total_rooms">Total Rooms</label>
                                     <select id="total_rooms" name="Rooms" class="form-control">
+                                        <option value="null">Select an option...</option>
                                         <option value="1">1</option>
                                         <option value="2">2</option>
                                         <option value="3">3</option>
@@ -259,6 +209,7 @@
                                 <div class="form-group">
                                     <label for="bedrooms">Bedrooms</label>
                                     <select id="bedrooms" name="Beds" class="form-control">
+                                        <option value="null">Select an option...</option>
                                         <option value="1">1</option>
                                         <option value="2">2</option>
                                         <option value="3">3</option>
@@ -273,12 +224,10 @@
                                 <div class="form-group">
                                     <label for="bathrooms">Bathrooms</label>
                                     <select id="bathrooms" name="Baths" class="form-control">
+                                        <option value="null">Select an option...</option>
                                         <option value="1">1</option>
-                                        <option value="1.5">1.5</option>
                                         <option value="2">2</option>
-                                        <option value="2.5">2.5</option>
                                         <option value="3">3</option>
-                                        <option value="3.5">3.5</option>
                                         <option value="4">4</option>
                                         <option value="more">more</option>
                                     </select>
@@ -290,6 +239,7 @@
                                 <div class="form-group">
                                     <label for="dining_type">Dining Type</label>
                                     <select id="dining_type" name="Dinning_Type" class="form-control">
+                                        <option value="null">Select an option...</option>
                                         <option value="Formal Dining Room">Formal Dining Room</option>
                                         <option value="DinUing Area">Dining Area</option>
                                         <option value="Dining Foyer">Dining Foyer</option>
@@ -300,6 +250,7 @@
                                 <div class="form-group">
                                     <label for="kitchen_type">Kitchen Type</label>
                                     <select id="kitchen_type" name="Kitchen_Type" class="form-control">
+                                        <option value="null">Select an option...</option>
                                         <option value="Window">Window</option>
                                         <option value="Eat-in">Eat-in</option>
                                         <option value="Galley">Galley</option>
@@ -312,6 +263,7 @@
                                 <div class="form-group">
                                     <label for="overall_condition">Overall Condition</label>
                                     <select id="overall_condition" name="OverallCondition" class="form-control">
+                                        <option value="null">Select an option...</option>
                                         <option value="poor">poor</option>
                                         <option value="fair">fair</option>
                                         <option value="good">good</option>
@@ -324,6 +276,7 @@
                                 <div class="form-group">
                                     <label for="bath_condition">Bath Condition</label>
                                     <select id="bath_condition" name="Bath_Cond" class="form-control">
+                                        <option value="null">Select an option...</option>
                                         <option value="poor">poor</option>
                                         <option value="fair">fair</option>
                                         <option value="good">good</option>
@@ -338,6 +291,7 @@
                                 <div class="form-group">
                                     <label for="kitchen_condition">Kitchen Condition</label>
                                     <select id="kitchen_condition" name="Kitchen_Cond" class="form-control">
+                                        <option value="null">Select an option...</option>
                                         <option value="poor">poor</option>
                                         <option value="fair">fair</option>
                                         <option value="good">good</option>
@@ -350,6 +304,7 @@
                                 <div class="form-group">
                                     <label for="private_outdoor">Private Outdoor</label>
                                     <select id="private_outdoor" name="Private_Outdoor" class="form-control">
+                                        <option value="null">Select an option...</option>
                                         <option value="balcony">Balcony</option>
                                         <option value="juliette balcony">Juliette balcony</option>
                                         <option value="terrace">Terrace</option>
@@ -363,7 +318,7 @@
                                 <div class="form-group">
                                     <label for="views">Views</label>
                                     <select id="views" name="Views" class="form-control">
-                                        <option value=""> </option>
+                                        <option value="null">Select an option...</option>
                                         <option value="City Full">City Full</option>
                                         <option value="Park Full">Park Full</option>
                                         <option value="River Full">River Full</option>
@@ -380,7 +335,7 @@
                                 <div class="form-group">
                                     <label for="additional_views">Additional Views</label>
                                     <select id="additional_views" name="additional_views" class="form-control">
-                                        <option value=""> </option>
+                                        <option value="null">Select an option...</option>
                                         <option value="City Full">City Full</option>
                                         <option value="Park Full">Park Full</option>
                                         <option value="River Full">River Full</option>
@@ -397,6 +352,7 @@
                                 <div class="form-group">
                                     <label for="exposure">Exposure</label>
                                     <select id="exposure" name="Exposure" class="form-control">
+                                        <option value="null">Select an option...</option>
                                         <option value="North">North</option>
                                         <option value="East">East</option>
                                         <option value="South">South</option>
@@ -427,6 +383,7 @@
                                 <div class="form-group">
                                     <label for="fireplace">Fireplace</label>
                                     <select id="fireplace" name="fireplace" class="form-control">
+                                        <option value="null">Select an option...</option>
                                         <option value="Fireplaces_gas">Gas</option>
                                         <option value="Fireplaces_wood">Wood burning</option>
                                         <option value="Fireplaces_decorative">Decorative</option>
@@ -437,7 +394,7 @@
                                 <div class="form-group">
                                     <label for="pets">Pets</label>
                                     <select id="pets" name="pets" class="form-control">
-                                        <option value="none">none</option>
+                                        <option value="null">none</option>
                                         <option value="dogs">dogs</option>
                                         <option value="cats">cats</option>
                                     </select>
@@ -598,92 +555,7 @@
 <script src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
 <script src="../bower_components/imagemapster/jquery.imagemapster.min.js"></script>
 <script src="../js/property_search.js"></script>
-<script>
-    var image = $('#manhattan');
-    var part_of_town = $('#part_of_town');
-    var key_map = {
-        lm: 'lowermanhattan',
-        downtown: 'downtown',
-        me: 'midtowneast',
-        mw: 'midtownwest',
-        ues: 'uppereastside',
-        uws: 'upperwestside',
-        uptown: 'uptown',
-        um: 'uppermanhattan'
-    };
-    image.mapster(
-            {
-                fillOpacity: 0.4,
-                fillColor: "d42e16",
-                stroke: true,
-                strokeColor: "3320FF",
-                strokeOpacity: 0.8,
-                strokeWidth: 4,
-                singleSelect: true,
-                mapKey: 'name',
-                listKey: 'name',
-                showToolTip: true,
-                toolTipClose: ["tooltip-click", "area-click"],
-                onClick: function(data){
-                    if (data.selected){
-                        part_of_town.val(key_map[data.key]);
-                    } else {
-                        part_of_town.val("null");
-                    }
-
-                },
-                areas: [
-                    {
-                        key: "lm",
-                        fillColor: "ffffff"
-                    },
-                    {
-                        key: "downtown",
-                        fillColor: "000000"
-                    },
-                    {
-                        key: "les",
-                        fillColor: "000000"
-                    },
-                    {
-                        key: "me",
-                        fillColor: "000000"
-                    },
-                    {
-                        key: "mw",
-                        strokeColor: "ffffff"
-                    },
-                    {
-                        key: "ues",
-                        strokeColor: "ffffff"
-                    },
-                    {
-                        key: "uws",
-                        strokeColor: "ffffff"
-                    },
-                    {
-                        key: "uptown",
-                        strokeColor: "000000"
-                    },
-                    {
-                        key: "um",
-                        strokeColor: "000000"
-                    }
-                ]
-            });
-
-    var pot_selected = $("#part_of_town option:selected");
-    part_of_town.on("change", function(e){
-        var selected_pot = $(this).find(":selected").data("value");
-//        console.log(selected_pot);
-        if (selected_pot !== null){
-            $(selected_pot).click();
-//            console.log( $(this).find(":selected").data("value"));
-        } else {
-            $('area').mapster('deselect');
-        }
-
-    });
-</script>
+<script src="../js/pot_neighbors.js"></script>
+<!--<script src="../js/pot_neighbors.js"></script>-->
 </body>
 </html>
