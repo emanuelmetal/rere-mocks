@@ -1,5 +1,8 @@
 {
-  "directory": "bower_components",
-  "proxy": "http://proxy-us.intel.com:911",
-  "https_proxy": "http://proxy-us.intel.com:911"
+  "name": "rere-mocks",
+  "devDependencies": {
+    "jquery": "2.1.4",
+    "ImageMapster": "1.2.5",
+    "bootstrap": "3.3.5"
+  }
 }
