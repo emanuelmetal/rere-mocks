@@ -142,7 +142,7 @@
                         <br>
                     </div>
                     <div class="second-hp-button row">
-                        <button class="rere-button btn btn-lg btn-primary" type="button">PROPERTY SEARCH</button>
+                        <button class="rere-button btn btn-lg btn-primary property_search" type="button">PROPERTY SEARCH</button>
                         <br>
                         <br>
                         <br>
@@ -210,6 +210,9 @@
                 }
         );
         pgwSlideshow.startSlide();
+        $('button.property_search').on('click', function(){
+            window.location.href = '/property_search';
+        });
     });
 </script>
 </body>
