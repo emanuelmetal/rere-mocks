@@ -14,59 +14,140 @@ var key_map = {
     uptown: 'uptown',
     um: 'uppermanhattan'
 };
-image.mapster(
-    {
-        fillOpacity: 0.4,
-        fillColor: "d42e16",
-        stroke: true,
-        strokeColor: "3320FF",
-        strokeOpacity: 0.8,
-        strokeWidth: 4,
-        singleSelect: true,
-        mapKey: 'name',
-        listKey: 'name',
-        showToolTip: true,
-        toolTipClose: ["tooltip-click", "area-click"],
-        onClick: updateByMap,
-        areas: [
-            {
-                key: "lm",
-                fillColor: "ffffff"
-            },
-            {
-                key: "downtown",
-                fillColor: "000000"
-            },
-            {
-                key: "les",
-                fillColor: "000000"
-            },
-            {
-                key: "me",
-                fillColor: "000000"
-            },
-            {
-                key: "mw",
-                strokeColor: "ffffff"
-            },
-            {
-                key: "ues",
-                strokeColor: "ffffff"
-            },
-            {
-                key: "uws",
-                strokeColor: "ffffff"
-            },
-            {
-                key: "uptown",
-                strokeColor: "000000"
-            },
-            {
-                key: "um",
-                strokeColor: "000000"
-            }
-        ]
-    });
+
+var neighbor_by_pot = {
+    downtown: [
+        'Alphabet City',
+        'Chelsea',
+        'East Village',
+        'Flatiron',
+        'Gramercy Park',
+        'Greater Chinatown',
+        'Greenwich Village',
+        'Lower East Side',
+        'Meat-packing District',
+        'NoHo',
+        'Nolita',
+        'SoHo',
+        'Stuyvesant Square',
+        'The Village',
+        'Union Square',
+        'West Village',
+        'Stuyvesant Square',
+        'Gold Coast'
+    ],
+    lowermanhattan: [
+        'Battery Park City',
+        'East River Waterfront',
+        'Greater Chinatown',
+        'Financial District',
+        'Civic Center',
+        'South Street Seaport',
+        'Tribeca'
+    ],
+    midtowneast: [
+        'Beekman Place',
+        'Kips and Rose Bays',
+        'Murray Hill',
+        'Sutton Place',
+        'Tudor City',
+        'Turtle Bay',
+        'United Nations Plaza'
+    ],
+    midtownwest: [
+        'Clinton',
+        'Hells Kitchen',
+        'North Chelsea',
+        'West 50s'
+    ],
+    uppereastside: [
+        'Carnegie Hill',
+        'Lenox Hill',
+        'Metropolitan Museum District',
+        'Sociable Sixties',
+        'Yorkville'
+    ],
+    upperwestside: [
+        'Ansonia Station',
+        'Central Park West Corridor',
+        'Lincoln Square',
+        'Manhattan Valley',
+        'Morningside Heights',
+        'Riverside Drive-West End Avenue',
+        'Schuyler Corridor'
+    ],
+    uptown: [
+        'Hamilton Heights',
+        'Manhattanville',
+        'Morningside Heights',
+        'South Harlem',
+        'Spanish Harlem',
+        'Sugar Hill'
+    ],
+    uppermanhattan: [
+        'Fort George',
+        'Hudson Heights',
+        'Inwood',
+        'Jumel-Morris District',
+        'Washington Heights'
+    ]
+};
+if (image.mapster) {
+    image.mapster(
+        {
+            fillOpacity: 0.4,
+            fillColor: "d42e16",
+            stroke: true,
+            strokeColor: "3320FF",
+            strokeOpacity: 0.8,
+            strokeWidth: 4,
+            singleSelect: true,
+            mapKey: 'name',
+            listKey: 'name',
+            showToolTip: true,
+            toolTipClose: ["tooltip-click", "area-click"],
+            onClick: updateByMap,
+            areas: [
+                {
+                    key: "lm",
+                    fillColor: "ffffff"
+                },
+                {
+                    key: "downtown",
+                    fillColor: "000000"
+                },
+                {
+                    key: "les",
+                    fillColor: "000000"
+                },
+                {
+                    key: "me",
+                    fillColor: "000000"
+                },
+                {
+                    key: "mw",
+                    strokeColor: "ffffff"
+                },
+                {
+                    key: "ues",
+                    strokeColor: "ffffff"
+                },
+                {
+                    key: "uws",
+                    strokeColor: "ffffff"
+                },
+                {
+                    key: "uptown",
+                    strokeColor: "000000"
+                },
+                {
+                    key: "um",
+                    strokeColor: "000000"
+                }
+            ]
+        });
+
+}
 
 var pot_selected = $("#part_of_town option:selected");
 
@@ -84,83 +165,7 @@ part_of_town.on("change", function(e){
 });
 
 function getNeighborhood(part_of_town){
-    var neighbor_by_pot = {
-        downtown: [
-            'Alphabet City',
-            'Chelsea',
-            'East Village',
-            'Flatiron',
-            'Gramercy Park',
-            'Greater Chinatown',
-            'Greenwich Village',
-            'Lower East Side',
-            'Meat-packing District',
-            'NoHo',
-            'Nolita',
-            'SoHo',
-            'Stuyvesant Square',
-            'The Village',
-            'Union Square',
-            'West Village',
-            'Stuyvesant Square',
-            'Gold Coast'
-        ],
-        lowermanhattan: [
-            'Battery Park City',
-            'East River Waterfront',
-            'Greater Chinatown',
-            'Financial District',
-            'Civic Center',
-            'South Street Seaport',
-            'Tribeca'
-        ],
-        midtowneast: [
-            'Beekman Place',
-            'Kips and Rose Bays',
-            'Murray Hill',
-            'Sutton Place',
-            'Tudor City',
-            'Turtle Bay',
-            'United Nations Plaza'
-        ],
-        midtownwest: [
-            'Clinton',
-            'Hells Kitchen',
-            'North Chelsea',
-            'West 50s'
-        ],
-        uppereastside: [
-            'Carnegie Hill',
-            'Lenox Hill',
-            'Metropolitan Museum District',
-            'Sociable Sixties',
-            'Yorkville'
-        ],
-        upperwestside: [
-            'Ansonia Station',
-            'Central Park West Corridor',
-            'Lincoln Square',
-            'Manhattan Valley',
-            'Morningside Heights',
-            'Riverside Drive-West End Avenue',
-            'Schuyler Corridor'
-        ],
-        uptown: [
-            'Hamilton Heights',
-            'Manhattanville',
-            'Morningside Heights',
-            'South Harlem',
-            'Spanish Harlem',
-            'Sugar Hill'
-        ],
-        uppermanhattan: [
-            'Fort George',
-            'Hudson Heights',
-            'Inwood',
-            'Jumel-Morris District',
-            'Washington Heights'
-        ]
-    };
+
 
     if (neighbor_by_pot[part_of_town]){
         return neighbor_by_pot[part_of_town];
@@ -176,9 +181,18 @@ function updateSelect(part_of_town){
         inner_html = '<option value="null">Select Part of Town first ...</option>'
     }
 
-    $.each(neighborhoods_arr, function(key, value){
-        inner_html += '<option value="' + value + '">' + value +'</option>';
-    });
+    if (part_of_town === 'any') {
+        inner_html = '<option value="Any">Any</option>';
+        $.each(neighbor_by_pot, function(key, arr){
+            $.each(arr, function (key, value) {
+                inner_html += '<option value="' + value + '">' + value +'</option>';
+            });
+        });
+    } else {
+        $.each(neighborhoods_arr, function (key, value) {
+            inner_html += '<option value="' + value + '">' + value + '</option>';
+        });
+    }
     neighborhood.html(inner_html);
 }
 

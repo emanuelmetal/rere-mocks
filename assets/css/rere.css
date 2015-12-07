@@ -6855,6 +6855,9 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 .rere-content .thumbnail-no .caption {
   text-align: center;
 }
+.rere-content .panel p {
+  display: none;
+}
 .statue {
   background-image: url('../img/Statue.png');
   background-repeat: no-repeat;

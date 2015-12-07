@@ -1,8 +1,9 @@
 {
   "name": "rere-mocks",
-  "devDependencies": {
-    "jquery": "2.1.4",
-    "ImageMapster": "1.2.5",
-    "bootstrap": "3.3.5"
+  "dependencies": {
+    "jquery-serialize-object": "~2.5.0"
+    "jquery": "2.1.4",		
+    "imagemapster": "",
+    "bootstrap": "3.3.5"	
   }
 }
