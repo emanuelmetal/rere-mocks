@@ -20,8 +20,8 @@ jQuery(document).ready(function($){
                         sqlQuery += " AND " + field.value + " = 1";
                     }
                 } else if (field.name === "dwelling_type") {
-                    // or de los campos loft, apartment_hotel, post_war, pre_war, townhouse
-                    if ($.inArray(field.value,dt_fields)){
+                    //los campos loft, apartment_hotel, post_war, pre_war, townhouse están vacíos
+                    if ($.inArray(field.value, dt_fields)) {
                         sqlQuery += " AND " + field.value + " = '' ";
                     }
                 } else if (field.name === "Views" || field.name === 'additional_views') {
@@ -29,11 +29,14 @@ jQuery(document).ready(function($){
                     dummy_string = "Views = '" + field.value + "'";
                     view_cond.push(dummy_string);
                 } else if (field.name === "fireplace") {
-                    // or de los campos Fireplaces_decorative, Fireplaces_gas, Fireplaces_wood
+                    // los campos Fireplaces_decorative, Fireplaces_gas, Fireplaces_wood = 1
                     sqlQuery += " AND " + field.value + " = 1";
                 } else if (field.name === "rent" || field.name === "between1" || field.name === "between2") {
-                    //no va
-                } else {
+                    //no va, ver de poner cada campo para post a property
+                } else if (field.name === 'part_of_town' && field.value === 'Downtown') {
+                    sqlQuery += " AND (" + field.name + " = 'Downtown West' OR " + field.name + " = 'Downtown East' ) "
+                }
+                else {
                     sqlQuery += " AND " + field.name + " = '" + field.value + "'";
                 }
             }
@@ -42,7 +45,9 @@ jQuery(document).ready(function($){
             sqlQuery += ' AND (' + view_cond.join(' OR ') + ')';
         }
         console.log(sqlQuery);
-        //sqlQuery = " AND 2=2 LIMIT 5";
+
+        //sqlQuery += " LIMIT 20";
+
         $("#results").load("/runquery", {query: sqlQuery});
     });
 });

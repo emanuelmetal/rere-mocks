@@ -5,18 +5,18 @@ var image = $('#manhattan'),
     part_of_town = $('#part_of_town'),
     neighborhood = $('#neighborhood');
 var key_map = {
-    lm: 'lowermanhattan',
-    downtown: 'downtown',
-    me: 'midtowneast',
-    mw: 'midtownwest',
-    ues: 'uppereastside',
-    uws: 'upperwestside',
-    uptown: 'uptown',
-    um: 'uppermanhattan'
+    lm: 'Lower Manhattan',
+    downtown: 'Downtown',
+    me: 'Midtown East',
+    mw: 'Midtown West',
+    ues: 'Upper East Side',
+    uws: 'Upper West Side',
+    uptown: 'Uptown',
+    um: 'Upper Manhattan'
 };
 
 var neighbor_by_pot = {
-    downtown: [
+    Downtown: [
         'Alphabet City',
         'Chelsea',
         'East Village',
@@ -36,7 +36,7 @@ var neighbor_by_pot = {
         'Stuyvesant Square',
         'Gold Coast'
     ],
-    lowermanhattan: [
+    'Lower Manhattan': [
         'Battery Park City',
         'East River Waterfront',
         'Greater Chinatown',
@@ -45,7 +45,7 @@ var neighbor_by_pot = {
         'South Street Seaport',
         'Tribeca'
     ],
-    midtowneast: [
+    'Midtown East': [
         'Beekman Place',
         'Kips and Rose Bays',
         'Murray Hill',
@@ -54,20 +54,20 @@ var neighbor_by_pot = {
         'Turtle Bay',
         'United Nations Plaza'
     ],
-    midtownwest: [
+    'Midtown West': [
         'Clinton',
         'Hells Kitchen',
         'North Chelsea',
         'West 50s'
     ],
-    uppereastside: [
+    'Upper East Side': [
         'Carnegie Hill',
         'Lenox Hill',
         'Metropolitan Museum District',
         'Sociable Sixties',
         'Yorkville'
     ],
-    upperwestside: [
+    'Upper West Side': [
         'Ansonia Station',
         'Central Park West Corridor',
         'Lincoln Square',
@@ -76,7 +76,7 @@ var neighbor_by_pot = {
         'Riverside Drive-West End Avenue',
         'Schuyler Corridor'
     ],
-    uptown: [
+    Uptown: [
         'Hamilton Heights',
         'Manhattanville',
         'Morningside Heights',
@@ -84,7 +84,7 @@ var neighbor_by_pot = {
         'Spanish Harlem',
         'Sugar Hill'
     ],
-    uppermanhattan: [
+    'Upper Manhattan': [
         'Fort George',
         'Hudson Heights',
         'Inwood',
@@ -154,10 +154,8 @@ var pot_selected = $("#part_of_town option:selected");
 part_of_town.on("change", function(e){
     var selected_pot_map = $(this).find(":selected").data("value"),
         selected_pot = $(this).find(":selected").val();
-//        console.log(selected_pot);
     if (selected_pot_map !== null){
         $(selected_pot_map).click();
-//            console.log( $(this).find(":selected").data("value"));
     } else {
         $('area').mapster('deselect');
     }
