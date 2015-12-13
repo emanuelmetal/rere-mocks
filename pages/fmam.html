@@ -95,13 +95,13 @@
                                     <div class="row">
                                         <div class="col-lg-6 col-xs-12">
                                             <div class="form-group">
-                                                <label for="budgetRange">Your budget range</label>
-                                                <input type="number" class="form-control" id="budgetRange" name="budgetRange" placeholder="Min">
-                                                <input type="number" class="form-control" id="budgetRange2" name="budgetRange2" placeholder="Max">
+                                                <label for="budgetRangeMin">Your budget range</label>
+                                                <input type="number" class="form-control" id="budgetRangeMin" name="budgetRange" placeholder="Min">
+                                                <input type="number" class="form-control" id="budgetRangeMax" name="budgetRange2" placeholder="Max">
                                             </div>
                                             <div class="form-group">
                                                 <label for="partTown">Your preferred Part(s) of Town</label>
-                                                <input type="text" class="form-control" id="partTown" name="partTown" placeholder="Your preferred Part(s) of Town">
+                                                <input type="text" class="form-control" id="partTown" name="partOfTown" placeholder="Your preferred Part(s) of Town">
                                             </div>
                                             <div class="form-group">
                                                 <label for="roomCount">Your desired room count</label>
@@ -116,9 +116,9 @@
                                                 <input type="number" class="form-control" id="bathroomCount" name="bathroomCount" placeholder="The necessary bathroom(s)">
                                             </div>
                                             <div class="form-group">
-                                                <label for="highPriorities">List your two high priorities (see Buyer Personal Planner)</label>
-                                                <input type="text" class="form-control" id="highPriorities" name="highPriorities" placeholder="Firs Priority">
-                                                <input type="text" class="form-control" id="highPriorities2" name="highPriorities2" placeholder="Second Priority">
+                                                <label for="highPrioritiesFirst">List your two high priorities (see Buyer Personal Planner)</label>
+                                                <input type="text" class="form-control" id="highPrioritiesFirst" name="highPrioritiesFirst" placeholder="Firs Priority">
+                                                <input type="text" class="form-control" id="highPrioritiesSecond" name="highPrioritiesSecond" placeholder="Second Priority">
                                             </div>
                                             <div class="form-group">
                                                 <label for="amenitiesAppurtenances">Name the amenities and appurtenances (see Buyer Personal Planner) you expect</label>
@@ -129,13 +129,13 @@
                                         <div class="col-lg-6 col-xs-12">
                                             <div class="form-group">
                                                 <label for="petDesc">Household pet description (Bred and weight recommended when applicable)</label>
-                                                <textarea class="form-control" id="petDesc" name="petDesc"></textarea>
+                                                <textarea class="form-control" id="petDesc" name="petDescription"></textarea>
                                             </div>
                                             <div class="form-group">
                                                 <label>Washer-Dryer Hook-Up is a must</label>
                                                 <div class="radio">
-                                                    <label><input type="radio" name="washerDryer[]">Yes</label>
-                                                    <label><input type="radio" name="washerDryer[]">No</label>
+                                                    <label><input type="radio" name="washerDryer[]" value="Yes">Yes</label>
+                                                    <label><input type="radio" name="washerDryer[]" value="No">No</label>
                                                 </div>
                                             </div>
                                             <h4>Unpublished preliminary financial picture items for co-operative properties only:</h4>
@@ -156,7 +156,7 @@
                                             <div class="form-group">
                                                 <!--<div class="col-xs-offset-2 col-xs-10">-->
                                                 <div class="radio">
-                                                    <label><input type="radio" name="optIn">Opt in</label>
+                                                    <label><input type="radio" name="optIn" value="Yes">Opt in</label>
                                                 </div>
                                                 <!--</div>-->
                                             </div>
@@ -200,20 +200,20 @@
                                             <div class="form-group">
                                                 <div class="btn-group" data-toggle="buttons">
                                                     <label class="btn btn-primary active">
-                                                        <input type="radio" id="rlistingtype-forsale" name="rlistingtype" value="sale"  autocomplete="off" checked> For Sale
+                                                        <input type="radio" id="rlistingtype-forsale" name="rListingType" value="sale"  autocomplete="off" checked> For Sale
                                                     </label>
                                                     <label class="btn btn-primary">
-                                                        <input type="radio" id="rlistingtype-forrent" name="rlistingtype" value="rent" autocomplete="off"> For Rent
+                                                        <input type="radio" id="rlistingtype-forrent" name="rListingType" value="rent" autocomplete="off"> For Rent
                                                     </label>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-lg-6">
-                                            <div id="for-sale">
+                                            <div id="budget">
                                                 <h4>Budget For Sale</h4>
                                                 <div class="form-group">
                                                     <label for="price-l">Low</label>
-                                                    <select id="price-l" class="form-control" name="price-l">
+                                                    <select id="price-l" class="form-control" name="salePriceLow">
                                                         <option value="0">0</option>
                                                         <option value="250000">$250,000</option>
                                                         <option value="500000">$500,000</option>
@@ -233,7 +233,7 @@
                                                 </div>
                                                 <div class="form-group">
                                                     <label for="price-h">High</label>
-                                                    <select id="price-h" class="form-control" name="price-h">
+                                                    <select id="price-h" class="form-control" name="salePriceHigh">
                                                         <option value="500000">$500,000</option>
                                                         <option value="750000">$750,000</option>
                                                         <option value="1000000">$1,000,000</option>
@@ -257,50 +257,8 @@
                                                     </select>
                                                 </div>
                                             </div>
-                                            <div id="for-rent" class="hidden">
-                                                <div class="row">
-                                                    <div class="col-lg-12 col-xs-12">
-                                                        <label>Budget For Rent</label>
-                                                    </div>
-                                                </div>
-                                                <div class="form-group">
-                                                    <label for="rprice-l">Low</label>
-                                                    <select id="rprice-l" class="form-control" name="rprice-l">
-                                                        <option value="0">0</option>
-                                                        <option value="1000">$1,000</option>
-                                                        <option value="2000">$2,000</option>
-                                                        <option value="3000">$3,000</option>
-                                                        <option value="4000">$4,000</option>
-                                                        <option value="5000">$5,000</option>
-                                                        <option value="6000">$6,000</option>
-                                                        <option value="7000">$7,000</option>
-                                                        <option value="8000">$8,000</option>
-                                                        <option value="9000">$9,000</option>
-                                                        <option value="10000">$10,000</option>
-                                                        <option value="15000">$15,000</option>
-                                                        <option value="20000">$20,000</option>
-                                                        <option value="30000">$30,000</option>
-                                                    </select>
-                                                </div>
-                                                <div class="form-group">
-                                                    <label for="rprice-h">High</label>
-                                                    <select id="rprice-h" class="form-control" name="rprice-h">
-                                                        <option value="1000">$1,000</option>
-                                                        <option value="2000">$2,000</option>
-                                                        <option value="3000">$3,000</option>
-                                                        <option value="4000">$4,000</option>
-                                                        <option value="5000">$5,000</option>
-                                                        <option value="6000">$6,000</option>
-                                                        <option value="7000">$7,000</option>
-                                                        <option value="8000">$8,000</option>
-                                                        <option value="9000">$9,000</option>
-                                                        <option value="10000">$10,000</option>
-                                                        <option value="15000">$15,000</option>
-                                                        <option value="20000">$20,000</option>
-                                                        <option value="30000">$30,000</option>
-                                                        <option value="5000000">more</option>
-                                                    </select>
-                                                </div>
+                                            <div id="rentBudget" class="hidden">
+
                                             </div>
                                         </div>
                                     </div>
@@ -311,17 +269,17 @@
                                             <div class="form-group">
                                                 <div class="checkbox">
                                                     <label>
-                                                        <input type="checkbox" autocomplete="off" name="private_houses_main" id="private_houses_main" value="y">Private House
+                                                        <input type="checkbox" autocomplete="off" name="privateHousesMain" id="private_houses_main" value="Yes">Private House
                                                     </label>
                                                 </div>
                                                 <div class="checkbox">
                                                     <label>
-                                                        <input type="checkbox" name="apartment_houses_main" id="apartment_houses_main" value="y" autocomplete="off">Apartment House
+                                                        <input type="checkbox" name="apartmentHousesMain" id="apartment_houses_main" value="Yes" autocomplete="off">Apartment House
                                                     </label>
                                                 </div>
                                                 <div class="checkbox">
                                                     <label>
-                                                        <input type="checkbox" name="lofts" id="lofts" value="y" autocomplete="off">Loft
+                                                        <input type="checkbox" name="lofts" id="lofts" value="Yes" autocomplete="off">Loft
                                                     </label>
                                                 </div>
                                             </div>
@@ -332,12 +290,12 @@
                                                 <div class="checkbox">
                                                     <label>
                                                         <input type="checkbox">
-                                                        <input type="checkbox" name="ownership-co-op" id="ownership-co-op"  value="y" autocomplete="off">Co-op
+                                                        <input type="checkbox" name="ownershipCoOp" id="ownership-co-op"  value="Yes" autocomplete="off">Co-op
                                                     </label>
                                                 </div>
                                                 <div class="checkbox">
                                                     <label>
-                                                        <input type="checkbox" name="ownership-condo" id="ownership-condo" class="ownership" value="condo" autocomplete="off">Condo
+                                                        <input type="checkbox" name="ownershipCondo" id="ownership-condo" class="ownership" value="Yes" autocomplete="off">Condo
                                                     </label>
                                                 </div>
                                             </div>
@@ -346,7 +304,7 @@
                                             <h4>Location</h4>
                                             <div class="form-group">
                                                 <label for="partoftown">Part of Town</label>
-                                                <select id="partoftown" class="form-control" name="partoftown">
+                                                <select id="partoftown" class="form-control" name="partOfTown">
                                                     <option value="Any">Any</option>
                                                     <option value="Upper West Side">Upper West Side</option>
                                                     <option value="Upper East Side">Upper East Side</option>
@@ -507,7 +465,7 @@
                                             </div>
                                             <div class="form-group">
                                                 <label for="bath_condition">Overall</label>
-                                                <select id="bath_condition" name="bath_condition" class="form-control">
+                                                <select id="bath_condition" name="bathCondition" class="form-control">
                                                     <option value="Poor">Any</option>
                                                     <option value="Mint">Mint</option>
                                                     <option value="Excellent">Excellent</option>
@@ -517,7 +475,7 @@
                                             </div>
                                             <div class="form-group">
                                                 <label for="kitchen_condition">Overall</label>
-                                                <select id="kitchen_condition" name="kitchen_condition" class="form-control">
+                                                <select id="kitchen_condition" name="kitchenCondition" class="form-control">
                                                     <option value="Poor">Any</option>
                                                     <option value="Mint">Mint</option>
                                                     <option value="Excellent">Excellent</option>
@@ -531,27 +489,27 @@
                                             <div class="form-group">
                                                 <div class="checkbox">
                                                     <label>
-                                                        <input type="checkbox" autocomplete="off" value="y" id="park-full" name="park-full">Park
+                                                        <input type="checkbox" autocomplete="off" value="Yes" id="park-full" name="parkFull">Park
                                                     </label>
                                                 </div>
                                                 <div class="checkbox">
                                                     <label>
-                                                        <input type="checkbox" value="y" id="river-full" name="river-full" autocomplete="off">River
+                                                        <input type="checkbox" value="Yes" id="river-full" name="riverFull" autocomplete="off">River
                                                     </label>
                                                 </div>
                                                 <div class="checkbox">
                                                     <label>
-                                                        <input type="checkbox" value="y" id="skyline-full" name="skyline-full" autocomplete="off">Skyline
+                                                        <input type="checkbox" value="Yes" id="skyline-full" name="skylineFull" autocomplete="off">Skyline
                                                     </label>
                                                 </div>
                                                 <div class="checkbox">
                                                     <label>
-                                                        <input type="checkbox" value="y" id="city-full" name="city-full" autocomplete="off">City
+                                                        <input type="checkbox" value="Yes" id="city-full" name="cityFull" autocomplete="off">City
                                                     </label>
                                                 </div>
                                                 <div class="checkbox">
                                                     <label>
-                                                        <input type="checkbox" value="y" id="garden-full" name="garden-full" autocomplete="off">Garden
+                                                        <input type="checkbox" value="Yes" id="garden-full" name="gardenFull" autocomplete="off">Garden
                                                     </label>
                                                 </div>
                                             </div>
@@ -564,17 +522,17 @@
                                             <div class="form-group">
                                                 <div class="checkbox">
                                                     <label>
-                                                        <input type="checkbox" value="y" id="terrace" name="terrace" autocomplete="off">Terrace
+                                                        <input type="checkbox" value="Yes" id="terrace" name="terrace" autocomplete="off">Terrace
                                                     </label>
                                                 </div>
                                                 <div class="checkbox">
                                                     <label>
-                                                        <input type="checkbox" value="y" id="balcony" name="balcony" autocomplete="off">Balcony
+                                                        <input type="checkbox" value="Yes" id="balcony" name="balcony" autocomplete="off">Balcony
                                                     </label>
                                                 </div>
                                                 <div class="checkbox">
                                                     <label>
-                                                        <input type="checkbox" value="y" id="garden" name="garden" autocomplete="off">Garden
+                                                        <input type="checkbox" value="Yes" id="garden" name="garden" autocomplete="off">Garden
                                                     </label>
                                                 </div>
                                             </div>
@@ -584,22 +542,22 @@
                                             <div class="form-group">
                                                 <div class="checkbox">
                                                     <label>
-                                                        <input type="checkbox" value="y" id="north" name="north">North
+                                                        <input type="checkbox" value="Yes" id="north" name="exposureNorth">North
                                                     </label>
                                                 </div>
                                                 <div class="checkbox">
                                                     <label>
-                                                        <input type="checkbox" value="y" id="east" name="east">East
+                                                        <input type="checkbox" value="Yes" id="east" name="exposureEast">East
                                                     </label>
                                                 </div>
                                                 <div class="checkbox">
                                                     <label>
-                                                        <input type="checkbox" value="y" id="west" name="west">West
+                                                        <input type="checkbox" value="Yes" id="west" name="exposureWest">West
                                                     </label>
                                                 </div>
                                                 <div class="checkbox">
                                                     <label>
-                                                        <input type="checkbox" value="y" id="south" name="south">South
+                                                        <input type="checkbox" value="Yes" id="south" name="exposureSouth">South
                                                     </label>
                                                 </div>
                                             </div>
@@ -615,32 +573,32 @@
                                                     <div class="form-group">
                                                         <div class="checkbox">
                                                             <label>
-                                                                <input type="checkbox" value="y" id="pets" name="pets">Pets Allowed
+                                                                <input type="checkbox" value="Yes" id="pets" name="petsAllowed">Pets Allowed
                                                             </label>
                                                         </div>
                                                         <div class="checkbox">
                                                             <label>
-                                                                <input type="checkbox" value="y" id="washer" name="washer">Washer/Dryer Allowed
+                                                                <input type="checkbox" value="Yes" id="washer" name="washerDryerAllowed">Washer/Dryer Allowed
                                                             </label>
                                                         </div>
                                                         <div class="checkbox">
                                                             <label>
-                                                                <input type="checkbox" value="y" id="concierge" name="concierge">Concierge
+                                                                <input type="checkbox" value="Yes" id="concierge" name="concierge">Concierge
                                                             </label>
                                                         </div>
                                                         <div class="checkbox">
                                                             <label>
-                                                                <input type="checkbox" value="y" id="elevator" name="elevator">Attended Elevators
+                                                                <input type="checkbox" value="Yes" id="elevator" name="attendedElevator">Attended Elevators
                                                             </label>
                                                         </div>
                                                         <div class="checkbox">
                                                             <label>
-                                                                <input type="checkbox" value="y" id="fireplace" name="fireplace">Fireplace
+                                                                <input type="checkbox" value="Yes" id="fireplace" name="fireplace">Fireplace
                                                             </label>
                                                         </div>
                                                         <div class="checkbox">
                                                             <label>
-                                                                <input type="checkbox" value="y" id="central_air" name="central_air">Central Air
+                                                                <input type="checkbox" value="Yes" id="central_air" name="centralAir">Central Air
                                                             </label>
                                                         </div>
                                                     </div>
@@ -649,32 +607,32 @@
                                                     <div class="form-group">
                                                         <div class="checkbox">
                                                             <label>
-                                                                <input type="checkbox" value="y" id="pool" name="pool">Pool
+                                                                <input type="checkbox" value="Yes" id="pool" name="pool">Pool
                                                             </label>
                                                         </div>
                                                         <div class="checkbox">
                                                             <label>
-                                                                <input type="checkbox" value="y" id="exercise" name="exercise">Excercise Room
+                                                                <input type="checkbox" value="Yes" id="exercise" name="exerciseRoom">Excercise Room
                                                             </label>
                                                         </div>
                                                         <div class="checkbox">
                                                             <label>
-                                                                <input type="checkbox" value="y" id="garage" name="garage">Garage
+                                                                <input type="checkbox" value="Yes" id="garage" name="garage">Garage
                                                             </label>
                                                         </div>
                                                         <div class="checkbox">
                                                             <label>
-                                                                <input type="checkbox" value="y" id="meetingroom" name="meetingroom">Owners Meeting Room
+                                                                <input type="checkbox" value="Yes" id="meetingroom" name="meetingroom">Owners Meeting Room
                                                             </label>
                                                         </div>
                                                         <div class="checkbox">
                                                             <label>
-                                                                <input type="checkbox" value="y" id="playroom" name="playroom">Playroom
+                                                                <input type="checkbox" value="Yes" id="playroom" name="playroom">Playroom
                                                             </label>
                                                         </div>
                                                         <div class="checkbox">
                                                             <label>
-                                                                <input type="checkbox" value="y" id="storage" name="storage">Storage Room
+                                                                <input type="checkbox" value="Yes" id="storage" name="storage">Storage Room
                                                             </label>
                                                         </div>
                                                     </div>
@@ -693,7 +651,7 @@
                                         <div class="col-lg-6">
                                             <div class="form-group">
                                                 <label for="top_priority">Overriding Priority</label>
-                                                <textarea cols="50" rows="4" id="top_priority" name="top_priority" class="form-control"></textarea>
+                                                <textarea cols="50" rows="4" id="top_priority" name="topPriority" class="form-control"></textarea>
                                             </div>
                                         </div>
                                     </div>
@@ -708,7 +666,7 @@
                                         <div class="col-lg-6">
                                             <div class="form-group">
                                                 <label for="pet_description">Pet Description</label>
-                                                <textarea cols="50" rows="4" id="pet_description" name="pet_description" class="form-control"></textarea>
+                                                <textarea cols="50" rows="4" id="pet_description" name="petDescription" class="form-control"></textarea>
                                             </div>
                                         </div>
                                     </div>
@@ -716,20 +674,20 @@
                                     <div class="row">
                                         <div class="col-lg-6">
                                             <div class="form-group">
-                                                <label for="prequal">Pet Description</label>
-                                                <input type="text" id="prequal" name="prequal" class="form-control">
+                                                <label for="prequal">Pre-qualifying Mortgage Amount</label>
+                                                <input type="text" id="prequal" name="preQualifyingMortgage" class="form-control">
                                             </div>
                                         </div>
                                         <div class="col-lg-3">
                                             <div class="form-group">
                                                 <label for="cash_down">Estimated Cash Down</label>
-                                                <input type="text" id="cash_down" name="cash_down" class="form-control">
+                                                <input type="text" id="cash_down" name="cashDown" class="form-control">
                                             </div>
                                         </div>
                                         <div class="col-lg-3">
                                             <div class="form-group">
                                                 <label for="bemail">Email Address</label>
-                                                <input type="email" id="bemail" name="bemail" class="form-control" required>
+                                                <input type="email" id="bemail" name="email" class="form-control" required>
                                             </div>
                                         </div>
                                     </div>
