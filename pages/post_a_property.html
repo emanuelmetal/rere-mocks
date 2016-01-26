@@ -79,9 +79,100 @@
 
         <div class="rere-content">
             <div class="row">
-                <h4>Buyers can sort/filter for their parameters, as follows:</h4>
+                <!--<h4>Buyers can sort/filter for their parameters, as follows:</h4>-->
                 <form id="property_search">
-                    <div class="col-lg-8">
+                    <div class="col-lg-12">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="form-group">
+                                    <label for="asking_price">Email</label>
+                                    <input id="email" type="email" name="Email" maxlength="50" class="form-control" />
+                                </div>
+                                <div class="form-group">
+                                    <div class="radio">
+                                        <label><input type="radio" name="Opt" id="opt-in" value="In">Opt-In</label>
+                                        <label><input type="radio" name="Opt" id="opt-out" value="Out">Opt-Out</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <b>Property's Full Street Address</b>
+                                <div class="form-group">
+                                    <label for="address">Address*</label>
+                                    <input id="address" class="form-control" type="text" name="Address" maxlength="100" onblur="normalizeAddress()">
+                                </div>
+                                <div class="form-group">
+                                    <label for="zip">Zip Code*</label>
+                                    <input id="zip" type="text" name="zip" maxlength="10" class="form-control">
+                                </div>
+                                <h4>Please use the following format:</h4>
+                                <h4>Ex: 101 East 18th Street or 101 West 18th Street</h4>
+                                <h4>Ex: 1234 Eighth Avenue or Central Park West</h4>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="form-group">
+                                    <label for="licNumber">NYS/DOS License Number*</label>
+                                    <input id="licNumber" class="form-control" type="text" name="Licence Number" maxlength="20">
+                                </div>
+                                <div class="form-group">
+                                    <label for="firm">Brokerage Firm*</label>
+                                    <input id="firm" class="form-control" type="text" name="Brokerage Firm" maxlength="50">
+                                </div>
+                                <div class="form-group">
+                                    <label for="page">Web Page URL*</label>
+                                    <input id="page" class="form-control" type="text" name="Web Page URL" maxlength="50">
+                                </div>
+                                <div class="form-group">
+                                    <label for="phone">Owner's land-line telephone number*</label>
+                                    <input id="phone" class="form-control" type="text" name="Telephone Number" maxlength="20">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <h4>Announcement type*</h4>
+                            <div class="col-lg-12">
+                                <div class="form-group">
+                                    <div class="radio">
+                                        <label><input type="radio" name="Available Property Listing Code" id="Code" value="Yes">A. Available Property Listing Code</label><br>
+                                        <b>B. Available Rental Listing</b><br>
+                                        <label><input type="radio" name="Rental Listing" value="Condo or Condop Rental">Condo or Condop Rental </label><br>
+                                        <label><input type="radio" name="Rental Listing" value="Co-op Rental">Co-op Rental</label><br>
+                                        <label><input type="radio" name="Rental Listing" value="Rental Building’s Website">Rental Building’s Website</label><br>
+                                        <label><input type="radio" name="Scheduled Open House" value="Yes">C. Scheduled Open House</label><br>
+                                        <b>D. Second Home Available Listing</b><br>
+                                        <label><input type="radio" name="Second Home Available Listing" value="Display Page for $25,000,000 Homes Only">Display Page for $25,000,000 Homes Only</label><br>
+                                        <label><input type="radio" name="Second Home Available Listing" value="Downtown Manhattan">Downtown Manhattan</label><br>
+                                        <label><input type="radio" name="Second Home Available Listing" value="Midtown Manhattan">Midtown Manhattan</label><br>
+                                        <label><input type="radio" name="Second Home Available Listing" value="Upper East Side Manhattan">Upper East Side Manhattan</label><br>
+                                        <label><input type="radio" name="Second Home Available Listing" value="Upper West Side Manhattan">Upper West Side Manhattan</label><br>
+                                        <label><input type="radio" name="Second Home Available Listing" value="Uptown Manhattan">Uptown Manhattan</label><br>
+                                        <b>E. Across the Country and Around the World Display Pages</b><br>
+                                        <label><input type="radio" name="Display Pages" value="Streets & Steel">Streets & Steel</label><br>
+                                        <label><input type="radio" name="Display Pages" value="Sun & Surf">Sun & Surf</label><br>
+                                        <label><input type="radio" name="Display Pages" value="Space & Solace">Space & Solace</label><br>
+                                        <label><input type="radio" name="Display Pages" value="Snow & Slopes">Snow & Slopes</label><br>
+                                        <b>F. Within Driving Distance of Manhattan</b><br>
+                                        <label><input type="radio" name="Driving distance of Manhattan" value="North">North</label><br>
+                                        <label><input type="radio" name="Driving distance of Manhattan" value="East">East</label><br>
+                                        <label><input type="radio" name="Driving distance of Manhattan" value="West">West</label><br>
+                                        <label><input type="radio" name="Driving distance of Manhattan" value="South">South</label><br>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="headLine">Listing  Ad Headline</label>
+                                    <textarea id="headLine" class="form-control" name="Ad Headline" maxlength="255" aria-multiline="true"></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <label for="body">Listing Ad Body</label>
+                                    <textarea id="body" class="form-control" name="Ad Body" maxlength="500" rows="10" aria-multiline="true"></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <label for="jpg">Listing Ad Body</label>
+                                    <input type="file" id="jpg" class="form-control" name="Ad Body" maxlength="255"/>
+                                </div>
+                            </div>
+                        </div>
+
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="form-group">
@@ -120,15 +211,6 @@
                                     <label for="rent">Monthly Rent Amount</label>
                                     <input id="rent" type="text" name="rent" maxlength="255" class="form-control" />
                                 </div>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label>Washer-Dryer Hook-Up is a must</label>
-                            <div class="radio">
-                                <label><input type="radio" name="property_type" id="rproperty_type-coop" value="co-op">Co-op</label>
-                                <label><input type="radio" name="property_type" id="rproperty_type-condo" value="condo">Condo</label>
-                                <label><input type="radio" name="property_type" id="rproperty_type-condop" value="condop">Condop</label>
-                                <label><input type="radio" name="property_type" id="rproperty_type-free-hold" value="free-hold">Free-hold</label>
                             </div>
                         </div>
                         <div class="row">
@@ -488,10 +570,9 @@
                         <input type="submit" value="Submit" class="btn btn-primary">
                     </div>
                 </form>
-                <div class="col-lg-4">
+                <div class="hidden">
                     <div class="row">
                         <div class="col-lg-12">
-
                                 <img id="manhattan" src="../assets/img/maps/Manhattan.png" alt="Upper Manhattan" usemap="#man">
                                 <map id="man_map" name="man">
                                     <area id="map_lm" shape="poly" name="lm" coords="41, 659, 104, 671, 126, 688, 117, 699, 114, 707, 96, 740, 89, 746, 78, 747, 69, 742, 61, 739, 55, 721, 44, 686, 53, 680, 44, 660, 42, 660, 44, 661" href="#"/>
@@ -506,11 +587,6 @@
                                 </map>
                         </div>
                     </div>
-                </div>
-                <div class="thirds-left">
-
-                    <br/>For a detailed explanation of Dwelling Type terms, please see our <a href="/mastering-manhattan/manhattan-real-estate-terms-how-to-tips-facts/downtown-manhattan-real-estate-condo-coop-types/" target="_new"><b>Distinguishing Dwellings page</b></a>
-
                 </div>
             </div>
             <div class="row">
