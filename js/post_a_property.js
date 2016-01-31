@@ -215,8 +215,8 @@ function processForm0() {
     return 0
 }
 function normalizeAddress() {
-    queryForm = document.forms[0];
-    var e = queryForm.elements["address"].value;
+    queryForm = document.forms[1];
+    var e = queryForm.elements["Address"].value;
     addressLength = e.length;
     newLength = 0;
     while (addressLength != newLength) {

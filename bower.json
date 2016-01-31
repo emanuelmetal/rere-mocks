@@ -1,9 +1,11 @@
 {
   "name": "rere-mocks",
   "dependencies": {
-    "jquery-serialize-object": "~2.5.0"
-    "jquery": "2.1.4",		
+    "jquery-serialize-object": "~2.5.0",
+    "jquery": "2.1.4",
     "imagemapster": "",
-    "bootstrap": "3.3.5"	
+    "bootstrap": "3.3.5",
+    "dropzone": "4.2.0",
+    "parsleyjs": "~2.2.0"
   }
 }
