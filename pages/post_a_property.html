@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link href="../assets/css/rere.css" rel="stylesheet">
     <link href="../bower_components/dropzone/dist/dropzone.css" type="text/css" rel="stylesheet">
-    <link href="../bower_components/parsleyjs/dist/parsleyjs.css" type="text/css" rel="stylesheet">
+    <link href="../assets/css/parsley.css" type="text/css" rel="stylesheet">
 
     <!--&lt;!&ndash;[if lt IE 9]>-->
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -82,8 +82,7 @@
         <div class="rere-content">
             <div class="row">
                 <!--<h4>Buyers can sort/filter for their parameters, as follows:</h4>-->
-                <!--<form id="post_a_property" data-parsley-validate>-->
-                <form id="post_a_property">
+                <form id="post_a_property" data-parsley-validate>
                     <div class="col-lg-12">
                         <div class="row">
                             <div class="col-lg-4">
@@ -115,59 +114,81 @@
                             <div class="col-lg-4">
                                 <div class="form-group">
                                     <label for="licNumber">NYS/DOS License Number*</label>
-                                    <input id="licNumber" class="form-control" type="text" name="Licence Number" maxlength="20" required>
+                                    <input id="licNumber" class="form-control" type="text" name="LicenceNumber" maxlength="20" required>
                                 </div>
                                 <div class="form-group">
                                     <label for="firm">Brokerage Firm*</label>
-                                    <input id="firm" class="form-control" type="text" name="Brokerage Firm" maxlength="50" required>
+                                    <input id="firm" class="form-control" type="text" name="BrokerageFirm" maxlength="50" required>
                                 </div>
                                 <div class="form-group">
                                     <label for="page">Web Page URL*</label>
-                                    <input id="page" class="form-control" type="text" name="Web Page URL" maxlength="50" required>
+                                    <input id="page" class="form-control" type="text" name="WebPageURL" maxlength="50" required>
                                 </div>
                                 <div class="form-group">
                                     <label for="phone">Owner's land-line telephone number*</label>
-                                    <input id="phone" class="form-control" type="text" name="Telephone Number" maxlength="20" required>
+                                    <input id="phone" class="form-control" type="text" name="TelephoneNumber" maxlength="20" required>
                                 </div>
                             </div>
                         </div>
                         <div class="row">
                             <h4>Announcement type*</h4>
                             <div class="col-lg-12">
-                                <div class="form-group">
-                                    <div class="radio">
-                                        <label><input type="radio" name="Available Property Listing Code" id="Code" value="Yes">A. Available Property Listing Code</label><br>
-                                        <b>B. Available Rental Listing</b><br>
-                                        <label><input type="radio" name="Rental Listing" value="Condo or Condop Rental">Condo or Condop Rental </label><br>
-                                        <label><input type="radio" name="Rental Listing" value="Co-op Rental">Co-op Rental</label><br>
-                                        <label><input type="radio" name="Rental Listing" value="Rental Building’s Website">Rental Building’s Website</label><br>
-                                        <label><input type="radio" name="Scheduled Open House" value="Yes">C. Scheduled Open House</label><br>
-                                        <b>D. Second Home Available Listing</b><br>
-                                        <label><input type="radio" name="Second Home Available Listing" value="Display Page for $25,000,000 Homes Only">Display Page for $25,000,000 Homes Only</label><br>
-                                        <label><input type="radio" name="Second Home Available Listing" value="Downtown Manhattan">Downtown Manhattan</label><br>
-                                        <label><input type="radio" name="Second Home Available Listing" value="Midtown Manhattan">Midtown Manhattan</label><br>
-                                        <label><input type="radio" name="Second Home Available Listing" value="Upper East Side Manhattan">Upper East Side Manhattan</label><br>
-                                        <label><input type="radio" name="Second Home Available Listing" value="Upper West Side Manhattan">Upper West Side Manhattan</label><br>
-                                        <label><input type="radio" name="Second Home Available Listing" value="Uptown Manhattan">Uptown Manhattan</label><br>
-                                        <b>E. Across the Country and Around the World Display Pages</b><br>
-                                        <label><input type="radio" name="Display Pages" value="Streets & Steel">Streets & Steel</label><br>
-                                        <label><input type="radio" name="Display Pages" value="Sun & Surf">Sun & Surf</label><br>
-                                        <label><input type="radio" name="Display Pages" value="Space & Solace">Space & Solace</label><br>
-                                        <label><input type="radio" name="Display Pages" value="Snow & Slopes">Snow & Slopes</label><br>
-                                        <b>F. Within Driving Distance of Manhattan</b><br>
-                                        <label><input type="radio" name="Driving distance of Manhattan" value="North">North</label><br>
-                                        <label><input type="radio" name="Driving distance of Manhattan" value="East">East</label><br>
-                                        <label><input type="radio" name="Driving distance of Manhattan" value="West">West</label><br>
-                                        <label><input type="radio" name="Driving distance of Manhattan" value="South">South</label><br>
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                        <div class="form-group">
+                                            <div class="radio">
+                                                <label><input type="radio" name="AvailablePropertyListingCode" id="Code" value="Yes"><b>A. Available Property Listing Code</b></label><br>
+                                                <b>B. Available Rental Listing</b><br>
+                                                <label><input type="radio" name="RentalListing" value="Condo or Condop Rental">Condo or Condop Rental </label><br>
+                                                <label><input type="radio" name="RentalListing" value="Co-op Rental">Co-op Rental</label><br>
+                                                <label><input type="radio" name="RentalListing" value="Rental Building's Website">Rental Building'as Website</label><br>
+                                                <label><input type="radio" name="ScheduledOpenHouse" value="Yes"><b>C. Scheduled Open House</b></label><br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group">
+                                            <div class="radio">
+                                                <b>D. Second Home Available Listing</b><br>
+                                                <label><input type="radio" name="SecondHomeAvailableListing" value="Display Page for $25,000,000 Homes Only">Display Page for $25,000,000 Homes Only</label><br>
+                                                <label><input type="radio" name="SecondHomeAvailableListing" value="Downtown Manhattan">Downtown Manhattan</label><br>
+                                                <label><input type="radio" name="SecondHomeAvailableListing" value="Midtown Manhattan">Midtown Manhattan</label><br>
+                                                <label><input type="radio" name="SecondHomeAvailableListing" value="Upper East Side Manhattan">Upper East Side Manhattan</label><br>
+                                                <label><input type="radio" name="SecondHomeAvailableListing" value="Upper West Side Manhattan">Upper West Side Manhattan</label><br>
+                                                <label><input type="radio" name="SecondHomeAvailableListing" value="Uptown Manhattan">Uptown Manhattan</label><br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group">
+                                            <div class="radio">
+                                                <b>E. Across the Country and Around the World Display Pages</b><br>
+                                                <label><input type="radio" name="DisplayPages" value="Streets & Steel">Streets & Steel</label><br>
+                                                <label><input type="radio" name="DisplayPages" value="Sun & Surf">Sun & Surf</label><br>
+                                                <label><input type="radio" name="DisplayPages" value="Space & Solace">Space & Solace</label><br>
+                                                <label><input type="radio" name="DisplayPages" value="Snow & Slopes">Snow & Slopes</label><br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group">
+                                            <div class="radio">
+                                                <b>F. Within Driving Distance of Manhattan</b><br>
+                                                <label><input type="radio" name="DrivingDistanceOfManhattan" value="North">North</label><br>
+                                                <label><input type="radio" name="DrivingDistanceOfManhattan" value="East">East</label><br>
+                                                <label><input type="radio" name="DrivingDistanceOfManhattan" value="West">West</label><br>
+                                                <label><input type="radio" name="DrivingDistanceOfManhattan" value="South">South</label><br>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <label for="headLine">Listing  Ad Headline</label>
-                                    <textarea id="headLine" class="form-control" name="Ad Headline" maxlength="255" aria-multiline="true"></textarea>
+                                    <textarea id="headLine" class="form-control" name="AdHeadline" maxlength="255" aria-multiline="true"></textarea>
                                 </div>
                                 <div class="form-group">
                                     <label for="body">Listing Ad Body</label>
-                                    <textarea id="body" class="form-control" name="Ad Body" maxlength="500" rows="10" aria-multiline="true"></textarea>
+                                    <textarea id="body" class="form-control" name="AdBody" maxlength="500" rows="10" aria-multiline="true"></textarea>
                                 </div>
                                 <!--<div class="form-group">-->
                                     <!--<label for="jpg">Listing Ad Body</label>-->
@@ -179,38 +200,24 @@
                             <div class="col-lg-6">
                                 <div id="dzUpload" class="dropzone">
                                     <div class="dz-default dz-message">
-                                        <h3>Drop Files Here</h3>
-                                        <h4>or Click</h4>
+                                        <h3><strong>Drop Files</strong> Here</h3>
+                                        <h4>or <b>Click</b></h4>
                                     </div>
                                 </div>
                             </div>
+                            <div class="col-lg-6">
+                                <div id="recaptcha">
+
+                                </div>
+                            </div>
                         </div>
-                        <!--<div>-->
-                            <!--<form action="/upload.php" class="dropzone" id="dzUpload"></form>-->
-                        <!--</div>-->
-                        <input type="submit" value="Submit" class="btn btn-primary">
+                        <input type="submit" value="Submit" id="submit" class="btn btn-primary">
                     </div>
                 </form>
-                <div class="hidden">
-                    <div class="row">
-                        <div class="col-lg-12">
-                                <img id="manhattan" src="../assets/img/maps/Manhattan.png" alt="Upper Manhattan" usemap="#man">
-                                <map id="man_map" name="man">
-                                    <area id="map_lm" shape="poly" name="lm" coords="41, 659, 104, 671, 126, 688, 117, 699, 114, 707, 96, 740, 89, 746, 78, 747, 69, 742, 61, 739, 55, 721, 44, 686, 53, 680, 44, 660, 42, 660, 44, 661" href="#"/>
-                                    <area id="map_les" shape="poly" name="les" coords="127, 689, 104, 668, 100, 636, 115, 637, 117, 577, 136, 577, 149, 585, 158, 599, 158, 617, 162, 634, 163, 647, 162, 663, 156, 672, 147, 679" href="#"/>
-                                    <area id="map_downtown" shape="poly" name="downtown" coords="104, 671, 95, 670, 42, 657, 14, 575, 76, 574, 115, 574, 113, 637, 101, 638" href="#"/>
-                                    <area id="map_me" shape="poly" name="me" coords="137, 578, 80, 575, 78, 465, 132, 466, 132, 478, 129, 495, 125, 522, 125, 539, 129, 556" href="#"/>
-                                    <area id="map_mw" shape="poly" name="mw" coords="79, 574, 15, 573, 6, 545, 5, 539, 14, 503, 13, 492, 10, 483, 11, 467, 78, 469" href="#"/>
-                                    <area id="map_ues" shape="poly" name="ues" coords="133, 466, 86, 465, 88, 321, 134, 324, 135, 350, 130, 354, 128, 359, 131, 369, 143, 379, 144, 385, 142, 403, 137, 433" href="#"/>
-                                    <area id="map_uws" shape="poly" name="uws" coords="53, 467, 11, 466, 11, 434, 15, 418, 16, 406, 11, 397, 13, 321, 54, 322" href="#"/>
-                                    <area id="map_uptown" shape="poly" name="uptown" coords="132, 321, 12, 320, 22, 206, 16, 193, 75, 199, 92, 227, 105, 254, 118, 261, 130, 271, 141, 284, 147, 298, 143, 303" href="#"/>
-                                    <area id="map_um" shape="poly" name="um" coords="72, 195, 14, 192, 13, 154, 2, 127, 1, 119, 4, 92, 1, 35, 9, 1, 14, 4, 20, 16, 34, 0, 56, 2, 62, 4, 58, 63, 53, 67, 57, 124, 55, 130, 56, 136, 60, 144, 60, 159, 58, 165" href="#"/>
-                                </map>
-                        </div>
-                    </div>
-                </div>
+                <input type="hidden" id="file0" name="file0">
+                <input type="hidden" id="file1" name="file1">
+                <input type="hidden" id="file2" name="file2">
             </div>
-
         </div>
     </div>
 <!--</div>-->
@@ -247,6 +254,7 @@
 <script src="../bower_components/imagemapster/dist/jquery.imagemapster.min.js"></script>
 <script src="../bower_components/dropzone/dist/min/dropzone.min.js"></script>
 <script src="../bower_components/parsleyjs/dist/parsley.min.js"></script>
+<script src="../bower_components/jquery-serialize-object/jquery.serialize-object.js"></script>
     <script>
         Dropzone.autoDiscover = false;
 
@@ -255,7 +263,8 @@
         }
     </script>
     <script>
-        var post_a_property = $("#post_a_property");
+        var form = $("#post_a_property");
+        var submit = $("#submit");
         var myDropzone = new Dropzone("div#dzUpload",
             {
                 url: "/upload.php",
@@ -274,16 +283,14 @@
                 maxFiles: 3
             });
 
-        post_a_property.on("submit", function(e){
-            e.preventDefault();
-            console.log($(this).serialize());
-            myDropzone.files.each(function(){
 
-            });
+        submit.on("click", function(){
+            preForm(form);
         });
     </script>
 <!--<script src="../js/property_search.js"></script>-->
-<script src="../js/pot_neighbors.js"></script>
+<!--<script src="../js/pot_neighbors.js"></script>-->
 <script src="../js/post_a_property.js"></script>
+<script src='https://www.google.com/recaptcha/api.js?onload=recaptchaCallback&render=explicit' async defer></script>
 </body>
 </html>

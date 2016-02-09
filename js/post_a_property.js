@@ -508,4 +508,58 @@ function changeCaseToInitialCaps(e) {
     return n
 }
 var houseNumber;
-var streetName
+var streetName;
+
+function preForm(form){
+    var recaptcha = $('textarea[name=g-recaptcha-response]', form).val();
+    if (recaptcha === '') {
+        alert('Please show me you are not a robot!');
+        return;
+    }
+    if (form.parsley().validate()) {
+
+        submitData(form);
+    }
+}
+
+function submitData(form){
+
+    var form_email = '';
+    $.each(myDropzone.files, function(key, file){
+        var field = "#file" + key;
+        $(field).val(file.name);
+    });
+
+    $.each(form.serializeObject(), function (key, value) {
+        if (value !== '' && value !== null && value !== 'null') {
+            form_email += key + ': ' + value + '\r\n';
+        }
+    });
+
+    jQuery.ajax({
+        url: '/savepap',
+        type: 'POST',
+        data: {
+            message: form_email,
+            file0: $("#file0").val(),
+            file1: $("#file1").val(),
+            file2: $("#file2").val()
+        },
+        success: function(response){
+
+            if (response === '1' || response !== '') {
+                alert('Your Property was sent successfully');
+                window.location.reload();
+            } else {
+                alert('Something went wrong try again later');
+            }
+        },
+        error: function(xhr){
+            alert('Something went wrong try again later');
+        }
+    });
+}
+
+function recaptchaCallback(){
+    grecaptcha.render('recaptcha', {'sitekey' : '6Lc-nBETAAAAAF9OdIXUQMw7k6N-UWxkBwSojooD'});
+}

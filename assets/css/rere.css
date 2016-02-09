@@ -6847,6 +6847,13 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
   margin-left: auto;
   margin-right: auto;
 }
+.rere-content p img.img-inline,
+.rere-content a img.img-inline {
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 4px;
+}
 .rere-content img {
   display: block;
   margin-left: auto;
