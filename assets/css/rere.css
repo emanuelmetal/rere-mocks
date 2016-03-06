@@ -6872,6 +6872,9 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 .rere-content .panel p {
   display: none;
 }
+.rere-content .panel.display p {
+  display: block;
+}
 .statue {
   background-image: url('../img/Statue.png');
   background-repeat: no-repeat;
