@@ -255,39 +255,6 @@
 <script src="../bower_components/dropzone/dist/min/dropzone.min.js"></script>
 <script src="../bower_components/parsleyjs/dist/parsley.min.js"></script>
 <script src="../bower_components/jquery-serialize-object/jquery.serialize-object.js"></script>
-    <script>
-        Dropzone.autoDiscover = false;
-
-        if (!$){
-            $ = jQuery;
-        }
-    </script>
-    <script>
-        var form = $("#post_a_property");
-        var submit = $("#submit");
-        var myDropzone = new Dropzone("div#dzUpload",
-            {
-                url: "/upload.php",
-                paramName: "file", // The name that will be used to transfer the file
-                maxFilesize: 3, // MB
-                maxFiles: 3,
-                addRemoveLinks: true,
-                accept: function (file, done) {
-                    if (file.name == "justinbieber.jpg") {
-                        done("Naha, you don't.");
-                    }
-                    else {
-                        done();
-                    }
-                },
-                maxFiles: 3
-            });
-
-
-        submit.on("click", function(){
-            preForm(form);
-        });
-    </script>
 <!--<script src="../js/property_search.js"></script>-->
 <!--<script src="../js/pot_neighbors.js"></script>-->
 <script src="../js/post_a_property.js"></script>

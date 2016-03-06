@@ -1,6 +1,37 @@
 /**
  * Created by emanuel on 21/01/16.
  */
+Dropzone.autoDiscover = false;
+
+if (!$){
+    $ = jQuery;
+}
+
+var form = $("#post_a_property");
+var submit = $("#submit");
+var myDropzone = new Dropzone("div#dzUpload",
+    {
+        url: "/upload.php",
+        paramName: "file", // The name that will be used to transfer the file
+        maxFilesize: 3, // MB
+        maxFiles: 3,
+        addRemoveLinks: true,
+        accept: function (file, done) {
+            if (file.name == "justinbieber.jpg") {
+                done("Naha, you don't.");
+            }
+            else {
+                done();
+            }
+        },
+        maxFiles: 3
+    });
+
+
+submit.on("click", function(){
+    preForm(form);
+});
+
 function processForm0() {
     queryForm = document.forms[0];
     var e = "INSERT INTO wp_listings ";

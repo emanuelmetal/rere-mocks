@@ -6862,6 +6862,10 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 .rere-content .thumbnail-no .caption {
   text-align: center;
 }
+.rere-content .modal .modal-body {
+  max-height: 500px;
+  overflow-y: scroll;
+}
 .rere-content tr.bold-text td {
   font-weight: bold;
 }
@@ -7021,4 +7025,78 @@ footer .social a {
 }
 .bs-callout-info h4 {
   color: #5bc0de;
+}
+* {
+  box-sizing: border-box;
+}
+#floatingMenu {
+  position: relative;
+  text-align: center;
+}
+#floatingMenu a {
+  position: relative;
+  width: 42px;
+  height: 42px;
+  display: list-item;
+  list-style-type: none;
+}
+#floatingMenu a,
+#floatingMenu a:focus,
+#floatingMenu a:hover {
+  color: #fff;
+}
+#floatingMenu a,
+#floatingMenu a:visited,
+#floatingMenu a:focus,
+#floatingMenu a:active,
+#floatingMenu a:hover {
+  outline: 0 none !important;
+}
+#floatingMenu i {
+  line-height: inherit;
+  font-size: 24px;
+  text-align: center;
+}
+#floatingMenu .top-left {
+  position: fixed;
+  top: 50%;
+  left: 0;
+}
+#floatingMenu .top-right {
+  position: fixed;
+  top: 20%;
+  right: 0;
+}
+#floatingMenu .primary {
+  background-color: #6d98be;
+}
+#floatingMenu .tivitir {
+  background-color: #00aced;
+}
+#floatingMenu .gogil {
+  background-color: #dd4b39;
+}
+#floatingMenu .linktin {
+  background-color: #007bb6;
+}
+#floatingMenu .meyil {
+  background-color: #726C6C;
+}
+#floatingMenu .pinter {
+  background-color: #c92228;
+}
+#floatingMenu .stambul {
+  background-color: #eb4924;
+}
+.shareCount {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  color: #dddddd;
+  font-size: 10px;
+}
+.mtop5 {
+  margin-top: 5px;
 }
