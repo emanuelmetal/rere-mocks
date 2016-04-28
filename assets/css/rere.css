@@ -6882,6 +6882,10 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
   background-color: transparent;
   text-align: center;
 }
+.statue-img {
+  width: 169px;
+  height: 350px;
+}
 @media (min-width: 992px) {
   .row.fixed {
     display: -webkit-box;
@@ -6896,10 +6900,10 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 .rere-button {
   background-color: transparent !important;
   border-radius: 0 !important;
-  border-color: transparent !important;
+  border-color: #6d98be !important;
   color: #003399;
   border-width: 2px ;
-  width: 180px;
+  width: 100%;
 }
 .rere-button:hover {
   color: #0055ff !important;
