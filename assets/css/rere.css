@@ -6875,6 +6875,21 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 .rere-content .panel.display p {
   display: block;
 }
+.rere-content .gallery-index {
+  width: 100%;
+  text-align: center;
+}
+.rere-content .ps-caption__wrapper {
+  background-color: #fff;
+  min-height: 40px;
+}
+.rere-content .ps-caption__wrapper .ps-caption {
+  position: relative !important;
+  background-color: #fff !important;
+  color: #6d98be !important;
+  font-size: 14px;
+  text-align: center;
+}
 .statue {
   background-image: url('../img/Statue.png');
   background-repeat: no-repeat;
